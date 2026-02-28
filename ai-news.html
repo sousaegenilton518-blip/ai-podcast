@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html, body {
+    width: 600px;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+    font-family: "PingFang SC", "Microsoft YaHei", sans-serif;
+  }
+  body {
+    padding: 32px;
+  }
+  .card {
+    background: rgba(255,255,255,0.05);
+    border: 1px solid rgba(255,255,255,0.1);
+    border-radius: 20px;
+    padding: 36px;
+    backdrop-filter: blur(10px);
+  }
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 28px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+  }
+  .title {
+    font-size: 22px;
+    font-weight: 700;
+    color: #fff;
+    letter-spacing: 2px;
+  }
+  .title span {
+    color: #7c6aff;
+  }
+  .date {
+    font-size: 13px;
+    color: rgba(255,255,255,0.4);
+  }
+  .item {
+    display: flex;
+    gap: 14px;
+    margin-bottom: 18px;
+    align-items: flex-start;
+  }
+  .num {
+    min-width: 26px;
+    height: 26px;
+    background: linear-gradient(135deg, #7c6aff, #a78bfa);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    font-weight: 700;
+    color: #fff;
+    margin-top: 1px;
+  }
+  .text {
+    font-size: 14px;
+    line-height: 1.7;
+    color: rgba(255,255,255,0.85);
+  }
+  .text strong {
+    color: #fff;
+    font-weight: 600;
+  }
+  .footer {
+    margin-top: 24px;
+    padding-top: 16px;
+    border-top: 1px solid rgba(255,255,255,0.1);
+    font-size: 12px;
+    color: rgba(255,255,255,0.3);
+    text-align: center;
+  }
+</style>
+</head>
+<body>
+<div class="card">
+  <div class="header">
+    <div class="title">AI <span>每日资讯</span></div>
+    <div class="date">2026.02.25</div>
+  </div>
+
+  <div class="item">
+    <div class="num">1</div>
+    <div class="text"><strong>月之暗面再获 7 亿美元融资</strong>，估值突破 120 亿美元。K2.5 模型商业化潜力获认可，创始人杨植麟表示暂无上市计划。</div>
+  </div>
+  <div class="item">
+    <div class="num">2</div>
+    <div class="text"><strong>Anthropic 完成 300 亿美元 G 轮融资</strong>，投后估值 3800 亿美元。年化营收 140 亿美元，三年连续增长超 10 倍。</div>
+  </div>
+  <div class="item">
+    <div class="num">3</div>
+    <div class="text"><strong>Claude Opus 4.6 发布</strong>，Agent 编程、工具调用、金融任务全面领先，支持读取 Excel、生成 PPT。</div>
+  </div>
+  <div class="item">
+    <div class="num">4</div>
+    <div class="text"><strong>OpenAI 发布 GPT-5.3-Codex</strong>，深度融合推理能力，上下文窗口 40 万 token，API 向开发者免费开放。</div>
+  </div>
+  <div class="item">
+    <div class="num">5</div>
+    <div class="text"><strong>阿里云百炼支持多模型自由切换</strong>，Qwen3.5、GLM-5 等顶级开源模型集于一处，打破单一厂商依赖。</div>
+  </div>
+  <div class="item">
+    <div class="num">6</div>
+    <div class="text"><strong>MatX 完成 5 亿美元融资</strong>，由前谷歌 TPU 工程师创立，目标大幅压低 LLM 推理成本。</div>
+  </div>
+  <div class="item">
+    <div class="num">7</div>
+    <div class="text"><strong>Inception 发布 Mercury 2</strong>，全球首个基于扩散模型的推理大模型，挑战 Transformer 架构主导地位。</div>
+  </div>
+
+  <div class="footer">来源：Anthropic / AIbase · 爪爪机器人整理</div>
+</div>
+</body>
+</html>

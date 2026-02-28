@@ -1,0 +1,25 @@
+<view class="container">
+  <view class="header">
+    <text class="title">AI 每日资讯</text>
+    <text class="subtitle">每天下午5点推送最新 AI 前沿动态</text>
+  </view>
+
+  <view class="card">
+    <view class="card-icon">🤖</view>
+    <text class="card-title">订阅每日推送</text>
+    <text class="card-desc">订阅后，每天自动收到 AI 资讯通知，无需手动查看</text>
+    <button
+      class="subscribe-btn {{subscribed ? 'subscribed' : ''}}"
+      open-type="subscribeMessage"
+      send-message-title="AI每日资讯"
+      bindsubmit="onSubscribe"
+      bindtap="onSubscribeTap"
+    >
+      {{subscribed ? '已订阅 ✓' : '订阅每日资讯'}}
+    </button>
+  </view>
+
+  <view class="tips">
+    <text>订阅后将在微信服务通知中收到每日推送</text>
+  </view>
+</view>

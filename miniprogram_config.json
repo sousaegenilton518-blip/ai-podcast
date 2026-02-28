@@ -1,0 +1,12 @@
+{
+  "appid": "wxd23d7381df0539f6",
+  "appsecret": "c8c1e1353645d76d444c3dd5d96e376e",
+  "template_id": "ooHic5rLsTcb_uhLMkiUcUSv3VQjHGcmhLC6ipLPXrQ",
+  "push_secret": "ai-news-2026",
+  "template_fields": {
+    "thing1": "更新内容",
+    "date2": "更新时间",
+    "thing3": "作者",
+    "thing4": "来源"
+  }
+}

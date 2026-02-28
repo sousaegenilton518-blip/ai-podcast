@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  miniprogram-server:
+    build: .
+    container_name: miniprogram-server
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./data:/app/data
+    environment:
+      - DATA_DIR=/app/data
+    restart: unless-stopped

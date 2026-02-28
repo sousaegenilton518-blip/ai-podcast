@@ -1,0 +1,82 @@
+.container {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+  padding: 60rpx 40rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 80rpx;
+}
+
+.title {
+  display: block;
+  font-size: 56rpx;
+  font-weight: 700;
+  color: #fff;
+  letter-spacing: 4rpx;
+  margin-bottom: 16rpx;
+}
+
+.subtitle {
+  display: block;
+  font-size: 28rpx;
+  color: rgba(255,255,255,0.5);
+}
+
+.card {
+  background: rgba(255,255,255,0.08);
+  border: 1rpx solid rgba(255,255,255,0.15);
+  border-radius: 32rpx;
+  padding: 60rpx 48rpx;
+  width: 100%;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.card-icon {
+  font-size: 80rpx;
+  margin-bottom: 24rpx;
+}
+
+.card-title {
+  display: block;
+  font-size: 40rpx;
+  font-weight: 600;
+  color: #fff;
+  margin-bottom: 20rpx;
+}
+
+.card-desc {
+  display: block;
+  font-size: 28rpx;
+  color: rgba(255,255,255,0.6);
+  line-height: 1.6;
+  margin-bottom: 48rpx;
+}
+
+.subscribe-btn {
+  background: linear-gradient(135deg, #7c6aff, #a78bfa);
+  color: #fff;
+  border: none;
+  border-radius: 50rpx;
+  font-size: 32rpx;
+  font-weight: 600;
+  padding: 24rpx 0;
+  width: 100%;
+}
+
+.subscribe-btn.subscribed {
+  background: rgba(255,255,255,0.15);
+  color: rgba(255,255,255,0.7);
+}
+
+.tips {
+  margin-top: 40rpx;
+  font-size: 24rpx;
+  color: rgba(255,255,255,0.3);
+  text-align: center;
+}
