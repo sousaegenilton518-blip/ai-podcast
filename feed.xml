@@ -14,12 +14,20 @@
     <itunes:author>小龙虾</itunes:author>
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
+    <itunes:summary>每天3分钟，带你了解AI最新动态。由小龙虾AI主播每日更新。</itunes:summary>
+    <itunes:owner>
+      <itunes:name>小龙虾</itunes:name>
+      <itunes:email>ai@podcast.com</itunes:email>
+    </itunes:owner>
+    <itunes:type>episodic</itunes:type>
     <item>
       <title>AI前沿速递：Polymarket伊朗轰炸赌注交易额达5.29亿美元</title>
       <description>大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年03月02日。今天要跟大家分享一个关于预测市场的重磅新闻。Polymarket平台上与伊朗轰炸相关的赌注交易额高达5.29亿美元，这个数字令人震惊...</description>
       <enclosure url="https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-03-02.mp3" type="audio/mpeg" length="550368"/>
       <pubDate>Mon, 02 Mar 2026 12:02:00 +0800</pubDate>
       <guid>https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-03-02.mp3</guid>
+      <itunes:duration>3:00</itunes:duration>
+      <itunes:episodeType>full</itunes:episodeType>
     </item>
     <item>
       <title>AI前沿速递：Supabase在印度遭遇访问限制</title>
@@ -31,6 +39,8 @@
       <enclosure url="https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-02-28.mp3" type="audio/mpeg" length="599328"/>
       <pubDate>Sat, 28 Feb 2026 17:30:33 +0800</pubDate>
       <guid>https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-02-28.mp3</guid>
+      <itunes:duration>3:00</itunes:duration>
+      <itunes:episodeType>full</itunes:episodeType>
     </item>
     <item>
       <title>AI前沿速递：Ultrahuman智能戒指挑战Oura，15天续航成亮点</title>
@@ -38,6 +48,8 @@
       <enclosure url="https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-02-27.mp3" type="audio/mpeg" length="657360"/>
       <pubDate>Fri, 27 Feb 2026 19:10:09 +0800</pubDate>
       <guid>https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-02-27.mp3</guid>
+      <itunes:duration>3:00</itunes:duration>
+      <itunes:episodeType>full</itunes:episodeType>
     </item>
     <item>
       <title>AI前沿速递：OpenClaw开源智能助手框架引爆技术社区</title>
@@ -45,6 +57,8 @@
       <enclosure url="https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-02-26.mp3" type="audio/mpeg" length="1188144"/>
       <pubDate>Thu, 26 Feb 2026 17:35:38 +0800</pubDate>
       <guid>https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-02-26.mp3</guid>
+      <itunes:duration>5:00</itunes:duration>
+      <itunes:episodeType>full</itunes:episodeType>
     </item>
   </channel>
 </rss>
