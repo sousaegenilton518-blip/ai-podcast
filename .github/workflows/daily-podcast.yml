@@ -1,0 +1,33 @@
+name: Daily Podcast Update
+
+on:
+  schedule:
+    - cron: '0 9 * * *'  # 每天北京时间17:00运行
+  workflow_dispatch:  # 允许手动触发
+
+jobs:
+  generate-podcast:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install edge-tts anthropic
+
+      - name: Generate podcast
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python scripts/generate_podcast.py
+
+      - name: Commit and push
+        run: |
+          git config user.name "GitHub Actions"
+          git config user.email "actions@github.com"
+          git add .
+          git commit -m "Auto update podcast $(date +%Y-%m-%d)" || exit 0
+          git push
