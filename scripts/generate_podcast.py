@@ -24,7 +24,10 @@ def fetch_latest_news():
 
 def translate_to_chinese(title, desc):
     import anthropic
-    client = anthropic.Anthropic()
+    client = anthropic.Anthropic(
+        api_key=os.environ.get("ANTHROPIC_AUTH_TOKEN"),
+        base_url=os.environ.get("ANTHROPIC_BASE_URL")
+    )
     today = datetime.now().strftime("%Y年%m月%d日")
     prompt = f"""你是一个AI播客主播，名叫小龙虾。请将以下英文新闻改写成一段自然流畅的中文播客脚本，时长约3分钟（600-700字）。
 
@@ -39,7 +42,7 @@ def translate_to_chinese(title, desc):
 新闻摘要：
 {desc}"""
     msg = client.messages.create(
-        model="claude-sonnet-4-20250514",
+        model="claude-3-5-haiku-20241022",
         max_tokens=2000,
         messages=[{"role": "user", "content": prompt}]
     )
