@@ -6,11 +6,11 @@
     <link>https://sousaegenilton518-blip.github.io/ai-podcast</link>
     <language>zh-cn</language>
     <image>
-      <url>https://sousaegenilton518-blip.github.io/ai-podcast/images/cover.png</url>
+      <url>https://raw.githubusercontent.com/sousaegenilton518-blip/ai-podcast/main/images/cover.png</url>
       <title>AI前沿速递</title>
       <link>https://sousaegenilton518-blip.github.io/ai-podcast</link>
     </image>
-    <itunes:image href="https://sousaegenilton518-blip.github.io/ai-podcast/images/cover.png"/>
+    <itunes:image href="https://raw.githubusercontent.com/sousaegenilton518-blip/ai-podcast/main/images/cover.png"/>
     <itunes:author>小龙虾</itunes:author>
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
