@@ -429,10 +429,8 @@ function closeDonate() { document.getElementById('donateOverlay').classList.remo
 const AFDIAN_BASE = 'https://afdian.com/a/xiaojinian';
 
 function donate(amount) {
-  // 爱发电支持直接跳转到指定金额的支付
-  window.location.href = `${AFDIAN_BASE}?tab=shop`;
-  // 或者如果爱发电支持金额参数，可以用：
-  // window.location.href = `${AFDIAN_BASE}?amount=${amount}`;
+  // 直接跳转到爱发电主页
+  window.location.href = AFDIAN_BASE;
 }
 
 function donateCustom() {
