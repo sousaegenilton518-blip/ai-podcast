@@ -5,18 +5,18 @@
   "start_url": "/ai-podcast/anniversary/",
   "scope": "/ai-podcast/anniversary/",
   "display": "standalone",
-  "background_color": "#FDF5F7",
-  "theme_color": "#C8607A",
+  "background_color": "#FFD4E5",
+  "theme_color": "#FF69B4",
   "orientation": "portrait-primary",
   "icons": [
     {
-      "src": "/ai-podcast/anniversary/icon-192.png",
+      "src": "/ai-podcast/anniversary/icon-192-v2.png",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "/ai-podcast/anniversary/icon-512.png",
+      "src": "/ai-podcast/anniversary/icon-512-v2.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any"

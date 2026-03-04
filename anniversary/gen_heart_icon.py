@@ -27,8 +27,8 @@ def create_heart_icon(size, scale=7.5):
     draw.polygon(points, fill=(255, 105, 180, 255))
 
     # 保存图像
-    img.save(f'icon-{size}.png')
-    print(f"已生成 icon-{size}.png")
+    img.save(f'icon-{size}-v2.png')
+    print(f"已生成 icon-{size}-v2.png")
 
 # 生成两个尺寸的图标
 create_heart_icon(192, scale=7.5)
