@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>纪念册</title>
+<link href="https://fonts.loli.net/css2?family=Noto+Sans+SC:wght@300;400;500;700&display=swap" rel="stylesheet">
+<style>
+* { margin:0; padding:0; box-sizing:border-box; }
+body { font-family:'Noto Sans SC',sans-serif; font-weight:300; min-height:100vh; transition:background 0.5s,color 0.5s; }
+
+/* ── THEMES ── */
+body.theme-pink {
+  --bg:#FDF5F7; --bg2:#FAE8EE;
+  --primary:#C8607A; --pale:#F2D0D9; --pale2:#FAE8EE;
+  --card:#fff; --border:#EDD5DC; --shadow:rgba(200,96,122,.10);
+  --text:#6B3040; --muted:#B58C97; --tag:#F7E4E9;
+  --btn-bg:#C8607A; --btn-text:#fff;
+  --animal-skin:#FFCDD7; --animal-accent:#E8909A; --animal-detail:#fff;
+}
+body.theme-cream {
+  --bg:#FBF7F2; --bg2:#F5EDE0;
+  --primary:#A07850; --pale:#E8D5B8; --pale2:#F5EDE0;
+  --card:#fff; --border:#E0CDB0; --shadow:rgba(160,120,80,.10);
+  --text:#5C3D20; --muted:#A88C6A; --tag:#F5EDE0;
+  --btn-bg:#A07850; --btn-text:#fff;
+  --animal-skin:#F5D6A8; --animal-accent:#C8986A; --animal-detail:#fff;
+}
+body.theme-forest {
+  --bg:#F3F8F3; --bg2:#E2EFDF;
+  --primary:#4A7A5A; --pale:#B8D8BC; --pale2:#E2EFDF;
+  --card:#fff; --border:#C0D8C4; --shadow:rgba(74,122,90,.10);
+  --text:#2A4A30; --muted:#6A9872; --tag:#E2EFDF;
+  --btn-bg:#4A7A5A; --btn-text:#fff;
+  --animal-skin:#A8D8A8; --animal-accent:#5A9870; --animal-detail:#fff;
+}
+body.theme-star {
+  --bg:#12122A; --bg2:#1C1C3A;
+  --primary:#B09AE0; --pale:#3A335A; --pale2:#252248;
+  --card:#1E1E3C; --border:#3A3560; --shadow:rgba(176,154,224,.12);
+  --text:#E0D8F8; --muted:#8878C0; --tag:#252248;
+  --btn-bg:#B09AE0; --btn-text:#12122A;
+  --animal-skin:#C8B8F0; --animal-accent:#8870C8; --animal-detail:#12122A;
+}
+
+.wrap { max-width:460px; margin:0 auto; padding:0 18px 110px; background:var(--bg); min-height:100vh; }
+
+.header { padding:32px 0 18px; display:flex; flex-direction:column; align-items:center; gap:8px; }
+.header-animal { width:82px; height:82px; }
+.header h1 { font-size:20px; font-weight:700; color:var(--primary); letter-spacing:3px; }
+.header p { font-size:11px; color:var(--muted); letter-spacing:2px; font-weight:400; }
+
+.header-row { width:100%; display:flex; justify-content:flex-end; }
+.settings-btn { background:transparent; border:1.5px solid var(--border); border-radius:10px; padding:5px 12px; color:var(--muted); font-size:11px; font-weight:500; cursor:pointer; font-family:'Noto Sans SC',sans-serif; letter-spacing:.5px; transition:all .2s; }
+.settings-btn:hover { border-color:var(--primary); color:var(--primary); }
+.settings-panel { background:var(--card); border-radius:22px; padding:26px 24px; width:300px; max-width:93vw; border:1.5px solid var(--border); box-shadow:0 16px 48px rgba(0,0,0,.18); }
+.settings-panel h3 { font-size:14px; font-weight:700; color:var(--text); letter-spacing:2px; margin-bottom:6px; }
+.settings-sub { font-size:11px; color:var(--muted); margin-bottom:18px; }
+.settings-label { font-size:10px; color:var(--muted); font-weight:700; letter-spacing:1.5px; margin-bottom:10px; display:block; }
+.theme-grid { display:grid; grid-template-columns:1fr 1fr; gap:8px; }
+.tbtn { padding:10px 14px; border-radius:14px; border:1.5px solid var(--border); background:var(--pale2); color:var(--muted); font-size:12px; font-weight:500; cursor:pointer; transition:all .2s; font-family:'Noto Sans SC',sans-serif; text-align:left; }
+.tbtn:hover { border-color:var(--primary); color:var(--primary); }
+.tbtn.active { border-color:var(--primary); background:var(--pale); color:var(--primary); font-weight:700; }
+.tbtn-name { display:block; font-size:12px; font-weight:600; }
+.tbtn-desc { display:block; font-size:10px; opacity:.55; margin-top:2px; }
+.settings-close { width:100%; margin-top:16px; padding:10px; border-radius:11px; border:1.5px solid var(--border); background:transparent; color:var(--muted); font-size:12px; font-weight:500; cursor:pointer; font-family:'Noto Sans SC',sans-serif; }
+
+.upcoming { background:var(--btn-bg); border-radius:18px; padding:20px 22px; margin-bottom:20px; position:relative; overflow:hidden; }
+.upcoming::after { content:''; position:absolute; right:-20px; top:-20px; width:100px; height:100px; border-radius:50%; background:rgba(255,255,255,.08); }
+.up-label { font-size:10px; color:rgba(255,255,255,.65); letter-spacing:2px; font-weight:500; margin-bottom:8px; }
+.up-title { font-size:18px; font-weight:700; color:#fff; margin-bottom:5px; letter-spacing:.5px; }
+.up-sub { font-size:12px; color:rgba(255,255,255,.75); font-weight:300; }
+body.theme-star .up-title { color:var(--text); }
+body.theme-star .up-label,.body.theme-star .up-sub { color:var(--muted); }
+
+.filter-row { display:flex; gap:6px; margin-bottom:16px; overflow-x:auto; padding-bottom:2px; }
+.filter-row::-webkit-scrollbar { display:none; }
+.fbtn { padding:5px 14px; border-radius:20px; border:1.5px solid var(--border); background:transparent; color:var(--muted); font-size:11px; font-weight:500; cursor:pointer; white-space:nowrap; transition:all .2s; font-family:'Noto Sans SC',sans-serif; }
+.fbtn.active { border-color:var(--primary); background:var(--pale); color:var(--primary); font-weight:700; }
+
+.cards { display:flex; flex-direction:column; gap:10px; }
+.card { background:var(--card); border:1.5px solid var(--border); border-radius:16px; padding:16px 18px; transition:all .22s; }
+.card:hover { transform:translateY(-2px); box-shadow:0 6px 24px var(--shadow); border-color:var(--pale); }
+.card-top { display:flex; align-items:center; justify-content:space-between; margin-bottom:10px; }
+.card-tag { font-size:10px; font-weight:700; letter-spacing:1px; color:var(--primary); background:var(--tag); padding:3px 10px; border-radius:20px; }
+.card-actions { display:flex; gap:5px; }
+.btn-sm { padding:4px 10px; border-radius:8px; border:1.5px solid var(--border); font-size:11px; cursor:pointer; font-weight:500; transition:all .18s; background:transparent; color:var(--muted); font-family:'Noto Sans SC',sans-serif; }
+.btn-sm:hover { border-color:var(--primary); color:var(--primary); }
+.btn-del:hover { border-color:#d04040; color:#d04040; }
+.card-title { font-size:17px; font-weight:700; color:var(--text); letter-spacing:.5px; margin-bottom:4px; }
+.card-date { font-size:11px; color:var(--muted); margin-bottom:10px; font-weight:400; letter-spacing:.5px; }
+.card-note { font-size:12px; color:var(--muted); line-height:1.7; margin-bottom:10px; font-weight:300; padding:10px 12px; background:var(--pale2); border-radius:10px; }
+.card-foot { display:flex; justify-content:space-between; align-items:center; }
+.card-countdown { font-size:11px; color:var(--muted); }
+.card-countdown strong { color:var(--primary); font-weight:700; font-size:13px; }
+.card-since { font-size:10px; color:var(--muted); opacity:.7; }
+
+.empty { text-align:center; padding:56px 0; color:var(--muted); }
+.empty p { font-size:13px; letter-spacing:1px; margin-top:12px; }
+
+.fab-bar { position:fixed; bottom:26px; left:50%; transform:translateX(-50%); display:flex; gap:10px; align-items:center; }
+.fab { background:var(--btn-bg); border:none; border-radius:30px; padding:13px 28px; color:var(--btn-text); font-size:13px; font-weight:700; cursor:pointer; box-shadow:0 4px 20px var(--shadow); white-space:nowrap; font-family:'Noto Sans SC',sans-serif; letter-spacing:1px; transition:opacity .2s; }
+.fab:hover { opacity:.85; }
+.fab-tea { background:var(--card); border:1.5px solid var(--border); border-radius:30px; padding:12px 18px; color:var(--primary); font-size:13px; font-weight:600; cursor:pointer; box-shadow:0 4px 20px var(--shadow); white-space:nowrap; font-family:'Noto Sans SC',sans-serif; letter-spacing:.5px; transition:all .2s; }
+.fab-tea:hover { border-color:var(--primary); opacity:.85; }
+
+.overlay { display:none; position:fixed; inset:0; background:rgba(0,0,0,.3); backdrop-filter:blur(5px); z-index:100; justify-content:center; align-items:center; }
+.overlay.show { display:flex; }
+.modal { background:var(--card); border-radius:22px; padding:26px 24px; width:340px; max-width:93vw; border:1.5px solid var(--border); max-height:92vh; overflow-y:auto; box-shadow:0 16px 48px rgba(0,0,0,.18); }
+.modal-title { font-size:16px; font-weight:700; color:var(--text); letter-spacing:2px; text-align:center; margin-bottom:22px; }
+.field { margin-bottom:14px; }
+.field label { display:block; font-size:10px; color:var(--muted); font-weight:700; margin-bottom:6px; letter-spacing:1.5px; text-transform:uppercase; }
+.field input,.field textarea { width:100%; padding:9px 12px; border-radius:10px; border:1.5px solid var(--border); background:var(--pale2); color:var(--text); font-size:13px; outline:none; font-family:'Noto Sans SC',sans-serif; font-weight:300; transition:border .2s; }
+.field input:focus,.field textarea:focus { border-color:var(--primary); }
+.field textarea { resize:none; line-height:1.7; }
+.emoji-grid { display:flex; flex-wrap:wrap; gap:5px; }
+.emoji-btn { font-size:18px; width:34px; height:34px; border-radius:8px; border:1.5px solid transparent; background:var(--pale2); cursor:pointer; transition:all .15s; }
+.emoji-btn.active { border-color:var(--primary); background:var(--pale); }
+.cat-row { display:flex; flex-wrap:wrap; gap:6px; }
+.cat-btn { padding:5px 12px; border-radius:10px; border:1.5px solid var(--border); background:transparent; color:var(--muted); font-size:11px; font-weight:500; cursor:pointer; transition:all .2s; font-family:'Noto Sans SC',sans-serif; }
+.cat-btn.active { border-color:var(--primary); background:var(--pale); color:var(--primary); font-weight:700; }
+.modal-foot { display:flex; gap:8px; margin-top:20px; }
+.btn-cancel { flex:1; padding:10px; border-radius:11px; border:1.5px solid var(--border); background:transparent; color:var(--muted); font-size:12px; font-weight:500; cursor:pointer; font-family:'Noto Sans SC',sans-serif; }
+.btn-save { flex:2; padding:10px; border-radius:11px; border:none; background:var(--btn-bg); color:var(--btn-text); font-size:12px; font-weight:700; cursor:pointer; font-family:'Noto Sans SC',sans-serif; letter-spacing:1px; }
+
+.confirm-box { background:var(--card); border-radius:18px; padding:28px 24px; width:270px; text-align:center; border:1.5px solid var(--border); }
+.confirm-box p { font-size:14px; color:var(--text); margin-bottom:6px; font-weight:500; letter-spacing:1px; }
+.confirm-box small { font-size:11px; color:var(--muted); display:block; margin-bottom:20px; }
+.confirm-btns { display:flex; gap:8px; }
+.confirm-cancel { flex:1; padding:9px; border-radius:10px; border:1.5px solid var(--border); background:transparent; color:var(--muted); font-size:12px; cursor:pointer; font-family:'Noto Sans SC',sans-serif; }
+.confirm-ok { flex:1; padding:9px; border-radius:10px; border:none; background:#d04040; color:#fff; font-size:12px; font-weight:700; cursor:pointer; font-family:'Noto Sans SC',sans-serif; }
+
+@keyframes fadeUp { from{opacity:0;transform:translateY(8px)} to{opacity:1;transform:none} }
+.card { animation:fadeUp .25s ease; }
+</style>
+</head>
+<body class="theme-pink">
+<div class="wrap">
+  <div class="header">
+    <div class="header-row">
+      <button class="settings-btn" onclick="openSettings()">설정 · 设置</button>
+    </div>
+    <svg class="header-animal" id="headerAnimal" viewBox="0 0 72 72" fill="none" xmlns="http://www.w3.org/2000/svg"></svg>
+    <h1>纪念册</h1>
+    <p>记录每一个珍贵的日子</p>
+  </div>
+
+  <div class="upcoming">
+    <div class="up-label">NEXT ANNIVERSARY</div>
+    <div class="up-title" id="upTitle">—</div>
+    <div class="up-sub" id="upSub">—</div>
+  </div>
+
+  <div class="filter-row">
+    <button class="fbtn active" onclick="setFilter('all',this)">全部</button>
+    <button class="fbtn" onclick="setFilter('love',this)">恋爱</button>
+    <button class="fbtn" onclick="setFilter('birthday',this)">生日</button>
+    <button class="fbtn" onclick="setFilter('friendship',this)">友情</button>
+    <button class="fbtn" onclick="setFilter('achievement',this)">成就</button>
+    <button class="fbtn" onclick="setFilter('goal',this)">目标</button>
+  </div>
+
+  <div class="cards" id="cardList"></div>
+</div>
+
+<div class="fab-bar">
+  <button class="fab-tea" onclick="openDonate()">🧋 请我喝奶茶</button>
+  <button class="fab" onclick="openModal(null)">＋ 添加</button>
+</div>
+
+<!-- Edit Modal -->
+<div class="overlay" id="overlay" onclick="if(event.target===this)closeModal()">
+  <div class="modal">
+    <div class="modal-title" id="modalTitle">添加纪念日</div>
+    <input type="hidden" id="editId">
+    <div class="field">
+      <label>图标</label>
+      <div class="emoji-grid" id="emojiGrid"></div>
+    </div>
+    <div class="field">
+      <label>名称</label>
+      <input type="text" id="fTitle" placeholder="给这个日子起个名字">
+    </div>
+    <div class="field">
+      <label>类别</label>
+      <div class="cat-row">
+        <button class="cat-btn active" data-cat="love" onclick="selCat('love',this)">恋爱</button>
+        <button class="cat-btn" data-cat="birthday" onclick="selCat('birthday',this)">生日</button>
+        <button class="cat-btn" data-cat="friendship" onclick="selCat('friendship',this)">友情</button>
+        <button class="cat-btn" data-cat="achievement" onclick="selCat('achievement',this)">成就</button>
+        <button class="cat-btn" data-cat="goal" onclick="selCat('goal',this)">目标</button>
+      </div>
+    </div>
+    <div class="field">
+      <label>日期</label>
+      <input type="date" id="fDate">
+    </div>
+    <div class="field">
+      <label>备注（可选）</label>
+      <textarea id="fNote" rows="3" placeholder="写下这个日子的故事…"></textarea>
+    </div>
+    <div class="modal-foot">
+      <button class="btn-cancel" onclick="closeModal()">取消</button>
+      <button class="btn-save" onclick="saveItem()">保存</button>
+    </div>
+  </div>
+</div>
+
+<!-- Donate Modal -->
+<div class="overlay" id="donateOverlay" onclick="if(event.target===this)closeDonate()">
+  <div class="modal" style="text-align:center;max-width:300px">
+    <div style="font-size:36px;margin-bottom:10px">🧋</div>
+    <div class="modal-title" style="margin-bottom:8px">请我喝奶茶</div>
+    <p style="font-size:12px;color:var(--muted);line-height:1.8;margin-bottom:20px">做这个小应用花了很多心思<br>如果你喜欢用，可以请我喝杯奶茶 ☕<br>你的支持是我继续做下去的动力！</p>
+    <!-- 替换下方链接为你的收款链接 -->
+    <a href="https://ko-fi.com" target="_blank"
+      style="display:block;background:var(--btn-bg);color:var(--btn-text);padding:12px;border-radius:12px;font-size:13px;font-weight:700;text-decoration:none;letter-spacing:1px;margin-bottom:10px">
+      🧋 Ko-fi 打赏
+    </a>
+    <a href="https://afdian.com" target="_blank"
+      style="display:block;background:var(--pale);color:var(--primary);padding:12px;border-radius:12px;font-size:13px;font-weight:700;text-decoration:none;letter-spacing:1px;margin-bottom:18px">
+      💖 爱发电（国内）
+    </a>
+    <button class="btn-cancel" onclick="closeDonate()" style="width:100%">下次再说 🥲</button>
+  </div>
+</div>
+
+<!-- Delete Confirm Modal -->
+<div class="overlay" id="confirmOverlay">
+  <div class="confirm-box">
+    <p>确认删除？</p>
+    <small>此操作无法撤销</small>
+    <div class="confirm-btns">
+      <button class="confirm-cancel" onclick="closeConfirm()">取消</button>
+      <button class="confirm-ok" id="confirmOkBtn">删除</button>
+    </div>
+  </div>
+</div>
+
+<!-- Settings Modal -->
+<div class="overlay" id="settingsOverlay" onclick="if(event.target===this)closeSettings()">
+  <div class="settings-panel">
+    <h3>设置</h3>
+    <p class="settings-sub">外观与主题</p>
+    <span class="settings-label">选择主题</span>
+    <div class="theme-grid">
+      <button class="tbtn active" data-theme="theme-pink" onclick="setTheme('theme-pink',this)">
+        <span class="tbtn-name">🌸 粉嫩少女</span>
+        <span class="tbtn-desc">温柔玫瑰粉 · 蝴蝶结</span>
+      </button>
+      <button class="tbtn" data-theme="theme-cream" onclick="setTheme('theme-cream',this)">
+        <span class="tbtn-name">🧸 奶油奶酪</span>
+        <span class="tbtn-desc">暖意米棕色 · 小熊</span>
+      </button>
+      <button class="tbtn" data-theme="theme-forest" onclick="setTheme('theme-forest',this)">
+        <span class="tbtn-name">🌿 森系自然</span>
+        <span class="tbtn-desc">清新苔绿 · 小树</span>
+      </button>
+      <button class="tbtn" data-theme="theme-star" onclick="setTheme('theme-star',this)">
+        <span class="tbtn-name">🌙 梦幻星空</span>
+        <span class="tbtn-desc">深邃星夜紫 · 月亮星星</span>
+      </button>
+    </div>
+    <button class="settings-close" onclick="closeSettings()">完成</button>
+  </div>
+</div>
+
+<script>
+const ANIMALS = {
+  /* ── 蝴蝶结 (粉嫩少女) ── */
+  'theme-pink': `
+    <!-- left tail - wide and flowing, shorter -->
+    <path d="M33 38 Q26 46 18 54 Q21 58 25 56 Q31 49 36 38Z" fill="var(--animal-skin)" opacity=".9"/>
+    <!-- right tail - wide and flowing, shorter -->
+    <path d="M39 38 Q46 46 54 54 Q51 58 47 56 Q41 49 36 38Z" fill="var(--animal-skin)" opacity=".9"/>
+    <!-- left tail inner -->
+    <path d="M33 38 Q27 47 20 53 Q22 56 24 55 Q30 49 36 38Z" fill="var(--animal-accent)" opacity=".22"/>
+    <!-- right tail inner -->
+    <path d="M39 38 Q45 47 52 53 Q50 56 48 55 Q42 49 36 38Z" fill="var(--animal-accent)" opacity=".22"/>
+    <!-- left wing - compact and round -->
+    <path d="M34 34 Q28 22 18 24 Q14 32 18 40 Q28 44 34 36Z" fill="var(--animal-skin)" opacity=".95"/>
+    <!-- right wing - compact and round -->
+    <path d="M38 34 Q44 22 54 24 Q58 32 54 40 Q44 44 38 36Z" fill="var(--animal-skin)" opacity=".95"/>
+    <!-- left wing inner -->
+    <path d="M34 34 Q29 25 20 26 Q17 32 20 38 Q29 42 34 36Z" fill="var(--animal-accent)" opacity=".25"/>
+    <!-- right wing inner -->
+    <path d="M38 34 Q43 25 52 26 Q55 32 52 38 Q43 42 38 36Z" fill="var(--animal-accent)" opacity=".25"/>
+    <!-- center knot -->
+    <ellipse cx="36" cy="36" r="6" fill="var(--animal-accent)" opacity=".92"/>
+    <ellipse cx="36" cy="36" r="3.8" fill="var(--animal-skin)"/>
+    <ellipse cx="36" cy="36" r="1.8" fill="var(--animal-accent)" opacity=".5"/>`,
+
+  /* ── 小熊 (奶油奶酪) ── */
+  'theme-cream': `
+    <circle cx="36" cy="37" r="21" fill="var(--animal-skin)"/>
+    <circle cx="20" cy="20" r="8" fill="var(--animal-skin)"/>
+    <circle cx="52" cy="20" r="8" fill="var(--animal-skin)"/>
+    <circle cx="20" cy="20" r="4.5" fill="var(--animal-accent)" opacity=".45"/>
+    <circle cx="52" cy="20" r="4.5" fill="var(--animal-accent)" opacity=".45"/>
+    <ellipse cx="36" cy="41" rx="9" ry="6.5" fill="var(--animal-detail)" opacity=".6"/>
+    <ellipse cx="25" cy="40" rx="4.5" ry="3" fill="var(--animal-accent)" opacity=".28"/>
+    <ellipse cx="47" cy="40" rx="4.5" ry="3" fill="var(--animal-accent)" opacity=".28"/>
+    <circle cx="30" cy="33" r="3.5" fill="var(--animal-detail)"/>
+    <circle cx="42" cy="33" r="3.5" fill="var(--animal-detail)"/>
+    <circle cx="30" cy="33" r="2.2" fill="#2C1808"/>
+    <circle cx="42" cy="33" r="2.2" fill="#2C1808"/>
+    <circle cx="30.9" cy="32.1" r=".75" fill="#fff"/>
+    <circle cx="42.9" cy="32.1" r=".75" fill="#fff"/>
+    <ellipse cx="36" cy="38.5" rx="2" ry="1.3" fill="var(--animal-accent)"/>
+    <path d="M33.5 40.5 Q36 43.5 38.5 40.5" stroke="var(--animal-accent)" stroke-width="1.3" fill="none" stroke-linecap="round"/>`,
+
+  /* ── 小树 (森系自然) ── */
+  'theme-forest': `
+    <!-- tree top layers -->
+    <polygon points="36,8 52,30 20,30" fill="var(--animal-skin)" opacity=".95"/>
+    <polygon points="36,16 54,40 18,40" fill="var(--animal-accent)" opacity=".55"/>
+    <polygon points="36,16 54,40 18,40" fill="var(--animal-skin)" opacity=".7"/>
+    <polygon points="36,26 55,50 17,50" fill="var(--animal-accent)" opacity=".45"/>
+    <polygon points="36,26 55,50 17,50" fill="var(--animal-skin)" opacity=".8"/>
+    <!-- trunk -->
+    <rect x="31" y="50" width="10" height="14" rx="3" fill="var(--animal-accent)" opacity=".55"/>
+    <!-- snow/highlight on top -->
+    <ellipse cx="36" cy="18" rx="6" ry="3.5" fill="var(--animal-detail)" opacity=".35"/>
+    <!-- tiny star on top -->
+    <polygon points="36,7 37,10 40,10 37.5,12 38.5,15 36,13 33.5,15 34.5,12 32,10 35,10"
+      fill="var(--animal-accent)" opacity=".8"/>`,
+
+  /* ── 月亮星星 (梦幻星空) ── */
+  'theme-star': `
+    <!-- crescent moon -->
+    <circle cx="34" cy="33" r="20" fill="var(--animal-skin)" opacity=".95"/>
+    <circle cx="42" cy="27" r="16" fill="var(--bg2)"/>
+    <!-- big star -->
+    <polygon points="57,18 58.5,22.5 63,22.5 59.5,25.5 61,30 57,27 53,30 54.5,25.5 51,22.5 55.5,22.5"
+      fill="var(--animal-skin)" opacity=".9"/>
+    <!-- medium star -->
+    <polygon points="18,14 19,17 22,17 19.5,19 20.5,22 18,20.5 15.5,22 16.5,19 14,17 17,17"
+      fill="var(--animal-accent)" opacity=".7"/>
+    <!-- dots -->
+    <circle cx="54" cy="44" r="2.2" fill="var(--animal-skin)" opacity=".7"/>
+    <circle cx="20" cy="42" r="1.5" fill="var(--animal-accent)" opacity=".6"/>
+    <circle cx="46" cy="56" r="1.8" fill="var(--animal-skin)" opacity=".5"/>
+    <circle cx="14" cy="28" r="1.2" fill="var(--animal-skin)" opacity=".5"/>
+    <circle cx="60" cy="52" r="1" fill="var(--animal-accent)" opacity=".5"/>
+    <circle cx="26" cy="56" r="1.3" fill="var(--animal-skin)" opacity=".4"/>`
+};
+
+const CATS = {
+  love:        { label:'恋爱纪念日', icon:'♡', goal:false },
+  birthday:    { label:'生日',       icon:'☆', goal:false },
+  friendship:  { label:'友情纪念日', icon:'◇', goal:false },
+  achievement: { label:'个人成就',   icon:'△', goal:false },
+  goal:        { label:'目标倒计时', icon:'◈', goal:true  },
+};
+const EMOJIS = ['♡','☆','◇','△','✦','◎','⊹','✿','♩','☁','◐','✧','◈','▷','✑'];
+
+let data = JSON.parse(localStorage.getItem('anniv_v3') || 'null') || [
+  { id:1, title:'在一起的日子',     category:'love',        date:'2023-02-14', note:'那天下着小雨，你送了我一束粉色玫瑰', emoji:'♡' },
+  { id:2, title:'小熊的生日',       category:'birthday',    date:'2000-07-20', note:'每年都要好好庆祝哦！',               emoji:'☆' },
+  { id:3, title:'和小花成为好朋友', category:'friendship',  date:'2019-09-01', note:'第一天上学就成了最好的朋友',         emoji:'◇' },
+  { id:4, title:'期末考试',         category:'goal',        date:'2026-06-20', note:'加油！提前一个月开始复习',           emoji:'◈' },
+];
+let filter = 'all';
+let theme = localStorage.getItem('anniv_theme') || 'theme-pink';
+let selEmoji = '♡', selCatV = 'love';
+let pendingDeleteId = null;
+
+function saveData() { localStorage.setItem('anniv_v3', JSON.stringify(data)); }
+
+// 通用：距今多少天（正=未来，负=过去）
+function daysFromToday(dateStr) {
+  const today = new Date(); today.setHours(0,0,0,0);
+  const d = new Date(dateStr); d.setHours(0,0,0,0);
+  return Math.ceil((d - today) / 86400000);
+}
+// 已陪伴天数（纪念日用，从最初那天到今天）
+function daysSince(dateStr) {
+  const today = new Date(); today.setHours(0,0,0,0);
+  const d = new Date(dateStr); d.setHours(0,0,0,0);
+  return Math.floor((today - d) / 86400000);
+}
+
+// 卡片底部文字：目标类 vs 纪念日类 显示不同内容
+function cardFootText(item) {
+  const cat = CATS[item.category];
+  if (cat.goal) {
+    // 目标：单次倒计时
+    const diff = daysFromToday(item.date);
+    if (diff > 0)  return { main: `还有 <strong>${diff}</strong> 天`, sub: '' };
+    if (diff === 0) return { main: `<strong>就是今天！</strong>`, sub: '' };
+    return { main: `已过去 <strong>${Math.abs(diff)}</strong> 天`, sub: '' };
+  } else {
+    // 纪念日：显示陪伴天数
+    const since = daysSince(item.date);
+    if (since < 0)  return { main: `还有 <strong>${Math.abs(since)}</strong> 天`, sub: '' };
+    if (since === 0) return { main: `<strong>就是今天！</strong>`, sub: '' };
+    return { main: `已陪伴 <strong>${since}</strong> 天`, sub: '' };
+  }
+}
+
+function setTheme(t, btn) {
+  theme = t; document.body.className = t;
+  localStorage.setItem('anniv_theme', t);
+  // sync all .tbtn buttons across the page (settings panel)
+  document.querySelectorAll('.tbtn').forEach(b => b.classList.toggle('active', b.dataset.theme===t));
+  drawAnimal(t); renderUpcoming();
+}
+
+function openDonate() { document.getElementById('donateOverlay').classList.add('show'); }
+function closeDonate() { document.getElementById('donateOverlay').classList.remove('show'); }
+
+function openSettings() { document.getElementById('settingsOverlay').classList.add('show'); }
+function closeSettings() { document.getElementById('settingsOverlay').classList.remove('show'); }
+
+function drawAnimal(t) {
+  document.getElementById('headerAnimal').innerHTML = ANIMALS[t] || ANIMALS['theme-pink'];
+}
+
+function renderUpcoming() {
+  if (!data.length) {
+    document.getElementById('upTitle').textContent = '—';
+    document.getElementById('upSub').textContent = '暂无记录';
+    return;
+  }
+  const today = new Date(); today.setHours(0,0,0,0);
+
+  // 优先展示：最近的未来目标 或 今天的纪念日；否则取陪伴最久的纪念日
+  const future = data
+    .map(d => ({ ...d, diff: daysFromToday(d.date) }))
+    .filter(d => d.diff >= 0)
+    .sort((a,b) => a.diff - b.diff);
+
+  const u = future.length ? future[0] : [...data].sort((a,b) => daysSince(b.date) - daysSince(a.date))[0];
+  const cat = CATS[u.category];
+  document.getElementById('upTitle').textContent = u.emoji + '  ' + u.title;
+
+  const diff = daysFromToday(u.date);
+  let sub;
+  if (diff > 0)   sub = cat.goal ? `还有 ${diff} 天` : `还有 ${diff} 天`;
+  else if (diff === 0) sub = '就是今天！';
+  else            sub = cat.goal ? `已过去 ${Math.abs(diff)} 天` : `已陪伴 ${daysSince(u.date)} 天`;
+  document.getElementById('upSub').textContent = sub;
+}
+
+function setFilter(f, btn) {
+  filter = f;
+  document.querySelectorAll('.fbtn').forEach(b => b.classList.toggle('active', b===btn));
+  renderCards();
+}
+
+function renderCards() {
+  const list = document.getElementById('cardList');
+  const items = data.filter(d => filter==='all' || d.category===filter);
+  if (!items.length) {
+    list.innerHTML = `<div class="empty">
+      <svg width="48" height="48" viewBox="0 0 48 48"><circle cx="24" cy="24" r="20" fill="var(--pale)"/><text x="24" y="30" text-anchor="middle" font-size="18" fill="var(--primary)">♡</text></svg>
+      <p>还没有记录</p></div>`;
+    return;
+  }
+  list.innerHTML = items.map(item => {
+    const cat = CATS[item.category];
+    const { main } = cardFootText(item);
+    return `<div class="card">
+      <div class="card-top">
+        <span class="card-tag">${cat.icon}  ${cat.label}</span>
+        <div class="card-actions">
+          <button class="btn-sm" onclick="editItem(${item.id})">编辑</button>
+          <button class="btn-sm btn-del" onclick="askDelete(${item.id})">删除</button>
+        </div>
+      </div>
+      <div class="card-title">${item.emoji}  ${item.title}</div>
+      <div class="card-date">${item.date}</div>
+      ${item.note ? `<div class="card-note">${item.note}</div>` : ''}
+      <div class="card-foot">
+        <div class="card-countdown">${main}</div>
+      </div>
+    </div>`;
+  }).join('');
+}
+
+function renderEmojiGrid() {
+  document.getElementById('emojiGrid').innerHTML = EMOJIS.map(e =>
+    `<button class="emoji-btn${e===selEmoji?' active':''}" onclick="pickEmoji('${e}',this)">${e}</button>`
+  ).join('');
+}
+
+function pickEmoji(e, btn) {
+  selEmoji = e;
+  document.querySelectorAll('.emoji-btn').forEach(b => b.classList.toggle('active', b===btn));
+}
+
+function selCat(c, btn) {
+  selCatV = c;
+  document.querySelectorAll('.cat-btn').forEach(b => b.classList.toggle('active', b===btn));
+}
+
+function openModal(item) {
+  document.getElementById('editId').value = item ? item.id : '';
+  document.getElementById('modalTitle').textContent = item ? '编辑纪念日' : '添加纪念日';
+  document.getElementById('fTitle').value = item ? item.title : '';
+  document.getElementById('fDate').value = item ? item.date : '';
+  document.getElementById('fNote').value = item ? (item.note||'') : '';
+  selEmoji = item ? item.emoji : '♡';
+  selCatV = item ? item.category : 'love';
+  renderEmojiGrid();
+  document.querySelectorAll('.cat-btn').forEach(b => b.classList.toggle('active', b.dataset.cat===selCatV));
+  document.getElementById('overlay').classList.add('show');
+}
+
+function closeModal() { document.getElementById('overlay').classList.remove('show'); }
+
+function saveItem() {
+  const title = document.getElementById('fTitle').value.trim();
+  const date = document.getElementById('fDate').value;
+  if (!title || !date) { alert('请填写名称和日期'); return; }
+  const note = document.getElementById('fNote').value.trim();
+  const editId = document.getElementById('editId').value;
+  if (editId) {
+    const idx = data.findIndex(d => String(d.id)===String(editId));
+    if (idx>-1) data[idx] = { ...data[idx], title, date, note, emoji:selEmoji, category:selCatV };
+  } else {
+    data.push({ id:Date.now(), title, date, note, emoji:selEmoji, category:selCatV });
+  }
+  saveData(); closeModal(); renderCards(); renderUpcoming();
+}
+
+function editItem(id) { openModal(data.find(d => d.id===id)); }
+
+function askDelete(id) {
+  pendingDeleteId = id;
+  document.getElementById('confirmOverlay').classList.add('show');
+}
+
+function closeConfirm() {
+  pendingDeleteId = null;
+  document.getElementById('confirmOverlay').classList.remove('show');
+}
+
+document.getElementById('confirmOkBtn').onclick = function() {
+  if (pendingDeleteId !== null) {
+    data = data.filter(d => d.id !== pendingDeleteId);
+    saveData(); renderCards(); renderUpcoming();
+  }
+  closeConfirm();
+};
+
+document.getElementById('confirmOverlay').onclick = function(e) {
+  if (e.target === this) closeConfirm();
+};
+
+// Init
+document.body.className = theme;
+document.querySelectorAll('.tbtn').forEach(b => b.classList.toggle('active', b.dataset.theme===theme));
+drawAnimal(theme);
+renderUpcoming();
+renderCards();
+</script>
+</body>
+</html>
