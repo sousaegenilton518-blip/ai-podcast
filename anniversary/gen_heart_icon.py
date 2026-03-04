@@ -3,10 +3,10 @@
 from PIL import Image, ImageDraw
 import math
 
-def create_heart_icon(size, scale=4.2):
+def create_heart_icon(size, scale=7.5):
     """生成爱心图标"""
-    # 创建图像
-    img = Image.new('RGBA', (size, size), (253, 245, 247, 255))
+    # 创建图像 - 马卡龙粉色背景
+    img = Image.new('RGBA', (size, size), (255, 220, 229, 255))
     draw = ImageDraw.Draw(img)
 
     # 中心点
@@ -23,14 +23,14 @@ def create_heart_icon(size, scale=4.2):
         py = cy - y * scale * (size / 192)
         points.append((px, py))
 
-    # 填充爱心
-    draw.polygon(points, fill=(200, 96, 122, 255))
+    # 填充爱心 - 深粉色
+    draw.polygon(points, fill=(255, 105, 180, 255))
 
     # 保存图像
     img.save(f'icon-{size}.png')
     print(f"已生成 icon-{size}.png")
 
 # 生成两个尺寸的图标
-create_heart_icon(192, scale=4.2)
-create_heart_icon(512, scale=4.2)
+create_heart_icon(192, scale=7.5)
+create_heart_icon(512, scale=7.5)
 print("爱心图标生成完成！")
