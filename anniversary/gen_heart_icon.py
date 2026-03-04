@@ -23,8 +23,8 @@ def create_heart_icon(size, scale=7.5):
         py = cy - y * scale * (size / 192)
         points.append((px, py))
 
-    # 填充爱心 - 深粉色
-    draw.polygon(points, fill=(255, 105, 180, 255))
+    # 填充爱心 - 淡粉色
+    draw.polygon(points, fill=(255, 192, 203, 255))
 
     # 保存图像
     img.save(f'icon-{size}-v2.png')
