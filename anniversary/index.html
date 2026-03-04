@@ -14,8 +14,8 @@
 <link href="https://fonts.loli.net/css2?family=Noto+Sans+SC:wght@300;400;500;700&display=swap" rel="stylesheet">
 <style>
 * { margin:0; padding:0; box-sizing:border-box; }
-html, body { touch-action: pan-y; user-select: none; -webkit-user-select: none; }
-body { font-family:'Noto Sans SC',sans-serif; font-weight:300; min-height:100vh; transition:background 0.5s,color 0.5s; }
+html, body { touch-action: pan-y; user-select: none; -webkit-user-select: none; height: 100%; }
+body { font-family:'Noto Sans SC',sans-serif; font-weight:300; min-height:100vh; height:100vh; transition:background 0.5s,color 0.5s; display:flex; flex-direction:column; }
 
 /* ── THEMES ── */
 body.theme-pink {
@@ -51,7 +51,7 @@ body.theme-star {
   --animal-skin:#C8B8F0; --animal-accent:#8870C8; --animal-detail:#12122A;
 }
 
-.wrap { max-width:460px; margin:0 auto; padding:0 18px 110px; background:var(--bg); min-height:100vh; }
+.wrap { max-width:460px; margin:0 auto; padding:0 18px 110px; background:var(--bg); min-height:100vh; flex:1; }
 
 .header { padding:32px 0 18px; display:flex; flex-direction:column; align-items:center; gap:8px; }
 .header-animal { width:82px; height:82px; }

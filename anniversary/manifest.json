@@ -5,8 +5,8 @@
   "start_url": "/ai-podcast/anniversary/",
   "scope": "/ai-podcast/anniversary/",
   "display": "standalone",
-  "background_color": "#FFE4E1",
-  "theme_color": "#FFC0CB",
+  "background_color": "#FFF0F5",
+  "theme_color": "#FFDAE0",
   "orientation": "portrait-primary",
   "icons": [
     {
