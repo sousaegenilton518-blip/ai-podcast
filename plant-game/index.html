@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>植物养成</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html, body { height: 100%; width: 100%; }
+body {
+  font-family: 'Noto Sans SC', -apple-system, BlinkMacSystemFont, sans-serif;
+  background: linear-gradient(135deg, #E8F5E9 0%, #F1F8E9 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.container {
+  background: white;
+  border-radius: 24px;
+  padding: 40px 30px;
+  max-width: 400px;
+  width: 100%;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+h1 {
+  color: #2E7D32;
+  font-size: 24px;
+  margin-bottom: 30px;
+  letter-spacing: 2px;
+}
+
+.plant-area {
+  background: linear-gradient(180deg, #E3F2FD 0%, #F1F8E9 100%);
+  border-radius: 16px;
+  padding: 40px 20px;
+  margin-bottom: 30px;
+  min-height: 280px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.plant-svg {
+  width: 120px;
+  height: 120px;
+  margin-bottom: 20px;
+}
+
+.plant-name {
+  font-size: 18px;
+  font-weight: 600;
+  color: #2E7D32;
+  margin-bottom: 8px;
+}
+
+.plant-stage {
+  font-size: 12px;
+  color: #66BB6A;
+  margin-bottom: 20px;
+  letter-spacing: 1px;
+}
+
+.stats {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 12px;
+  margin-bottom: 30px;
+}
+
+.stat {
+  background: #F1F8E9;
+  border-radius: 12px;
+  padding: 12px;
+}
+
+.stat-label {
+  font-size: 11px;
+  color: #558B2F;
+  margin-bottom: 6px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.stat-bar {
+  width: 100%;
+  height: 6px;
+  background: #E8F5E9;
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+.stat-fill {
+  height: 100%;
+  background: #66BB6A;
+  border-radius: 3px;
+  transition: width 0.3s ease;
+}
+
+.actions {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.btn {
+  padding: 12px 16px;
+  border: 2px solid #C8E6C9;
+  background: white;
+  border-radius: 12px;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: 600;
+  color: #2E7D32;
+  transition: all 0.2s;
+  font-family: 'Noto Sans SC', sans-serif;
+  letter-spacing: 1px;
+}
+
+.btn:hover {
+  background: #F1F8E9;
+  border-color: #66BB6A;
+  transform: translateY(-2px);
+}
+
+.btn:active {
+  transform: translateY(0);
+}
+
+.btn-icon {
+  font-size: 20px;
+  display: block;
+  margin-bottom: 4px;
+}
+
+.reset-btn {
+  width: 100%;
+  padding: 10px;
+  background: #E8F5E9;
+  border: 1px solid #C8E6C9;
+  border-radius: 8px;
+  color: #558B2F;
+  font-size: 12px;
+  cursor: pointer;
+  font-family: 'Noto Sans SC', sans-serif;
+  transition: all 0.2s;
+}
+
+.reset-btn:hover {
+  background: #C8E6C9;
+}
+
+.message {
+  font-size: 12px;
+  color: #66BB6A;
+  margin-top: 10px;
+  min-height: 16px;
+  animation: fadeIn 0.3s ease;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+</style>
+</head>
+<body>
+
+<div class="container">
+  <h1>🌱 植物养成</h1>
+
+  <div class="plant-area">
+    <svg class="plant-svg" viewBox="0 0 120 120" id="plantSvg">
+      <!-- 土壤 -->
+      <ellipse cx="60" cy="110" rx="45" ry="12" fill="#8D6E63" opacity="0.3"/>
+      <!-- 植物会动态绘制 -->
+    </svg>
+    <div class="plant-name" id="plantName">小绿苗</div>
+    <div class="plant-stage" id="plantStage">种子阶段</div>
+  </div>
+
+  <div class="stats">
+    <div class="stat">
+      <div class="stat-label">💧 水分</div>
+      <div class="stat-bar">
+        <div class="stat-fill" id="waterFill" style="width: 100%"></div>
+      </div>
+    </div>
+    <div class="stat">
+      <div class="stat-label">☀️ 阳光</div>
+      <div class="stat-bar">
+        <div class="stat-fill" id="sunFill" style="width: 100%"></div>
+      </div>
+    </div>
+    <div class="stat">
+      <div class="stat-label">🌾 养分</div>
+      <div class="stat-bar">
+        <div class="stat-fill" id="nutrientFill" style="width: 100%"></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="actions">
+    <button class="btn" onclick="water()">
+      <span class="btn-icon">💧</span>
+      浇水
+    </button>
+    <button class="btn" onclick="sunlight()">
+      <span class="btn-icon">☀️</span>
+      晒太阳
+    </button>
+    <button class="btn" onclick="fertilize()">
+      <span class="btn-icon">🌾</span>
+      施肥
+    </button>
+  </div>
+
+  <div class="message" id="message"></div>
+
+  <button class="reset-btn" onclick="resetGame()">重新开始</button>
+</div>
+
+<script>
+const STAGES = ['种子', '幼苗', '成长', '开花'];
+const STAGE_NAMES = ['小种子', '小绿苗', '小植物', '开花了'];
+
+let gameState = {
+  water: 100,
+  sun: 100,
+  nutrient: 100,
+  stage: 0,
+  lastUpdate: Date.now()
+};
+
+function loadGame() {
+  const saved = localStorage.getItem('plantGame');
+  if (saved) {
+    gameState = JSON.parse(saved);
+  }
+}
+
+function saveGame() {
+  localStorage.setItem('plantGame', JSON.stringify(gameState));
+}
+
+function updateStats() {
+  const now = Date.now();
+  const elapsed = (now - gameState.lastUpdate) / 1000 / 60; // 分钟
+
+  // 每分钟衰退 0.5
+  gameState.water = Math.max(0, gameState.water - elapsed * 0.5);
+  gameState.sun = Math.max(0, gameState.sun - elapsed * 0.5);
+  gameState.nutrient = Math.max(0, gameState.nutrient - elapsed * 0.5);
+
+  gameState.lastUpdate = now;
+
+  // 检查生长条件
+  if (gameState.water > 60 && gameState.sun > 60 && gameState.nutrient > 60) {
+    if (gameState.stage < STAGES.length - 1) {
+      gameState.stage++;
+      showMessage('植物长大了！');
+    }
+  }
+
+  // 检查死亡条件
+  if (gameState.water < 10 && gameState.sun < 10 && gameState.nutrient < 10) {
+    showMessage('植物枯萎了...');
+  }
+
+  saveGame();
+}
+
+function render() {
+  // 更新进度条
+  document.getElementById('waterFill').style.width = gameState.water + '%';
+  document.getElementById('sunFill').style.width = gameState.sun + '%';
+  document.getElementById('nutrientFill').style.width = gameState.nutrient + '%';
+
+  // 更新植物名称和阶段
+  document.getElementById('plantName').textContent = STAGE_NAMES[gameState.stage];
+  document.getElementById('plantStage').textContent = STAGES[gameState.stage] + '阶段';
+
+  // 绘制植物
+  drawPlant();
+}
+
+function drawPlant() {
+  const svg = document.getElementById('plantSvg');
+  const existing = svg.querySelectorAll('g');
+  existing.forEach(el => el.remove());
+
+  const g = document.createElementNS('http://www.w3.org/2000/svg', 'g');
+
+  const stage = gameState.stage;
+  const health = (gameState.water + gameState.sun + gameState.nutrient) / 3;
+  const color = health > 60 ? '#66BB6A' : health > 30 ? '#FDD835' : '#E53935';
+
+  if (stage === 0) {
+    // 种子
+    g.innerHTML = `<circle cx="60" cy="80" r="8" fill="${color}"/>`;
+  } else if (stage === 1) {
+    // 幼苗
+    g.innerHTML = `
+      <line x1="60" y1="100" x2="60" y2="60" stroke="${color}" stroke-width="3"/>
+      <ellipse cx="50" cy="75" rx="8" ry="12" fill="${color}"/>
+      <ellipse cx="70" cy="70" rx="8" ry="12" fill="${color}"/>
+    `;
+  } else if (stage === 2) {
+    // 成长
+    g.innerHTML = `
+      <line x1="60" y1="100" x2="60" y2="40" stroke="${color}" stroke-width="4"/>
+      <ellipse cx="40" cy="70" rx="12" ry="16" fill="${color}"/>
+      <ellipse cx="80" cy="65" rx="12" ry="16" fill="${color}"/>
+      <ellipse cx="50" cy="50" rx="10" ry="14" fill="${color}"/>
+      <ellipse cx="70" cy="48" rx="10" ry="14" fill="${color}"/>
+    `;
+  } else {
+    // 开花
+    g.innerHTML = `
+      <line x1="60" y1="100" x2="60" y2="30" stroke="${color}" stroke-width="4"/>
+      <ellipse cx="40" cy="70" rx="12" ry="16" fill="${color}"/>
+      <ellipse cx="80" cy="65" rx="12" ry="16" fill="${color}"/>
+      <ellipse cx="50" cy="50" rx="10" ry="14" fill="${color}"/>
+      <ellipse cx="70" cy="48" rx="10" ry="14" fill="${color}"/>
+      <circle cx="60" cy="30" r="12" fill="#FF69B4"/>
+      <circle cx="50" cy="22" r="8" fill="#FFB6D9"/>
+      <circle cx="70" cy="22" r="8" fill="#FFB6D9"/>
+    `;
+  }
+
+  svg.appendChild(g);
+}
+
+function water() {
+  gameState.water = Math.min(100, gameState.water + 30);
+  showMessage('浇水了 💧');
+  updateStats();
+  render();
+}
+
+function sunlight() {
+  gameState.sun = Math.min(100, gameState.sun + 30);
+  showMessage('晒太阳了 ☀️');
+  updateStats();
+  render();
+}
+
+function fertilize() {
+  gameState.nutrient = Math.min(100, gameState.nutrient + 30);
+  showMessage('施肥了 🌾');
+  updateStats();
+  render();
+}
+
+function showMessage(text) {
+  const msg = document.getElementById('message');
+  msg.textContent = text;
+  setTimeout(() => {
+    msg.textContent = '';
+  }, 2000);
+}
+
+function resetGame() {
+  if (confirm('确定要重新开始吗？')) {
+    gameState = {
+      water: 100,
+      sun: 100,
+      nutrient: 100,
+      stage: 0,
+      lastUpdate: Date.now()
+    };
+    saveGame();
+    render();
+    showMessage('重新开始了！');
+  }
+}
+
+// 初始化
+loadGame();
+render();
+
+// 定时更新
+setInterval(() => {
+  updateStats();
+  render();
+}, 5000);
+</script>
+
+</body>
+</html>
