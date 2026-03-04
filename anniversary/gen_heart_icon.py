@@ -5,8 +5,8 @@ import math
 
 def create_heart_icon(size, scale=7.5):
     """生成爱心图标"""
-    # 创建图像 - 马卡龙粉色背景
-    img = Image.new('RGBA', (size, size), (255, 220, 229, 255))
+    # 创建图像 - 淡粉色背景
+    img = Image.new('RGBA', (size, size), (255, 228, 225, 255))
     draw = ImageDraw.Draw(img)
 
     # 中心点
