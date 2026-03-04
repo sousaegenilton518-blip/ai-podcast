@@ -3,7 +3,7 @@
 from PIL import Image, ImageDraw
 import math
 
-def create_heart_icon(size, scale=12.6):
+def create_heart_icon(size, scale=4.2):
     """生成爱心图标"""
     # 创建图像
     img = Image.new('RGBA', (size, size), (253, 245, 247, 255))
@@ -31,6 +31,6 @@ def create_heart_icon(size, scale=12.6):
     print(f"已生成 icon-{size}.png")
 
 # 生成两个尺寸的图标
-create_heart_icon(192, scale=12.6)
-create_heart_icon(512, scale=12.6)
+create_heart_icon(192, scale=4.2)
+create_heart_icon(512, scale=4.2)
 print("爱心图标生成完成！")
