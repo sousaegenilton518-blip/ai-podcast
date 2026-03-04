@@ -216,20 +216,26 @@ body.theme-star .up-label,.body.theme-star .up-sub { color:var(--muted); }
 
 <!-- Donate Modal -->
 <div class="overlay" id="donateOverlay" onclick="if(event.target===this)closeDonate()">
-  <div class="modal" style="text-align:center;max-width:300px">
-    <div style="font-size:36px;margin-bottom:10px">🧋</div>
-    <div class="modal-title" style="margin-bottom:8px">请我喝奶茶</div>
-    <p style="font-size:12px;color:var(--muted);line-height:1.8;margin-bottom:20px">做这个小应用花了很多心思<br>如果你喜欢用，可以请我喝杯奶茶 ☕<br>你的支持是我继续做下去的动力！</p>
-    <!-- 替换下方链接为你的收款链接 -->
-    <a href="https://ko-fi.com" target="_blank"
-      style="display:block;background:var(--btn-bg);color:var(--btn-text);padding:12px;border-radius:12px;font-size:13px;font-weight:700;text-decoration:none;letter-spacing:1px;margin-bottom:10px">
-      🧋 Ko-fi 打赏
-    </a>
-    <a href="https://afdian.com" target="_blank"
-      style="display:block;background:var(--pale);color:var(--primary);padding:12px;border-radius:12px;font-size:13px;font-weight:700;text-decoration:none;letter-spacing:1px;margin-bottom:18px">
-      💖 爱发电（国内）
-    </a>
-    <button class="btn-cancel" onclick="closeDonate()" style="width:100%">下次再说 🥲</button>
+  <div class="modal" style="text-align:center;max-width:320px">
+    <div style="font-size:36px;margin-bottom:10px">💖</div>
+    <div class="modal-title" style="margin-bottom:8px">支持我</div>
+    <p style="font-size:12px;color:var(--muted);line-height:1.8;margin-bottom:20px">做这个小应用花了很多心思<br>如果你喜欢用，可以支持一下 ☕<br>你的支持是我继续做下去的动力！</p>
+
+    <div style="display:flex;gap:10px;margin-bottom:15px">
+      <button onclick="showQRCode('alipay')" style="flex:1;padding:10px;border-radius:10px;border:1.5px solid var(--border);background:transparent;color:var(--primary);font-size:12px;font-weight:600;cursor:pointer;font-family:'Noto Sans SC',sans-serif">
+        支付宝
+      </button>
+      <button onclick="showQRCode('wechat')" style="flex:1;padding:10px;border-radius:10px;border:1.5px solid var(--border);background:transparent;color:var(--primary);font-size:12px;font-weight:600;cursor:pointer;font-family:'Noto Sans SC',sans-serif">
+        微信
+      </button>
+    </div>
+
+    <div id="qrcodeContainer" style="display:none;margin-bottom:15px">
+      <p style="font-size:11px;color:var(--muted);margin-bottom:10px">扫描二维码打赏</p>
+      <div id="qrcodeDisplay" style="background:white;padding:10px;border-radius:10px;display:inline-block"></div>
+    </div>
+
+    <button class="btn-cancel" onclick="closeDonate()" style="width:100%">关闭</button>
   </div>
 </div>
 
@@ -415,7 +421,30 @@ function setTheme(t, btn) {
 }
 
 function openDonate() { document.getElementById('donateOverlay').classList.add('show'); }
-function closeDonate() { document.getElementById('donateOverlay').classList.remove('show'); }
+function closeDonate() { document.getElementById('donateOverlay').classList.remove('show'); document.getElementById('qrcodeContainer').style.display = 'none'; }
+
+function showQRCode(type) {
+  const container = document.getElementById('qrcodeContainer');
+  const display = document.getElementById('qrcodeDisplay');
+
+  // 这里需要替换为你的实际二维码
+  // 可以使用 QR 码生成 API 或者直接显示图片
+  let qrUrl = '';
+  let text = '';
+
+  if (type === 'alipay') {
+    text = '支付宝收款码';
+    // 替换为你的支付宝收款二维码 URL
+    qrUrl = 'data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 200 200%22%3E%3Crect fill=%22%23fff%22 width=%22200%22 height=%22200%22/%3E%3Ctext x=%22100%22 y=%22100%22 text-anchor=%22middle%22 dy=%22.3em%22 font-size=%2216%22 fill=%22%23999%22%3E请添加支付宝二维码%3C/text%3E%3C/svg%3E';
+  } else if (type === 'wechat') {
+    text = '微信收款码';
+    // 替换为你的微信收款二维码 URL
+    qrUrl = 'data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 200 200%22%3E%3Crect fill=%22%23fff%22 width=%22200%22 height=%22200%22/%3E%3Ctext x=%22100%22 y=%22100%22 text-anchor=%22middle%22 dy=%22.3em%22 font-size=%2216%22 fill=%22%23999%22%3E请添加微信二维码%3C/text%3E%3C/svg%3E';
+  }
+
+  display.innerHTML = `<img src="${qrUrl}" style="width:150px;height:150px;border-radius:8px" alt="${text}">`;
+  container.style.display = 'block';
+}
 
 function openSettings() { document.getElementById('settingsOverlay').classList.add('show'); }
 function closeSettings() { document.getElementById('settingsOverlay').classList.remove('show'); }
