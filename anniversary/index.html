@@ -425,11 +425,14 @@ function setTheme(t, btn) {
 function openDonate() { document.getElementById('donateOverlay').classList.add('show'); }
 function closeDonate() { document.getElementById('donateOverlay').classList.remove('show'); }
 
+// 替换为你的爱发电链接
+const AFDIAN_BASE = 'https://afdian.com/a/your-username'; // 改成你的爱发电用户名
+
 function donate(amount) {
-  // 这里需要替换为你的支付链接
-  // 可以使用 Stripe、支付宝、微信支付等
-  alert(`即将跳转到支付页面，金额：¥${amount}\n\n请配置你的支付网关链接`);
-  // 示例：window.location.href = `https://your-payment-gateway.com/pay?amount=${amount}`;
+  // 爱发电支持直接跳转到指定金额的支付
+  window.location.href = `${AFDIAN_BASE}?tab=shop`;
+  // 或者如果爱发电支持金额参数，可以用：
+  // window.location.href = `${AFDIAN_BASE}?amount=${amount}`;
 }
 
 function donateCustom() {
