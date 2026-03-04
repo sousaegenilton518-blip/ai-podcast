@@ -1,0 +1,44 @@
+{
+  "name": "小纪念 - 记录珍贵的日子",
+  "short_name": "小纪念",
+  "description": "一个温柔的纪念日记录应用，记录每一个珍贵的日子",
+  "start_url": "/ai-podcast/anniversary/",
+  "scope": "/ai-podcast/anniversary/",
+  "display": "standalone",
+  "background_color": "#FDF5F7",
+  "theme_color": "#C8607A",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/ai-podcast/anniversary/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/ai-podcast/anniversary/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/ai-podcast/anniversary/icon-maskable-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/ai-podcast/anniversary/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/ai-podcast/anniversary/screenshot-1.png",
+      "sizes": "540x720",
+      "type": "image/png"
+    }
+  ]
+}

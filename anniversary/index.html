@@ -3,6 +3,13 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#C8607A">
+<meta name="description" content="小纪念 - 记录每一个珍贵的日子">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="小纪念">
+<link rel="apple-touch-icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 180 180'><rect fill='%23FDF5F7' width='180' height='180'/><circle cx='90' cy='90' r='75' fill='none' stroke='%23C8607A' stroke-width='2' opacity='0.3'/><path d='M 54 90 Q 44 74 34 64 Q 39 59 46 66 Q 56 76 64 90 Z' fill='%23C8607A' opacity='0.9'/><path d='M 126 90 Q 136 74 146 64 Q 141 59 134 66 Q 124 76 116 90 Z' fill='%23C8607A' opacity='0.9'/><path d='M 59 94 Q 49 109 39 124 Q 44 129 51 124 Q 61 109 69 94 Z' fill='%23C8607A' opacity='0.85'/><path d='M 121 94 Q 131 109 141 124 Q 136 129 129 124 Q 119 109 111 94 Z' fill='%23C8607A' opacity='0.85'/><circle cx='90' cy='90' r='10' fill='%23E8909A' opacity='0.95'/><circle cx='90' cy='90' r='6' fill='%23C8607A'/></svg>">
+<link rel="manifest" href="manifest.json">
 <title>小纪念</title>
 <link href="https://fonts.loli.net/css2?family=Noto+Sans+SC:wght@300;400;500;700&display=swap" rel="stylesheet">
 <style>
@@ -554,6 +561,11 @@ document.querySelectorAll('.tbtn').forEach(b => b.classList.toggle('active', b.d
 drawAnimal(theme);
 renderUpcoming();
 renderCards();
+
+// PWA 注册
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('sw.js').catch(err => console.log('SW registration failed:', err));
+}
 </script>
 </body>
 </html>
