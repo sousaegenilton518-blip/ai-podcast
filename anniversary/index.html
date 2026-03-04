@@ -8,7 +8,7 @@
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <meta name="apple-mobile-web-app-title" content="小纪念">
-<link rel="apple-touch-icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 180 180'><rect fill='%23FDF5F7' width='180' height='180'/><circle cx='90' cy='90' r='75' fill='none' stroke='%23C8607A' stroke-width='2' opacity='0.3'/><path d='M 54 90 Q 44 74 34 64 Q 39 59 46 66 Q 56 76 64 90 Z' fill='%23C8607A' opacity='0.9'/><path d='M 126 90 Q 136 74 146 64 Q 141 59 134 66 Q 124 76 116 90 Z' fill='%23C8607A' opacity='0.9'/><path d='M 59 94 Q 49 109 39 124 Q 44 129 51 124 Q 61 109 69 94 Z' fill='%23C8607A' opacity='0.85'/><path d='M 121 94 Q 131 109 141 124 Q 136 129 129 124 Q 119 109 111 94 Z' fill='%23C8607A' opacity='0.85'/><circle cx='90' cy='90' r='10' fill='%23E8909A' opacity='0.95'/><circle cx='90' cy='90' r='6' fill='%23C8607A'/></svg>">
+<link rel="apple-touch-icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 180 180'><rect fill='%23FDF5F7' width='180' height='180'/><path d='M90 150 C30 110 10 80 10 60 C10 35 30 20 50 20 C65 20 80 30 90 45 C100 30 115 20 130 20 C150 20 170 35 170 60 C170 80 150 110 90 150 Z' fill='%23C8607A'/></svg>">
 <link rel="manifest" href="manifest.json">
 <title>小纪念</title>
 <link href="https://fonts.loli.net/css2?family=Noto+Sans+SC:wght@300;400;500;700&display=swap" rel="stylesheet">
@@ -216,23 +216,25 @@ body.theme-star .up-label,.body.theme-star .up-sub { color:var(--muted); }
 
 <!-- Donate Modal -->
 <div class="overlay" id="donateOverlay" onclick="if(event.target===this)closeDonate()">
-  <div class="modal" style="text-align:center;max-width:320px">
+  <div class="modal" style="text-align:center;max-width:340px">
     <div style="font-size:36px;margin-bottom:10px">💖</div>
     <div class="modal-title" style="margin-bottom:8px">支持我</div>
     <p style="font-size:12px;color:var(--muted);line-height:1.8;margin-bottom:20px">做这个小应用花了很多心思<br>如果你喜欢用，可以支持一下 ☕<br>你的支持是我继续做下去的动力！</p>
 
-    <div style="display:flex;gap:10px;margin-bottom:15px">
-      <button onclick="showQRCode('alipay')" style="flex:1;padding:10px;border-radius:10px;border:1.5px solid var(--border);background:transparent;color:var(--primary);font-size:12px;font-weight:600;cursor:pointer;font-family:'Noto Sans SC',sans-serif">
-        支付宝
+    <div style="display:flex;flex-direction:column;gap:10px;margin-bottom:15px">
+      <button onclick="donate(5)" style="padding:12px;border-radius:10px;border:none;background:var(--btn-bg);color:white;font-size:13px;font-weight:600;cursor:pointer;font-family:'Noto Sans SC',sans-serif">
+        💳 支付 ¥5
       </button>
-      <button onclick="showQRCode('wechat')" style="flex:1;padding:10px;border-radius:10px;border:1.5px solid var(--border);background:transparent;color:var(--primary);font-size:12px;font-weight:600;cursor:pointer;font-family:'Noto Sans SC',sans-serif">
-        微信
+      <button onclick="donate(10)" style="padding:12px;border-radius:10px;border:none;background:var(--btn-bg);color:white;font-size:13px;font-weight:600;cursor:pointer;font-family:'Noto Sans SC',sans-serif">
+        💳 支付 ¥10
       </button>
-    </div>
-
-    <div id="qrcodeContainer" style="display:none;margin-bottom:15px">
-      <p style="font-size:11px;color:var(--muted);margin-bottom:10px">扫描二维码打赏</p>
-      <div id="qrcodeDisplay" style="background:white;padding:10px;border-radius:10px;display:inline-block"></div>
+      <button onclick="donate(20)" style="padding:12px;border-radius:10px;border:none;background:var(--btn-bg);color:white;font-size:13px;font-weight:600;cursor:pointer;font-family:'Noto Sans SC',sans-serif">
+        💳 支付 ¥20
+      </button>
+      <input type="number" id="customAmount" placeholder="自定义金额（元）" min="1" max="10000" style="padding:10px;border-radius:10px;border:1.5px solid var(--border);background:var(--pale2);color:var(--text);font-size:12px;font-family:'Noto Sans SC',sans-serif">
+      <button onclick="donateCustom()" style="padding:12px;border-radius:10px;border:none;background:var(--pale);color:var(--primary);font-size:13px;font-weight:600;cursor:pointer;font-family:'Noto Sans SC',sans-serif">
+        💳 支付自定义金额
+      </button>
     </div>
 
     <button class="btn-cancel" onclick="closeDonate()" style="width:100%">关闭</button>
@@ -421,29 +423,22 @@ function setTheme(t, btn) {
 }
 
 function openDonate() { document.getElementById('donateOverlay').classList.add('show'); }
-function closeDonate() { document.getElementById('donateOverlay').classList.remove('show'); document.getElementById('qrcodeContainer').style.display = 'none'; }
+function closeDonate() { document.getElementById('donateOverlay').classList.remove('show'); }
 
-function showQRCode(type) {
-  const container = document.getElementById('qrcodeContainer');
-  const display = document.getElementById('qrcodeDisplay');
+function donate(amount) {
+  // 这里需要替换为你的支付链接
+  // 可以使用 Stripe、支付宝、微信支付等
+  alert(`即将跳转到支付页面，金额：¥${amount}\n\n请配置你的支付网关链接`);
+  // 示例：window.location.href = `https://your-payment-gateway.com/pay?amount=${amount}`;
+}
 
-  // 这里需要替换为你的实际二维码
-  // 可以使用 QR 码生成 API 或者直接显示图片
-  let qrUrl = '';
-  let text = '';
-
-  if (type === 'alipay') {
-    text = '支付宝收款码';
-    // 替换为你的支付宝收款二维码 URL
-    qrUrl = 'data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 200 200%22%3E%3Crect fill=%22%23fff%22 width=%22200%22 height=%22200%22/%3E%3Ctext x=%22100%22 y=%22100%22 text-anchor=%22middle%22 dy=%22.3em%22 font-size=%2216%22 fill=%22%23999%22%3E请添加支付宝二维码%3C/text%3E%3C/svg%3E';
-  } else if (type === 'wechat') {
-    text = '微信收款码';
-    // 替换为你的微信收款二维码 URL
-    qrUrl = 'data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 200 200%22%3E%3Crect fill=%22%23fff%22 width=%22200%22 height=%22200%22/%3E%3Ctext x=%22100%22 y=%22100%22 text-anchor=%22middle%22 dy=%22.3em%22 font-size=%2216%22 fill=%22%23999%22%3E请添加微信二维码%3C/text%3E%3C/svg%3E';
+function donateCustom() {
+  const amount = document.getElementById('customAmount').value;
+  if (!amount || amount < 1) {
+    alert('请输入有效的金额');
+    return;
   }
-
-  display.innerHTML = `<img src="${qrUrl}" style="width:150px;height:150px;border-radius:8px" alt="${text}">`;
-  container.style.display = 'block';
+  donate(amount);
 }
 
 function openSettings() { document.getElementById('settingsOverlay').classList.add('show'); }
