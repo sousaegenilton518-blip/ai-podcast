@@ -30,8 +30,15 @@ body {
 h1 {
   color: #2E7D32;
   font-size: 24px;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
   letter-spacing: 2px;
+}
+
+.header-info {
+  font-size: 12px;
+  color: #66BB6A;
+  margin-bottom: 20px;
+  letter-spacing: 1px;
 }
 
 .plant-area {
@@ -44,6 +51,18 @@ h1 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  position: relative;
+}
+
+.plant-status {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 12px;
+  padding: 4px 8px;
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 6px;
+  color: #558B2F;
 }
 
 .plant-svg {
@@ -139,8 +158,86 @@ h1 {
   margin-bottom: 4px;
 }
 
+.message {
+  font-size: 12px;
+  color: #66BB6A;
+  margin-bottom: 20px;
+  min-height: 16px;
+  animation: fadeIn 0.3s ease;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.shop-section {
+  background: #FFF0F5;
+  border-radius: 16px;
+  padding: 20px;
+  margin-bottom: 20px;
+  border: 1.5px solid #FFD4E5;
+}
+
+.shop-title {
+  font-size: 14px;
+  font-weight: 700;
+  color: #C8607A;
+  margin-bottom: 12px;
+  letter-spacing: 1px;
+}
+
+.shop-items {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+.shop-item {
+  background: white;
+  border: 1.5px solid #FFD4E5;
+  border-radius: 12px;
+  padding: 12px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.shop-item:hover {
+  background: #FFE4E1;
+  transform: translateY(-2px);
+}
+
+.item-icon {
+  font-size: 24px;
+  margin-bottom: 6px;
+}
+
+.item-name {
+  font-size: 12px;
+  font-weight: 600;
+  color: #C8607A;
+  margin-bottom: 4px;
+}
+
+.item-price {
+  font-size: 11px;
+  color: #FF69B4;
+  font-weight: 700;
+}
+
+.item-desc {
+  font-size: 10px;
+  color: #999;
+  margin-top: 4px;
+}
+
+.bottom-btns {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
 .reset-btn {
-  width: 100%;
   padding: 10px;
   background: #E8F5E9;
   border: 1px solid #C8E6C9;
@@ -156,17 +253,80 @@ h1 {
   background: #C8E6C9;
 }
 
-.message {
+.support-btn {
+  padding: 10px;
+  background: linear-gradient(135deg, #FFE4E1 0%, #FFD4E5 100%);
+  border: 1.5px solid #FFB6D9;
+  border-radius: 8px;
+  color: #C8607A;
   font-size: 12px;
-  color: #66BB6A;
-  margin-top: 10px;
-  min-height: 16px;
-  animation: fadeIn 0.3s ease;
+  font-weight: 600;
+  cursor: pointer;
+  font-family: 'Noto Sans SC', sans-serif;
+  transition: all 0.2s;
 }
 
-@keyframes fadeIn {
-  from { opacity: 0; }
-  to { opacity: 1; }
+.support-btn:hover {
+  background: linear-gradient(135deg, #FFD4E5 0%, #FFC0CB 100%);
+  transform: translateY(-2px);
+}
+
+.dead-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: none;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.dead-modal {
+  background: white;
+  border-radius: 20px;
+  padding: 30px;
+  text-align: center;
+  max-width: 300px;
+}
+
+.dead-modal h2 {
+  color: #E53935;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.dead-modal p {
+  color: #666;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+.dead-modal-btns {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+.dead-modal-btn {
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  font-family: 'Noto Sans SC', sans-serif;
+}
+
+.revive-btn {
+  background: #FF69B4;
+  color: white;
+}
+
+.restart-btn {
+  background: #E8F5E9;
+  color: #2E7D32;
 }
 </style>
 </head>
@@ -174,14 +334,14 @@ h1 {
 
 <div class="container">
   <h1>🌱 植物养成</h1>
+  <div class="header-info">连续7天照顾植物就能开花！</div>
 
   <div class="plant-area">
+    <div class="plant-status" id="plantStatus">第 <span id="dayCount">0</span> 天</div>
     <svg class="plant-svg" viewBox="0 0 120 120" id="plantSvg">
-      <!-- 土壤 -->
       <ellipse cx="60" cy="110" rx="45" ry="12" fill="#8D6E63" opacity="0.3"/>
-      <!-- 植物会动态绘制 -->
     </svg>
-    <div class="plant-name" id="plantName">小绿苗</div>
+    <div class="plant-name" id="plantName">小种子</div>
     <div class="plant-stage" id="plantStage">种子阶段</div>
   </div>
 
@@ -223,7 +383,51 @@ h1 {
 
   <div class="message" id="message"></div>
 
-  <button class="reset-btn" onclick="resetGame()">重新开始</button>
+  <div class="shop-section">
+    <div class="shop-title">💝 道具商店</div>
+    <div class="shop-items">
+      <div class="shop-item" onclick="buyItem('revive')">
+        <div class="item-icon">💚</div>
+        <div class="item-name">救活药水</div>
+        <div class="item-price">¥9.9</div>
+        <div class="item-desc">复活枯萎的植物</div>
+      </div>
+      <div class="shop-item" onclick="buyItem('boost')">
+        <div class="item-icon">⚡</div>
+        <div class="item-name">加速肥料</div>
+        <div class="item-price">¥4.9</div>
+        <div class="item-desc">加速生长1天</div>
+      </div>
+      <div class="shop-item" onclick="buyItem('water')">
+        <div class="item-icon">💦</div>
+        <div class="item-name">超级水壶</div>
+        <div class="item-price">¥2.9</div>
+        <div class="item-desc">一次补满水分</div>
+      </div>
+      <div class="shop-item" onclick="buyItem('light')">
+        <div class="item-icon">🔆</div>
+        <div class="item-name">阳光灯</div>
+        <div class="item-price">¥2.9</div>
+        <div class="item-desc">一次补满阳光</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="bottom-btns">
+    <button class="reset-btn" onclick="resetGame()">重新开始</button>
+    <button class="support-btn" onclick="support()">💝 支持我</button>
+  </div>
+</div>
+
+<div class="dead-overlay" id="deadOverlay">
+  <div class="dead-modal">
+    <h2>😢 植物枯萎了</h2>
+    <p>连续一天没有照顾植物，它就枯萎了...</p>
+    <div class="dead-modal-btns">
+      <button class="dead-modal-btn revive-btn" onclick="reviveFromModal()">💚 花钱救活 (¥9.9)</button>
+      <button class="dead-modal-btn restart-btn" onclick="resetGame()">重新开始</button>
+    </div>
+  </div>
 </div>
 
 <script>
@@ -235,6 +439,9 @@ let gameState = {
   sun: 100,
   nutrient: 100,
   stage: 0,
+  day: 0,
+  lastCareDay: 0,
+  isDead: false,
   lastUpdate: Date.now()
 };
 
@@ -260,17 +467,25 @@ function updateStats() {
 
   gameState.lastUpdate = now;
 
-  // 检查生长条件
-  if (gameState.water > 60 && gameState.sun > 60 && gameState.nutrient > 60) {
-    if (gameState.stage < STAGES.length - 1) {
-      gameState.stage++;
-      showMessage('植物长大了！');
-    }
+  // 检查是否超过1天没有照顾
+  const daysSinceLastCare = Math.floor((now - gameState.lastCareDay) / 1000 / 60 / 60 / 24);
+  if (daysSinceLastCare > 1 && !gameState.isDead) {
+    gameState.isDead = true;
+    showDeadModal();
   }
 
-  // 检查死亡条件
-  if (gameState.water < 10 && gameState.sun < 10 && gameState.nutrient < 10) {
-    showMessage('植物枯萎了...');
+  // 检查生长条件
+  if (gameState.water > 60 && gameState.sun > 60 && gameState.nutrient > 60 && !gameState.isDead) {
+    if (gameState.stage < STAGES.length - 1) {
+      gameState.day++;
+      if (gameState.day >= 7) {
+        gameState.stage = STAGES.length - 1;
+        showMessage('植物开花了！🌸');
+      } else {
+        gameState.stage = Math.min(gameState.stage + 1, STAGES.length - 1);
+        showMessage(`第 ${gameState.day} 天，植物长大了！`);
+      }
+    }
   }
 
   saveGame();
@@ -285,6 +500,7 @@ function render() {
   // 更新植物名称和阶段
   document.getElementById('plantName').textContent = STAGE_NAMES[gameState.stage];
   document.getElementById('plantStage').textContent = STAGES[gameState.stage] + '阶段';
+  document.getElementById('dayCount').textContent = gameState.day;
 
   // 绘制植物
   drawPlant();
@@ -299,20 +515,21 @@ function drawPlant() {
 
   const stage = gameState.stage;
   const health = (gameState.water + gameState.sun + gameState.nutrient) / 3;
-  const color = health > 60 ? '#66BB6A' : health > 30 ? '#FDD835' : '#E53935';
+  let color = health > 60 ? '#66BB6A' : health > 30 ? '#FDD835' : '#E53935';
+
+  if (gameState.isDead) {
+    color = '#999';
+  }
 
   if (stage === 0) {
-    // 种子
     g.innerHTML = `<circle cx="60" cy="80" r="8" fill="${color}"/>`;
   } else if (stage === 1) {
-    // 幼苗
     g.innerHTML = `
       <line x1="60" y1="100" x2="60" y2="60" stroke="${color}" stroke-width="3"/>
       <ellipse cx="50" cy="75" rx="8" ry="12" fill="${color}"/>
       <ellipse cx="70" cy="70" rx="8" ry="12" fill="${color}"/>
     `;
   } else if (stage === 2) {
-    // 成长
     g.innerHTML = `
       <line x1="60" y1="100" x2="60" y2="40" stroke="${color}" stroke-width="4"/>
       <ellipse cx="40" cy="70" rx="12" ry="16" fill="${color}"/>
@@ -321,7 +538,6 @@ function drawPlant() {
       <ellipse cx="70" cy="48" rx="10" ry="14" fill="${color}"/>
     `;
   } else {
-    // 开花
     g.innerHTML = `
       <line x1="60" y1="100" x2="60" y2="30" stroke="${color}" stroke-width="4"/>
       <ellipse cx="40" cy="70" rx="12" ry="16" fill="${color}"/>
@@ -338,21 +554,27 @@ function drawPlant() {
 }
 
 function water() {
+  if (gameState.isDead) return;
   gameState.water = Math.min(100, gameState.water + 30);
+  gameState.lastCareDay = Date.now();
   showMessage('浇水了 💧');
   updateStats();
   render();
 }
 
 function sunlight() {
+  if (gameState.isDead) return;
   gameState.sun = Math.min(100, gameState.sun + 30);
+  gameState.lastCareDay = Date.now();
   showMessage('晒太阳了 ☀️');
   updateStats();
   render();
 }
 
 function fertilize() {
+  if (gameState.isDead) return;
   gameState.nutrient = Math.min(100, gameState.nutrient + 30);
+  gameState.lastCareDay = Date.now();
   showMessage('施肥了 🌾');
   updateStats();
   render();
@@ -366,6 +588,48 @@ function showMessage(text) {
   }, 2000);
 }
 
+function showDeadModal() {
+  document.getElementById('deadOverlay').style.display = 'flex';
+}
+
+function buyItem(type) {
+  const AFDIAN_BASE = 'https://afdian.com/a/xiaojinian';
+
+  let price = 0;
+  let itemName = '';
+
+  switch(type) {
+    case 'revive':
+      price = 9.9;
+      itemName = '救活药水';
+      break;
+    case 'boost':
+      price = 4.9;
+      itemName = '加速肥料';
+      break;
+    case 'water':
+      price = 2.9;
+      itemName = '超级水壶';
+      break;
+    case 'light':
+      price = 2.9;
+      itemName = '阳光灯';
+      break;
+  }
+
+  alert(`购买 ${itemName} (¥${price})\n\n点击确定后将跳转到支付页面`);
+  window.location.href = `${AFDIAN_BASE}?tab=shop`;
+}
+
+function reviveFromModal() {
+  alert('购买救活药水 (¥9.9)\n\n点击确定后将跳转到支付页面');
+  window.location.href = 'https://afdian.com/a/xiaojinian?tab=shop';
+}
+
+function support() {
+  window.location.href = 'https://afdian.com/a/xiaojinian?tab=shop';
+}
+
 function resetGame() {
   if (confirm('确定要重新开始吗？')) {
     gameState = {
@@ -373,9 +637,13 @@ function resetGame() {
       sun: 100,
       nutrient: 100,
       stage: 0,
+      day: 0,
+      lastCareDay: Date.now(),
+      isDead: false,
       lastUpdate: Date.now()
     };
     saveGame();
+    document.getElementById('deadOverlay').style.display = 'none';
     render();
     showMessage('重新开始了！');
   }
@@ -383,6 +651,10 @@ function resetGame() {
 
 // 初始化
 loadGame();
+if (gameState.lastCareDay === 0) {
+  gameState.lastCareDay = Date.now();
+  saveGame();
+}
 render();
 
 // 定时更新
