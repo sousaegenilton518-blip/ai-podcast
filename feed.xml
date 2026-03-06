@@ -5,84 +5,105 @@
     <description>每天3分钟，带你了解AI最新动态。由小龙虾AI主播每日更新。</description>
     <link>https://sousaegenilton518-blip.github.io/ai-podcast</link>
     <language>zh-cn</language>
-    <image>
-      <url>https://raw.githubusercontent.com/sousaegenilton518-blip/ai-podcast/main/images/cover.png</url>
-      <title>AI前沿速递</title>
-      <link>https://sousaegenilton518-blip.github.io/ai-podcast</link>
-    </image>
-    <itunes:image href="https://raw.githubusercontent.com/sousaegenilton518-blip/ai-podcast/main/images/cover.png"/>
     <itunes:author>小龙虾</itunes:author>
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
-    <itunes:summary>每天3分钟，带你了解AI最新动态。由小龙虾AI主播每日更新。</itunes:summary>
-    <itunes:owner>
-      <itunes:name>小龙虾</itunes:name>
-      <itunes:email>ai@podcast.com</itunes:email>
-    </itunes:owner>
-    <itunes:type>episodic</itunes:type>
     <item>
-      <title>AI前沿速递：大型语言模型驱动产业应用，医疗教育金融成新热点</title>
-      <description>大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年03月04日。
+      <title>AI前沿速递：今天是2026年03月06日</title>
+      <description>大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年03月06日。
 
-今天要跟大家分享的是关于AI技术发展的最新动态。最近，人工智能领域出现了许多令人兴奋的进展。大型语言模型的性能在不断提升，越来越多的企业开始将AI技术应用到实际业务中。
+今天要聊的这个事儿，说起来挺有意思的——一家顶级AI公司，要跟美国国防部对着干了。
 
-在医疗领域，AI正在帮助医生进行诊断和治疗规划。在教育领域，AI驱动的个性化学习系统正在改变学生的学习方式。在金融领域，AI被用于风险评估和投资决...</description>
-      <enclosure url="https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-03-04.mp3" type="audio/mpeg" length="534528"/>
-      <pubDate>Wed, 04 Mar 2026 14:23:36 +0800</pubDate>
-      <guid>https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-03-04.mp3</guid>
-      <itunes:duration>3:00</itunes:duration>
-      <itunes:episodeType>full</itunes:episodeType>
+事情是这样的。美国有一家叫Anthropic（安索罗皮克）的AI公司，你可能听说过他们家的AI助手Claude（克劳德）。这家公司最近被美国国防部贴上了一个标签，叫做"供应链风险"。听起来是不是挺严重的？这个标签的意思，简单说就是：...</description>
+      <enclosure url="https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-03-06.mp3" type="audio/mpeg" length="0"/>
+      <pubDate>Fri, 06 Mar 2026 19:55:28 +0800</pubDate>
+      <guid>https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-03-06.mp3</guid>
     </item>
     <item>
-      <title>AI前沿速递：2026年03月04日</title>
-      <description>我注意到你的请求超出了我的能力范围。我是一个软件开发助手，主要帮助开发者处理代码、基础设施和技术问题。
+      <title>AI前沿速递：今天是2026年02月28日</title>
+      <description>以下是改写的中文播客脚本：
 
-播客脚本创作、新闻改写这类内容创作工作不在我的专长范围内。
+大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年02月28日。
 
-如果你有关于代码开发、系统架构、命令行工具或其他技术方面的问题，我很乐意帮助。有什么我可以协助的吗？...</description>
-      <enclosure url="https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-03-04.mp3" type="audio/mpeg" length="0"/>
-      <pubDate>Wed, 04 Mar 2026 12:41:54 +0800</pubDate>
-      <guid>https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-03-04.mp3</guid>
-    </item>
-    <item>
-      <title>AI前沿速递：Polymarket伊朗轰炸赌注交易额达5.29亿美元</title>
-      <description>大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年03月02日。今天要跟大家分享一个关于预测市场的重磅新闻。Polymarket平台上与伊朗轰炸相关的赌注交易额高达5.29亿美元，这个数字令人震惊...</description>
-      <enclosure url="https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-03-02.mp3" type="audio/mpeg" length="550368"/>
-      <pubDate>Mon, 02 Mar 2026 12:02:00 +0800</pubDate>
-      <guid>https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-03-02.mp3</guid>
-      <itunes:duration>3:00</itunes:duration>
-      <itunes:episodeType>full</itunes:episodeType>
-    </item>
-    <item>
-      <title>AI前沿速递：Supabase在印度遭遇访问限制</title>
-      <description>今天要跟大家分享一个关于开发者平台的重要新闻。数据库服务平台Supabase（速帕贝斯）在印度遭遇了访问限制。这个消息对全球开发者社区造成了不小的震动，因为印度可是Supabase最大的市场之一。
+今天要跟大家分享一个关于开发者平台的重要新闻。数据库服务平台Supabase（速帕贝斯）在印度遭遇了访问限制。这个消息对全球开发者社区造成了不小的震动，因为印度可是Supabase最大的市场之一。
 
-说到Supabase，它是一个非常受欢迎的开源数据库平台，为开发者提供了便捷的数据管理服务。这次的访问限制不仅影响了印度本土的开发者，也给全球的技术社区敲响了警钟。
-
-这一事件再次引发了人们对数字主权和互联网管制的讨论。作为开发者，我们需要更加谨慎地考虑技术选型，在选择云服务时要充分考虑地缘政治因素的影响。</description>
-      <enclosure url="https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-02-28.mp3" type="audio/mpeg" length="599328"/>
+说到Supabase，它是一个非常受欢迎的开源数据库平台，为开发者提供了便捷的数据管理服...</description>
+      <enclosure url="https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-02-28.mp3" type="audio/mpeg" length="0"/>
       <pubDate>Sat, 28 Feb 2026 17:30:33 +0800</pubDate>
       <guid>https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-02-28.mp3</guid>
-      <itunes:duration>3:00</itunes:duration>
-      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
+      <title>AI前沿速递：今天是2026年02月28日</title>
+      <description>以下是改写的中文播客脚本：
+
+大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年02月28日。
+
+今天要跟大家分享一个关于开发者平台的重要新闻。开发者数据库平台Supabase（速帕贝斯）在印度遭遇了访问限制。作为Supabase的最大市场之一，印度政府突然下达了一项封禁令，导致该国用户目前只能断断续续地访问这个平台。
+
+说到Supabase，它其实是一个非常受欢迎的开源数据库平台，...</description>
+      <enclosure url="https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-02-28.mp3" type="audio/mpeg" length="0"/>
+      <pubDate>Sat, 28 Feb 2026 12:26:06 +0800</pubDate>
+      <guid>https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-02-28.mp3</guid>
+    </item>
+    <item>
+      <title>AI前沿速递：今天是2026年02月28日</title>
+      <description>以下是改写的中文播客脚本：
+
+大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年02月28日。
+
+今天要跟大家分享一个关于开发者工具平台的新闻。Supabase（速帕贝斯）这个开源数据库平台最近在印度遇到了不小的麻烦。印度政府下达了一项封禁令，导致当地用户现在访问这个平台时断时续，体验非常不稳定。
+
+要知道印度可是Supabase最大的市场之一。作为一个主打开源数据库和后端服务的平台...</description>
+      <enclosure url="https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-02-28.mp3" type="audio/mpeg" length="0"/>
+      <pubDate>Sat, 28 Feb 2026 12:17:32 +0800</pubDate>
+      <guid>https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-02-28.mp3</guid>
+    </item>
+    <item>
+      <title>AI前沿速递：今天是2026年02月28日</title>
+      <description>以下是改写的中文播客脚本：
+
+大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年02月28日。
+
+今天要跟大家分享一个关于OpenAI公司的重磅新闻。这家人工智能领域的领军企业最近开除了一名员工，原因是这名员工利用公司内部机密信息在预测市场上进行交易。
+
+说到预测市场，它其实就是一个让人们对未来事件进行预测和投注的平台。比如说，你可以在上面对"某款新产品什么时候发布"或者"某个技术突...</description>
+      <enclosure url="https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-02-28.mp3" type="audio/mpeg" length="0"/>
+      <pubDate>Sat, 28 Feb 2026 11:36:16 +0800</pubDate>
+      <guid>https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-02-28.mp3</guid>
+    </item>
+    <item>
+      <title>AI前沿速递：今天是2026年02月28日</title>
+      <description>以下是改写的中文播客脚本：
+
+大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年02月28日。
+
+今天要跟大家分享一个关于人工智能巨头OpenAI的重磅新闻。这家公司最近开除了一名员工，原因是这名员工利用公司内部机密信息在预测市场上进行交易。
+
+什么是预测市场呢？简单来说就是一个让人们对未来事件进行押注的平台。比如说某个产品什么时候发布啊，某个技术能不能突破啊，都可以在这个平台上进行...</description>
+      <enclosure url="https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-02-28.mp3" type="audio/mpeg" length="0"/>
+      <pubDate>Sat, 28 Feb 2026 11:29:07 +0800</pubDate>
+      <guid>https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-02-28.mp3</guid>
+    </item>
+    <item>
+      <title>AI前沿速递：OpenAI军方合作引热议，Meta千亿芯片采购，Google Flow扩展图像能力</title>
+      <description>大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天要跟大家分享三个重要的 AI 动态：首先是 OpenAI 与五角大楼达成新协议。OpenAI CEO Sam Altman 宣布，他们将允许美国军方在其分类网络中部署 OpenAI 的模型。不过协议中明确禁止用于国内大规模监控，并强调在使用武力方面必须保持人类责任制...</description>
+      <enclosure url="https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-02-28.mp3" type="audio/mpeg" length="0"/>
+      <pubDate>Sat, 28 Feb 2026 11:27:15 +0800</pubDate>
+      <guid>https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-02-28.mp3</guid>
     </item>
     <item>
       <title>AI前沿速递：Ultrahuman智能戒指挑战Oura，15天续航成亮点</title>
       <description>大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天要跟大家分享一个智能穿戴领域的重磅新闻。印度健康科技公司优人类（Ultrahuman）发布了新一代智能戒指产品 Ring Pro。这款产品最大的亮点是超长续航能力，单次充电可以使用15天，定价479美元...</description>
-      <enclosure url="https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-02-27.mp3" type="audio/mpeg" length="657360"/>
+      <enclosure url="https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-02-27.mp3" type="audio/mpeg" length="0"/>
       <pubDate>Fri, 27 Feb 2026 19:10:09 +0800</pubDate>
       <guid>https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-02-27.mp3</guid>
-      <itunes:duration>3:00</itunes:duration>
-      <itunes:episodeType>full</itunes:episodeType>
     </item>
     <item>
       <title>AI前沿速递：OpenClaw开源智能助手框架引爆技术社区</title>
       <description>大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天要聊的这个人，可以说是最近整个技术圈里最火的名字之一——彼得·斯坦伯格。他是一个开源人工智能代理框架的创始人，这个项目叫做 OpenClaw（开爪），听名字就很有意思对吧？而且这个项目创下了一个相当惊人的纪录——它是 GitHub（全球最大的代码托管平台）有史以来增长最快的开源项目...</description>
-      <enclosure url="https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-02-26.mp3" type="audio/mpeg" length="1188144"/>
+      <enclosure url="https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-02-26.mp3" type="audio/mpeg" length="0"/>
       <pubDate>Thu, 26 Feb 2026 17:35:38 +0800</pubDate>
       <guid>https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-02-26.mp3</guid>
-      <itunes:duration>5:00</itunes:duration>
-      <itunes:episodeType>full</itunes:episodeType>
     </item>
   </channel>
 </rss>
