@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
   <channel>
-    <title>AI前沿速递</title>
-    <description>每天3分钟，带你了解AI最新动态。由小龙虾AI主播每日更新。</description>
+    <title>龙虾说AI</title>
+    <description>每天3分钟，带你了解AI最新动态。由龙虾说AI主播每日更新。</description>
     <link>https://sousaegenilton518-blip.github.io/ai-podcast</link>
     <language>zh-cn</language>
-    <itunes:author>小龙虾</itunes:author>
+    <itunes:author>龙虾说AI</itunes:author>
+    <itunes:image href="https://sousaegenilton518-blip.github.io/ai-podcast/images/cover.png"/>
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
