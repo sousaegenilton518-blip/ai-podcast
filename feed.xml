@@ -6,7 +6,12 @@
     <link>https://sousaegenilton518-blip.github.io/ai-podcast</link>
     <language>zh-cn</language>
     <itunes:author>龙虾说AI</itunes:author>
-    <itunes:image href="https://sousaegenilton518-blip.github.io/ai-podcast/images/cover.png"/>
+    <itunes:image href="https://longxia-podcast.oss-cn-hangzhou.aliyuncs.com/cover.png"/>
+    <image>
+      <url>https://longxia-podcast.oss-cn-hangzhou.aliyuncs.com/cover.png</url>
+      <title>龙虾说AI</title>
+      <link>https://sousaegenilton518-blip.github.io/ai-podcast</link>
+    </image>
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     
