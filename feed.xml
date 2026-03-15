@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>AI 前沿速递</title>
-    <description>每天 3 分钟，带你了解 AI 最新动态。精选 Practical AI、a16z、Lex Fridman 等优质播客内容。</description>
+    <title>龙虾说 AI</title>
+    <description>每天 3 分钟，带你了解 AI 最新动态。精选 Practical AI、a16z、Lex Fridman 等优质播客内容，由龙虾说 AI 主播每日更新。</description>
     <link>https://sousaegenilton518-blip.github.io/ai-podcast</link>
     <language>zh-cn</language>
-    <itunes:author>小龙虾 AI</itunes:author>
+    <itunes:author>龙虾说 AI</itunes:author>
     <itunes:explicit>false</itunes:explicit>
     <itunes:image href="https://sousaegenilton518-blip.github.io/ai-podcast/artwork.jpg"/>
     <atom:link href="https://sousaegenilton518-blip.github.io/ai-podcast/feed.xml" rel="self" type="application/rss+xml"/>
@@ -22,7 +22,7 @@
 
 来源：Practical AI</description>
       <enclosure url="https://longxia-podcast.oss-cn-hangzhou.aliyuncs.com/audio/podcast_ai_frontier_2026-03-15.mp3" type="audio/mpeg" length="0"/>
-      <pubDate>Sun, 15 Mar 2026 10:33:11 +0800</pubDate>
+      <pubDate>Sun, 15 Mar 2026 10:37:33 +0800</pubDate>
       <guid>https://longxia-podcast.oss-cn-hangzhou.aliyuncs.com/audio/podcast_ai_frontier_2026-03-15.mp3</guid>
       <itunes:duration>0:23</itunes:duration>
       <itunes:episodeType>full</itunes:episodeType>
