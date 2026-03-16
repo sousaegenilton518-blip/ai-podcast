@@ -2,7 +2,7 @@ name: Daily Podcast Update
 
 on:
   schedule:
-    - cron: '0 2 * * *'  # 每天北京时间10:00
+    - cron: '0 0 * * *'  # 每天北京时间08:00
   workflow_dispatch:      # 允许手动触发
 
 jobs:
