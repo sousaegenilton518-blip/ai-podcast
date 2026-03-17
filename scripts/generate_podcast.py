@@ -10,7 +10,7 @@ import json
 import base64
 from datetime import datetime
 
-RSS_URL = "https://techcrunch.com/feed/"
+RSS_URL = "https://techcrunch.com/category/artificial-intelligence/feed/"
 VOICE = "zh-CN-XiaoxiaoNeural"
 GITHUB_REPO = "sousaegenilton518-blip/ai-podcast"
 PAGES_BASE = "https://sousaegenilton518-blip.github.io/ai-podcast"
