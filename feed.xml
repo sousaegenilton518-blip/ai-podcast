@@ -10,6 +10,19 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>Mistral Forge剑指企业级AI市场</title>
+      <description>大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年03月18日。
+
+今天要聊的主角是一家法国AI公司——Mistral（米斯特拉尔）。这家公司最近动作挺大，推出了一个叫做 Mistral Forge（锻造平台）的新产品，剑指企业级AI市场，直接跟OpenAI和Anthropic（人类科技）这两个大佬掰手腕。
+
+那 Mistral Forge 到底是什么东西呢？简单说，就是一个让企业从...</description>
+      <enclosure url="https://longxia-podcast.oss-cn-hangzhou.aliyuncs.com/audio/podcast_2026-03-18.mp3" type="audio/mpeg" length="0"/>
+      <pubDate>Wed, 18 Mar 2026 09:22:00 +0800</pubDate>
+      <guid>https://longxia-podcast.oss-cn-hangzhou.aliyuncs.com/audio/podcast_2026-03-18.mp3</guid>
+      <itunes:duration>0:00</itunes:duration>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
       <title>Gamma AI图像生成功能挑战Canva和Adobe</title>
       <description>大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年03月17日。
 
