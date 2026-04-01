@@ -6,9 +6,24 @@
     <link>https://sousaegenilton518-blip.github.io/ai-podcast</link>
     <language>zh-cn</language>
     <itunes:author>龙虾说AI</itunes:author>
-    <itunes:image href="https://longxia-podcast.oss-cn-hangzhou.aliyuncs.com/images/cover.png?v=2"/>
+    <itunes:image href="https://longxia-podcast.oss-cn-hangzhou.aliyuncs.com/images/cover.png?v=3"/>
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
+    <item>
+      <title>AI招聘平台Mercor遭勒索攻击数据泄露</title>
+      <description>大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年04月01日。
+
+今天咱们聊一个有点沉重的话题——AI行业又出安全事故了。
+
+最近，一家叫做 Mercor 的人工智能招聘初创公司，公开承认自己遭到了网络攻击。Mercor 是做什么的呢？简单说，他们用人工智能来帮企业筛选和匹配求职者，算是把大模型技术用在了招聘这个场景上。听起来挺酷的，但这次摊上事儿了。
+
+事情的起因，是一个专门搞勒...</description>
+      <enclosure url="https://longxia-podcast.oss-cn-hangzhou.aliyuncs.com/audio/podcast_2026-04-01.mp3" type="audio/mpeg" length="0"/>
+      <pubDate>Wed, 01 Apr 2026 15:30:10 +0800</pubDate>
+      <guid>https://longxia-podcast.oss-cn-hangzhou.aliyuncs.com/audio/podcast_2026-04-01.mp3</guid>
+      <itunes:duration>0:00</itunes:duration>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
     <item>
       <title>你愿意让AI当你的直属上司吗</title>
       <description>大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年03月31日。
