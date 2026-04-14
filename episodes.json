@@ -1,5 +1,11 @@
 [
   {
+    "title": "OpenAI收购AI理财助手Hiro",
+    "desc": "大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年04月14日。\n\n今天要聊的这条消息，跟我们每个人的钱包都有点关系。\n\nOpenAI，就是那家做 ChatGPT 的公司，最近悄悄收购了一家叫 Hiro 的 AI 初创公司。Hiro 是做什么的呢？简单说，就是个人财务规划助手，帮你管钱、规划预算、分析你的财务状况，类似于一个住在你手机里的私人理财顾问。\n\n这笔收购本身没有太多公开细节...",
+    "audio_url": "https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-04-14.mp3",
+    "pub_date": "Tue, 14 Apr 2026 02:58:07 +0800"
+  },
+  {
     "title": "Claude API封号风波：第三方工具遭殃记",
     "desc": "大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年04月11日。\n\n今天要聊的这个事儿，说实话有点戏剧性——Anthropic（安索罗皮克，就是做Claude这个AI模型的公司）居然把一个叫OpenClaw的工具的开发者，给临时封号了。\n\n先说说OpenClaw是什么。这是一个第三方工具，专门让用户能更方便地访问Claude的API接口。简单说就是，有人做了个\"壳\"，套在Claude...",
     "audio_url": "https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-04-11.mp3",
