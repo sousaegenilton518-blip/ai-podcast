@@ -1,5 +1,11 @@
 [
   {
+    "title": "OpenAI Agents SDK重大升级解析",
+    "desc": "大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年04月16日。\n\n今天咱们来聊一个挺重磅的消息——OpenAI刚刚对它的 Agents SDK 进行了一次重大升级。\n\n先给不太熟悉的朋友解释一下，Agents SDK 就是 OpenAI 提供给开发者的一套工具包，专门用来构建\"AI智能体\"，也就是那种能自主完成任务、做决策、甚至调用各种工具的AI系统。简单说，就是让AI不只是回答问...",
+    "audio_url": "https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-04-16.mp3",
+    "pub_date": "Thu, 16 Apr 2026 03:22:05 +0800"
+  },
+  {
     "title": "AI投资风向变了：Anthropic抢戏OpenAI",
     "desc": "大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年04月15日。\n\n今天咱们聊一个AI圈里挺有意思的话题——钱的故事。\n\n最近英国《金融时报》爆出一个消息，说有些原本押注OpenAI的投资人，现在开始对自己的选择产生了一点点动摇。原因嘛，说出来你可能觉得有点讽刺——是因为Anthropic（一家AI公司，由前OpenAI团队成员创立）涨得太猛了。\n\n我们先来说说背景。OpenAI，就...",
     "audio_url": "https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-04-15.mp3",
