@@ -9,6 +9,17 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>OpenAI Agents SDK重大升级解析</title>
+      <description><![CDATA[大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年04月16日。
+
+今天咱们来聊一个挺重磅的消息——OpenAI刚刚对它的 Agents SDK 进行了一次重大升级。
+
+先给不太熟悉的朋友解释一下，Agents SDK 就是 OpenAI 提供给开发者的一套工具包，专门用来构建"AI智能体"，也就是那种能自主完成任务、做决策、甚至调用各种工具的AI系统。简单说，就是让AI不只是回答问...]]></description>
+      <enclosure url="https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-04-16.mp3" type="audio/mpeg" length="0"/>
+      <pubDate>Thu, 16 Apr 2026 03:22:05 +0800</pubDate>
+      <guid>https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-04-16.mp3</guid>
+    </item>
+    <item>
       <title>AI投资风向变了：Anthropic抢戏OpenAI</title>
       <description><![CDATA[大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年04月15日。
 
