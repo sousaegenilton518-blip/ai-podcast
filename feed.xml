@@ -9,6 +9,17 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>特斯拉Robotaxi落地达拉斯休斯顿</title>
+      <description><![CDATA[大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年04月19日。
+
+今天咱们来聊一个挺让人兴奋的消息——Tesla，也就是大家熟知的特斯拉，正式把它的 Robotaxi 无人驾驶出租车服务扩展到了美国的达拉斯和休斯顿两座城市。
+
+特斯拉在社交媒体上发了一条帖子，内容很简单，就一句话："Robotaxi is now rolling out in Dallas & Houston"，配...]]></description>
+      <enclosure url="https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-04-19.mp3" type="audio/mpeg" length="0"/>
+      <pubDate>Sun, 19 Apr 2026 03:23:50 +0800</pubDate>
+      <guid>https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-04-19.mp3</guid>
+    </item>
+    <item>
       <title>Sam Altman虹膜扫描项目World大扩张</title>
       <description><![CDATA[大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年04月18日。
 
@@ -348,19 +359,6 @@ OpenAI，就是那家做 ChatGPT 的公司，最近悄悄收购了一家叫 Hiro
       <enclosure url="https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-03-16.mp3" type="audio/mpeg" length="0"/>
       <pubDate>Mon, 16 Mar 2026 13:54:00 +0800</pubDate>
       <guid>https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-03-16.mp3</guid>
-    </item>
-    <item>
-      <title>AI前沿速递：Plaid估值飙升至80亿美元，金融科技独角兽再创新高</title>
-      <description><![CDATA[以下是改写的中文播客脚本：
-
-大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年02月27日。
-
-今天要跟大家分享一个金融科技领域的重磅消息。金融科技独角兽公司Plaid（普莱德）最近完成了一轮员工股份出售，公司估值达到了80亿美元。这个数字相比去年4月份61亿美元的估值，涨幅高达31%。
-
-普莱德是一家做什么的公司呢？简单来说，它是一个连接银行和各类金融应用的桥梁。比如说，当你用某...]]></description>
-      <enclosure url="https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-02-27.mp3" type="audio/mpeg" length="0"/>
-      <pubDate>Fri, 27 Feb 2026 18:47:16 +0800</pubDate>
-      <guid>https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-02-27.mp3</guid>
     </item>
   </channel>
 </rss>
