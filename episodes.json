@@ -1,5 +1,11 @@
 [
   {
+    "title": "OpenAI频繁收购背后的生死抉择",
+    "desc": "大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年04月20日。\n\n今天咱们来聊聊 OpenAI 最近的一些大动作，以及这些动作背后藏着的两个\"生死存亡级别\"的问题。\n\n你可能已经注意到，OpenAI 这段时间收购动作频频。最新一期的 Equity——就是 TechCrunch 旗下那档专门聊科技投资的播客——里面深度讨论了 OpenAI 的最新收购案，以及这些收购到底能不能帮它解决...",
+    "audio_url": "https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-04-20.mp3",
+    "pub_date": "Mon, 20 Apr 2026 03:26:20 +0800"
+  },
+  {
     "title": "特斯拉Robotaxi落地达拉斯休斯顿",
     "desc": "大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年04月19日。\n\n今天咱们来聊一个挺让人兴奋的消息——Tesla，也就是大家熟知的特斯拉，正式把它的 Robotaxi 无人驾驶出租车服务扩展到了美国的达拉斯和休斯顿两座城市。\n\n特斯拉在社交媒体上发了一条帖子，内容很简单，就一句话：\"Robotaxi is now rolling out in Dallas & Houston\"，配...",
     "audio_url": "https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-04-19.mp3",
@@ -172,11 +178,5 @@
     "desc": "大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年03月17日。\n\n今天咱们来聊一个跟AI安全有关的大新闻，主角是老熟人——Nvidia，也就是英伟达。\n\n最近英伟达官宣了一个新平台，叫做 NemoClaw，这是一个面向企业的开源AI智能体平台。听名字你可能已经猜到了，它是基于最近特别火的 OpenClaw 打造的。OpenClaw 你可能听说过，就是那个在AI开发者圈子里迅速走红的...",
     "audio_url": "https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-03-17.mp3",
     "pub_date": "Tue, 17 Mar 2026 00:28:47 +0800"
-  },
-  {
-    "title": "捐赠誓言：亿万富翁的财富承诺",
-    "desc": "大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年03月16日。\n\n好，今天咱们聊一个有点意思的话题，跟钱有关，跟承诺有关，还跟那些超级有钱的人有关。\n\n话说回到2010年，股神沃伦·巴菲特和微软创始人比尔·盖茨一起搞了一个叫做 Giving Pledge（捐赠誓言）的活动。这个活动的逻辑其实很简单——就是邀请全球最有钱的那批人，公开承诺把自己一半以上的财富捐出去，可以在生前捐，也可...",
-    "audio_url": "https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-03-16.mp3",
-    "pub_date": "Mon, 16 Mar 2026 13:54:00 +0800"
   }
 ]
