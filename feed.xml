@@ -9,6 +9,17 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>OpenAI频繁收购背后的生死抉择</title>
+      <description><![CDATA[大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年04月20日。
+
+今天咱们来聊聊 OpenAI 最近的一些大动作，以及这些动作背后藏着的两个"生死存亡级别"的问题。
+
+你可能已经注意到，OpenAI 这段时间收购动作频频。最新一期的 Equity——就是 TechCrunch 旗下那档专门聊科技投资的播客——里面深度讨论了 OpenAI 的最新收购案，以及这些收购到底能不能帮它解决...]]></description>
+      <enclosure url="https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-04-20.mp3" type="audio/mpeg" length="0"/>
+      <pubDate>Mon, 20 Apr 2026 03:26:20 +0800</pubDate>
+      <guid>https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-04-20.mp3</guid>
+    </item>
+    <item>
       <title>特斯拉Robotaxi落地达拉斯休斯顿</title>
       <description><![CDATA[大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年04月19日。
 
@@ -348,17 +359,6 @@ OpenAI，就是那家做 ChatGPT 的公司，最近悄悄收购了一家叫 Hiro
       <enclosure url="https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-03-17.mp3" type="audio/mpeg" length="0"/>
       <pubDate>Tue, 17 Mar 2026 00:28:47 +0800</pubDate>
       <guid>https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-03-17.mp3</guid>
-    </item>
-    <item>
-      <title>捐赠誓言：亿万富翁的财富承诺</title>
-      <description><![CDATA[大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年03月16日。
-
-好，今天咱们聊一个有点意思的话题，跟钱有关，跟承诺有关，还跟那些超级有钱的人有关。
-
-话说回到2010年，股神沃伦·巴菲特和微软创始人比尔·盖茨一起搞了一个叫做 Giving Pledge（捐赠誓言）的活动。这个活动的逻辑其实很简单——就是邀请全球最有钱的那批人，公开承诺把自己一半以上的财富捐出去，可以在生前捐，也可...]]></description>
-      <enclosure url="https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-03-16.mp3" type="audio/mpeg" length="0"/>
-      <pubDate>Mon, 16 Mar 2026 13:54:00 +0800</pubDate>
-      <guid>https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-03-16.mp3</guid>
     </item>
   </channel>
 </rss>
