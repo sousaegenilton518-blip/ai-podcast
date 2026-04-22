@@ -1,5 +1,11 @@
 [
   {
+    "title": "Meta用员工操作数据训练AI",
+    "desc": "大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年04月22日。\n\n今天要聊的这个消息，说实话，让我有点细思极恐。Meta——就是Facebook、Instagram、WhatsApp那家公司——最近宣布，他们搞了一个新的内部工具，专门用来记录员工的鼠标移动和键盘敲击，然后把这些数据拿去训练他们的AI模型。\n\n没听错，就是你每天在电脑上的那些操作——你点了哪里、你怎么移动鼠标、你敲了...",
+    "audio_url": "https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-04-22.mp3",
+    "pub_date": "Wed, 22 Apr 2026 02:57:24 +0800"
+  },
+  {
     "title": "亚马逊再投50亿押注Anthropic",
     "desc": "大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年04月21日。\n\n今天要聊的这条新闻，说实话，第一眼看到我就觉得——这操作，有点意思。\n\n亚马逊，也就是 Amazon，宣布再次向 Anthropic 追加投资50亿美元。Anthropic 是目前最受关注的 AI 公司之一，背后有 Claude 这个大语言模型，跟 OpenAI 的 ChatGPT 是直接竞争对手。\n\n但这笔投资最有...",
     "audio_url": "https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-04-21.mp3",
@@ -172,11 +178,5 @@
     "desc": "大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年03月18日。\n\n今天要聊的主角是来自法国的AI公司 Mistral。他们最近推出了一个叫 Mistral Forge 的新产品，剑指企业市场，直接跟 OpenAI 和 Anthropic 这两个大佬掰手腕。\n\n那 Mistral Forge 到底是什么呢？简单说，就是一个让企业从零开始、用自己的数据训练专属AI模型的平台。听起来好像...",
     "audio_url": "https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-03-18.mp3",
     "pub_date": "Wed, 18 Mar 2026 01:28:30 +0800"
-  },
-  {
-    "title": "AI智能体市场登陆Picsart创作平台",
-    "desc": "大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年03月17日。\n\n今天要聊的这个消息，对喜欢做图的朋友来说可能挺有意思的。Picsart——就是那个很多人用来修图、做设计的创意平台——最近宣布推出了一个AI Agent（AI智能体）市场。简单说，就是创作者现在可以在这个平台上\"雇佣\"AI助手来帮自己干活了。\n\n你可能会问，这跟普通的AI工具有啥区别？区别还挺大的。普通AI工具你得一...",
-    "audio_url": "https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-03-17.mp3",
-    "pub_date": "Tue, 17 Mar 2026 05:15:41 +0800"
   }
 ]
