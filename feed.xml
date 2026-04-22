@@ -9,6 +9,17 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>Meta用员工操作数据训练AI</title>
+      <description><![CDATA[大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年04月22日。
+
+今天要聊的这个消息，说实话，让我有点细思极恐。Meta——就是Facebook、Instagram、WhatsApp那家公司——最近宣布，他们搞了一个新的内部工具，专门用来记录员工的鼠标移动和键盘敲击，然后把这些数据拿去训练他们的AI模型。
+
+没听错，就是你每天在电脑上的那些操作——你点了哪里、你怎么移动鼠标、你敲了...]]></description>
+      <enclosure url="https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-04-22.mp3" type="audio/mpeg" length="0"/>
+      <pubDate>Wed, 22 Apr 2026 02:57:24 +0800</pubDate>
+      <guid>https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-04-22.mp3</guid>
+    </item>
+    <item>
       <title>亚马逊再投50亿押注Anthropic</title>
       <description><![CDATA[大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年04月21日。
 
@@ -350,17 +361,6 @@ OpenAI，就是那家做 ChatGPT 的公司，最近悄悄收购了一家叫 Hiro
       <enclosure url="https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-03-18.mp3" type="audio/mpeg" length="0"/>
       <pubDate>Wed, 18 Mar 2026 01:28:30 +0800</pubDate>
       <guid>https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-03-18.mp3</guid>
-    </item>
-    <item>
-      <title>AI智能体市场登陆Picsart创作平台</title>
-      <description><![CDATA[大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年03月17日。
-
-今天要聊的这个消息，对喜欢做图的朋友来说可能挺有意思的。Picsart——就是那个很多人用来修图、做设计的创意平台——最近宣布推出了一个AI Agent（AI智能体）市场。简单说，就是创作者现在可以在这个平台上"雇佣"AI助手来帮自己干活了。
-
-你可能会问，这跟普通的AI工具有啥区别？区别还挺大的。普通AI工具你得一...]]></description>
-      <enclosure url="https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-03-17.mp3" type="audio/mpeg" length="0"/>
-      <pubDate>Tue, 17 Mar 2026 05:15:41 +0800</pubDate>
-      <guid>https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-03-17.mp3</guid>
     </item>
   </channel>
 </rss>
