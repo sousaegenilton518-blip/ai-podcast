@@ -9,6 +9,17 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>特斯拉2026年资本支出飙升至250亿</title>
+      <description><![CDATA[大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年04月23日。
+
+今天咱们来聊聊特斯拉的一个大动作——这家公司刚刚宣布，把2026年的资本支出计划提高到了250亿美元。听到这个数字，你可能会问：这到底是个什么概念？
+
+简单说一下背景。Capex，也就是资本支出，指的是公司用来购买、维护或升级固定资产的钱，比如建工厂、买设备这类投入。特斯拉历史上每年的资本支出大概在80到90亿美元左...]]></description>
+      <enclosure url="https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-04-23.mp3" type="audio/mpeg" length="0"/>
+      <pubDate>Thu, 23 Apr 2026 03:19:53 +0800</pubDate>
+      <guid>https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-04-23.mp3</guid>
+    </item>
+    <item>
       <title>Meta用员工操作数据训练AI</title>
       <description><![CDATA[大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年04月22日。
 
@@ -349,17 +360,6 @@ OpenAI，就是那家做 ChatGPT 的公司，最近悄悄收购了一家叫 Hiro
 那 Mistral Forge 到底是什么呢？简单来说，它是一个让企业"自己动手造AI"的平台。你没听错，不是用现成的模型改...]]></description>
       <enclosure url="https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-03-18.mp3" type="audio/mpeg" length="0"/>
       <pubDate>Wed, 18 Mar 2026 05:25:48 +0800</pubDate>
-      <guid>https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-03-18.mp3</guid>
-    </item>
-    <item>
-      <title>Mistral Forge来袭，法国AI剑指企业市场</title>
-      <description><![CDATA[大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年03月18日。
-
-今天要聊的主角是来自法国的AI公司 Mistral。他们最近推出了一个叫 Mistral Forge 的新产品，剑指企业市场，直接跟 OpenAI 和 Anthropic 这两个大佬掰手腕。
-
-那 Mistral Forge 到底是什么呢？简单说，就是一个让企业从零开始、用自己的数据训练专属AI模型的平台。听起来好像...]]></description>
-      <enclosure url="https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-03-18.mp3" type="audio/mpeg" length="0"/>
-      <pubDate>Wed, 18 Mar 2026 01:28:30 +0800</pubDate>
       <guid>https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-03-18.mp3</guid>
     </item>
   </channel>
