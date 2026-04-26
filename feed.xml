@@ -9,6 +9,17 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>AI智能体真实交易实验揭秘</title>
+      <description><![CDATA[大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年04月26日。
+
+今天要聊的这个事儿，说出来可能有点让人脑洞大开——Anthropic，就是那家做 Claude 的 AI 公司，最近搞了一个非常有意思的实验。他们造了一个"AI 跳蚤市场"，让 AI 智能体，也就是 agent，自己去里面买东西、卖东西，而且用的是真实的钱，交易的是真实的商品。
+
+没错，你没听错。不是模拟，不是演练，...]]></description>
+      <enclosure url="https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-04-26.mp3" type="audio/mpeg" length="0"/>
+      <pubDate>Sun, 26 Apr 2026 03:28:58 +0800</pubDate>
+      <guid>https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-04-26.mp3</guid>
+    </item>
+    <item>
       <title>特斯拉2026年资本支出飙升至250亿</title>
       <description><![CDATA[大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年04月23日。
 
@@ -350,17 +361,6 @@ OpenAI，就是那家做 ChatGPT 的公司，最近悄悄收购了一家叫 Hiro
       <enclosure url="https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-03-19.mp3" type="audio/mpeg" length="0"/>
       <pubDate>Thu, 19 Mar 2026 05:17:58 +0800</pubDate>
       <guid>https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-03-19.mp3</guid>
-    </item>
-    <item>
-      <title>Mistral Forge挑战OpenAI企业AI平台</title>
-      <description><![CDATA[大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年03月18日。
-
-今天咱们来聊一个挺有意思的消息——法国AI公司 Mistral，最近推出了一个叫 Mistral Forge 的新产品，直接向 OpenAI 和 Anthropic 这两个行业巨头发起挑战。
-
-那 Mistral Forge 到底是什么呢？简单来说，它是一个让企业"自己动手造AI"的平台。你没听错，不是用现成的模型改...]]></description>
-      <enclosure url="https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-03-18.mp3" type="audio/mpeg" length="0"/>
-      <pubDate>Wed, 18 Mar 2026 05:25:48 +0800</pubDate>
-      <guid>https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-03-18.mp3</guid>
     </item>
   </channel>
 </rss>
