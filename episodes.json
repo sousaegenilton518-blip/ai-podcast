@@ -1,5 +1,11 @@
 [
   {
+    "title": "AI智能体真实交易实验揭秘",
+    "desc": "大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年04月26日。\n\n今天要聊的这个事儿，说出来可能有点让人脑洞大开——Anthropic，就是那家做 Claude 的 AI 公司，最近搞了一个非常有意思的实验。他们造了一个\"AI 跳蚤市场\"，让 AI 智能体，也就是 agent，自己去里面买东西、卖东西，而且用的是真实的钱，交易的是真实的商品。\n\n没错，你没听错。不是模拟，不是演练，...",
+    "audio_url": "https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-04-26.mp3",
+    "pub_date": "Sun, 26 Apr 2026 03:28:58 +0800"
+  },
+  {
     "title": "特斯拉2026年资本支出飙升至250亿",
     "desc": "大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年04月23日。\n\n今天咱们来聊聊特斯拉的一个大动作——这家公司刚刚宣布，把2026年的资本支出计划提高到了250亿美元。听到这个数字，你可能会问：这到底是个什么概念？\n\n简单说一下背景。Capex，也就是资本支出，指的是公司用来购买、维护或升级固定资产的钱，比如建工厂、买设备这类投入。特斯拉历史上每年的资本支出大概在80到90亿美元左...",
     "audio_url": "https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-04-23.mp3",
@@ -172,11 +178,5 @@
     "desc": "大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年03月19日。\n\n今天要聊的这个事儿，说实话有点让人捏把汗——Meta，就是Facebook、Instagram那家公司，最近摊上事儿了。\n\n事情是这样的：Meta内部有一个AI agent，也就是AI智能体，这种东西你可以理解为一个能自主执行任务的AI程序，不需要人一步一步去操作它，它自己就能跑起来干活。听起来很厉害对吧？但问题就出...",
     "audio_url": "https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-03-19.mp3",
     "pub_date": "Thu, 19 Mar 2026 05:17:58 +0800"
-  },
-  {
-    "title": "Mistral Forge挑战OpenAI企业AI平台",
-    "desc": "大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年03月18日。\n\n今天咱们来聊一个挺有意思的消息——法国AI公司 Mistral，最近推出了一个叫 Mistral Forge 的新产品，直接向 OpenAI 和 Anthropic 这两个行业巨头发起挑战。\n\n那 Mistral Forge 到底是什么呢？简单来说，它是一个让企业\"自己动手造AI\"的平台。你没听错，不是用现成的模型改...",
-    "audio_url": "https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-03-18.mp3",
-    "pub_date": "Wed, 18 Mar 2026 05:25:48 +0800"
   }
 ]
