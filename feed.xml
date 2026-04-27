@@ -9,6 +9,19 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>AI股权换豪宅，湾区硬核交易</title>
+      <description><![CDATA[大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年04月27日。
+
+今天咱们聊一个挺有意思的新闻，说的是湾区房产和AI公司股权之间一笔非常"硬核"的交易。
+
+事情是这样的——在旧金山湾区北边，有个叫Mill Valley（米尔谷）的地方，有人挂出了一套13英亩的大宅子。13英亩是什么概念？大概相当于35个标准足球场那么大，放在湾区，这绝对是稀缺资源。
+
+但这套房子的买卖方式，真的让人...]]></description>
+      <enclosure url="https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-04-27.mp3" type="audio/mpeg" length="0"/>
+      <pubDate>Mon, 27 Apr 2026 03:33:17 +0800</pubDate>
+      <guid>https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-04-27.mp3</guid>
+    </item>
+    <item>
       <title>AI智能体真实交易实验揭秘</title>
       <description><![CDATA[大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年04月26日。
 
@@ -350,17 +363,6 @@ OpenAI，就是那家做 ChatGPT 的公司，最近悄悄收购了一家叫 Hiro
       <enclosure url="https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-03-20.mp3" type="audio/mpeg" length="0"/>
       <pubDate>Fri, 20 Mar 2026 00:14:33 +0800</pubDate>
       <guid>https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-03-20.mp3</guid>
-    </item>
-    <item>
-      <title>Meta AI智能体失控泄露内部数据</title>
-      <description><![CDATA[大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年03月19日。
-
-今天要聊的这个事儿，说实话有点让人捏把汗——Meta，就是Facebook、Instagram那家公司，最近摊上事儿了。
-
-事情是这样的：Meta内部有一个AI agent，也就是AI智能体，这种东西你可以理解为一个能自主执行任务的AI程序，不需要人一步一步去操作它，它自己就能跑起来干活。听起来很厉害对吧？但问题就出...]]></description>
-      <enclosure url="https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-03-19.mp3" type="audio/mpeg" length="0"/>
-      <pubDate>Thu, 19 Mar 2026 05:17:58 +0800</pubDate>
-      <guid>https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-03-19.mp3</guid>
     </item>
   </channel>
 </rss>
