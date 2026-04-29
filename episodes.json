@@ -1,5 +1,11 @@
 [
   {
+    "title": "马斯克与OpenAI官司再起波澜",
+    "desc": "大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年04月29日。\n\n今天咱们来聊一个挺有意思的事儿——马斯克和 OpenAI 的那场官司，最近又有新进展了。\n\n事情的背景大家可能有所了解。马斯克，就是那位特斯拉、SpaceX 的老板，当年可是 OpenAI 的联合创始人之一。他和 Sam Altman，也就是现在 OpenAI 的 CEO，一起把这家公司从零做起来。但后来两人闹掰了，...",
+    "audio_url": "https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-04-29.mp3",
+    "pub_date": "Wed, 29 Apr 2026 03:36:17 +0800"
+  },
+  {
     "title": "OpenAI与微软和解，背后藏着500亿大单",
     "desc": "大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年04月28日。\n\n今天咱们来聊一个AI圈的大新闻——OpenAI和微软之间的一场\"和解\"，而且这场和解的背后，牵扯到一笔高达500亿美元的大单。\n\n事情是这样的。OpenAI最近跟亚马逊的云服务平台AWS（Amazon Web Services，亚马逊云计算服务）谈成了一笔价值500亿美元的合作大单。听起来很爽对吧？但问题来了——Op...",
     "audio_url": "https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-04-28.mp3",
@@ -172,11 +178,5 @@
     "desc": "大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年03月21日。\n\n今天咱们来聊一个挺有意思的事儿——AI公司 Anthropic 和美国五角大楼之间，最近闹出了一场不小的风波。\n\n事情是这样的。Anthropic，就是那家做 Claude 系列AI模型的公司，最近被美国国防部，也就是五角大楼，扣上了一顶大帽子——说他们对\"国家安全构成不可接受的风险\"。听起来挺严重的，对吧？\n\n但 ...",
     "audio_url": "https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-03-21.mp3",
     "pub_date": "Sat, 21 Mar 2026 04:55:53 +0800"
-  },
-  {
-    "title": "贝索斯千亿豪赌：AI改造传统制造业",
-    "desc": "大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年03月20日。\n\n今天咱们来聊一个挺有意思的消息——亚马逊创始人杰夫·贝索斯，又在搞大动作了。\n\n据最新报道，贝索斯正在筹划一个超级大项目，目标是募集高达1000亿美元，也就是大概7000多亿人民币，用来收购那些传统的老牌制造业企业，然后用AI技术对它们进行全面改造升级。\n\n你没听错，1000亿美元。这个数字放在那儿，光是想想就觉得有...",
-    "audio_url": "https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-03-20.mp3",
-    "pub_date": "Fri, 20 Mar 2026 05:09:31 +0800"
   }
 ]
