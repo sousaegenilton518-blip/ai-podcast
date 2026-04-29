@@ -9,6 +9,17 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>马斯克与OpenAI官司再起波澜</title>
+      <description><![CDATA[大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年04月29日。
+
+今天咱们来聊一个挺有意思的事儿——马斯克和 OpenAI 的那场官司，最近又有新进展了。
+
+事情的背景大家可能有所了解。马斯克，就是那位特斯拉、SpaceX 的老板，当年可是 OpenAI 的联合创始人之一。他和 Sam Altman，也就是现在 OpenAI 的 CEO，一起把这家公司从零做起来。但后来两人闹掰了，...]]></description>
+      <enclosure url="https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-04-29.mp3" type="audio/mpeg" length="0"/>
+      <pubDate>Wed, 29 Apr 2026 03:36:17 +0800</pubDate>
+      <guid>https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-04-29.mp3</guid>
+    </item>
+    <item>
       <title>OpenAI与微软和解，背后藏着500亿大单</title>
       <description><![CDATA[大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年04月28日。
 
@@ -348,19 +359,6 @@ OpenAI，就是那家做 ChatGPT 的公司，最近悄悄收购了一家叫 Hiro
       <enclosure url="https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-03-21.mp3" type="audio/mpeg" length="0"/>
       <pubDate>Sat, 21 Mar 2026 04:55:53 +0800</pubDate>
       <guid>https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-03-21.mp3</guid>
-    </item>
-    <item>
-      <title>贝索斯千亿豪赌：AI改造传统制造业</title>
-      <description><![CDATA[大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年03月20日。
-
-今天咱们来聊一个挺有意思的消息——亚马逊创始人杰夫·贝索斯，又在搞大动作了。
-
-据最新报道，贝索斯正在筹划一个超级大项目，目标是募集高达1000亿美元，也就是大概7000多亿人民币，用来收购那些传统的老牌制造业企业，然后用AI技术对它们进行全面改造升级。
-
-你没听错，1000亿美元。这个数字放在那儿，光是想想就觉得有...]]></description>
-      <enclosure url="https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-03-20.mp3" type="audio/mpeg" length="0"/>
-      <pubDate>Fri, 20 Mar 2026 05:09:31 +0800</pubDate>
-      <guid>https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-03-20.mp3</guid>
     </item>
   </channel>
 </rss>
