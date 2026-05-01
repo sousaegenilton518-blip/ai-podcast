@@ -9,6 +9,17 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>ChatGPT图像功能为何在印度爆火</title>
+      <description><![CDATA[大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年05月01日。
+
+今天咱们来聊一个挺有意思的现象——ChatGPT Images 2.0，也就是ChatGPT最新的图像生成功能，在印度火得一塌糊涂，但在其他地方嘛，反响就没那么热烈了。这到底是怎么回事？咱们来好好唠一唠。
+
+先说说ChatGPT Images 2.0是个啥。简单来讲，就是OpenAI把ChatGPT的图像生成能力升级...]]></description>
+      <enclosure url="https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-05-01.mp3" type="audio/mpeg" length="0"/>
+      <pubDate>Fri, 01 May 2026 03:49:52 +0800</pubDate>
+      <guid>https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-05-01.mp3</guid>
+    </item>
+    <item>
       <title>AWS超预期，亚马逊财报亮眼</title>
       <description><![CDATA[大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年04月30日。
 
@@ -344,19 +355,6 @@ OpenAI，就是那家做 ChatGPT 的公司，最近悄悄收购了一家叫 Hiro
       <enclosure url="https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-03-23.mp3" type="audio/mpeg" length="0"/>
       <pubDate>Mon, 23 Mar 2026 05:49:43 +0800</pubDate>
       <guid>https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-03-23.mp3</guid>
-    </item>
-    <item>
-      <title>AI疑云：《哈利·波特》出版商拒绝AI小说</title>
-      <description><![CDATA[大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年03月22日。
-
-今天要聊的这个事儿，发生在出版界，但跟咱们AI圈子关系可大了。
-
-美国知名出版集团 Hachette Book Group——就是那个出版过《哈利·波特》系列的大出版商——宣布，他们决定不出版一本叫《Shy Girl》的恐怖小说了。原因很直接：他们怀疑这本书的文字是用AI生成的。
-
-你可能会想，这有什么大不了的？但在...]]></description>
-      <enclosure url="https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-03-22.mp3" type="audio/mpeg" length="0"/>
-      <pubDate>Sun, 22 Mar 2026 05:14:11 +0800</pubDate>
-      <guid>https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-03-22.mp3</guid>
     </item>
   </channel>
 </rss>
