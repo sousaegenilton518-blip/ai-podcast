@@ -1,5 +1,11 @@
 [
   {
+    "title": "AI演员被拒奥斯卡门外",
+    "desc": "这里是今天的播客脚本：\n\n---\n\n大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年05月03日。\n\n今天咱们聊一个跟电影圈有关的大消息——奥斯卡，也就是Academy Awards，正式宣布：用AI生成的演员表演和AI写的剧本，不再具备参赛资格。\n\n这个规定一出来，业内反应可以说是相当热烈。先说说背景。最近这两年，AI在影视行业的渗透速度真的很快。有些制作公司已经开始用AI生成虚...",
+    "audio_url": "https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-05-03.mp3",
+    "pub_date": "Sun, 03 May 2026 03:40:49 +0800"
+  },
+  {
     "title": "ChatGPT图像功能为何在印度爆火",
     "desc": "大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年05月01日。\n\n今天咱们来聊一个挺有意思的现象——ChatGPT Images 2.0，也就是ChatGPT最新的图像生成功能，在印度火得一塌糊涂，但在其他地方嘛，反响就没那么热烈了。这到底是怎么回事？咱们来好好唠一唠。\n\n先说说ChatGPT Images 2.0是个啥。简单来讲，就是OpenAI把ChatGPT的图像生成能力升级...",
     "audio_url": "https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-05-01.mp3",
@@ -172,11 +178,5 @@
     "desc": "大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年03月24日。\n\n今天要聊的是一个来自欧洲的大新闻——伦敦的风险投资机构 Air Street Capital，刚刚完成了他们第三期基金的募资，规模高达2.32亿美元，也就是差不多17亿人民币。这一下子让他们跻身欧洲最大的独立风投之列。\n\n说到 Air Street Capital，可能很多朋友还不太熟悉。这是一家总部在伦敦的早期风险...",
     "audio_url": "https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-03-24.mp3",
     "pub_date": "Tue, 24 Mar 2026 05:17:15 +0800"
-  },
-  {
-    "title": "机器人雪人背后：黄仁勋GTC演讲解读",
-    "desc": "大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年03月23日。\n\n好，今天咱们聊一个挺有意思的话题——你想不想造一个机器人雪人？听起来像是在开玩笑，但这其实是在说一件很严肃的事儿。\n\n最近，科技播客 Equity 出了一期节目，专门回顾了 Nvidia（英伟达）CEO 黄仁勋在 GTC 大会上的主题演讲。GTC 就是英伟达每年举办的开发者大会，基本上是 AI 和芯片圈子里最重要的年...",
-    "audio_url": "https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-03-23.mp3",
-    "pub_date": "Mon, 23 Mar 2026 05:49:43 +0800"
   }
 ]
