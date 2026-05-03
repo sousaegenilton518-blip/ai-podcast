@@ -9,6 +9,21 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>AI演员被拒奥斯卡门外</title>
+      <description><![CDATA[这里是今天的播客脚本：
+
+---
+
+大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年05月03日。
+
+今天咱们聊一个跟电影圈有关的大消息——奥斯卡，也就是Academy Awards，正式宣布：用AI生成的演员表演和AI写的剧本，不再具备参赛资格。
+
+这个规定一出来，业内反应可以说是相当热烈。先说说背景。最近这两年，AI在影视行业的渗透速度真的很快。有些制作公司已经开始用AI生成虚...]]></description>
+      <enclosure url="https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-05-03.mp3" type="audio/mpeg" length="0"/>
+      <pubDate>Sun, 03 May 2026 03:40:49 +0800</pubDate>
+      <guid>https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-05-03.mp3</guid>
+    </item>
+    <item>
       <title>ChatGPT图像功能为何在印度爆火</title>
       <description><![CDATA[大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年05月01日。
 
@@ -344,17 +359,6 @@ OpenAI，就是那家做 ChatGPT 的公司，最近悄悄收购了一家叫 Hiro
       <enclosure url="https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-03-24.mp3" type="audio/mpeg" length="0"/>
       <pubDate>Tue, 24 Mar 2026 05:17:15 +0800</pubDate>
       <guid>https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-03-24.mp3</guid>
-    </item>
-    <item>
-      <title>机器人雪人背后：黄仁勋GTC演讲解读</title>
-      <description><![CDATA[大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年03月23日。
-
-好，今天咱们聊一个挺有意思的话题——你想不想造一个机器人雪人？听起来像是在开玩笑，但这其实是在说一件很严肃的事儿。
-
-最近，科技播客 Equity 出了一期节目，专门回顾了 Nvidia（英伟达）CEO 黄仁勋在 GTC 大会上的主题演讲。GTC 就是英伟达每年举办的开发者大会，基本上是 AI 和芯片圈子里最重要的年...]]></description>
-      <enclosure url="https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-03-23.mp3" type="audio/mpeg" length="0"/>
-      <pubDate>Mon, 23 Mar 2026 05:49:43 +0800</pubDate>
-      <guid>https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-03-23.mp3</guid>
     </item>
   </channel>
 </rss>
