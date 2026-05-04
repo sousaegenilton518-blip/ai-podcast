@@ -9,6 +9,19 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>AI生成"This is fine"狗图续集引发版权争议</title>
+      <description><![CDATA[大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年05月04日。
+
+今天要聊的这个故事，说起来真的有点讽刺。
+
+你们应该都见过那张经典的表情包吧——一只小狗坐在着火的房间里，端着一杯咖啡，淡定地说"This is fine"（这没什么大不了的）。这张图已经成了互联网文化的标志，每次遇到糟糕的情况，大家都会拿它来自嘲。
+
+这张图的原作者叫 KC Green，是一位漫画家。最近他突然发现...]]></description>
+      <enclosure url="https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-05-04.mp3" type="audio/mpeg" length="0"/>
+      <pubDate>Mon, 04 May 2026 03:39:02 +0800</pubDate>
+      <guid>https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-05-04.mp3</guid>
+    </item>
+    <item>
       <title>AI演员被拒奥斯卡门外</title>
       <description><![CDATA[这里是今天的播客脚本：
 
@@ -348,17 +361,6 @@ OpenAI，就是那家做 ChatGPT 的公司，最近悄悄收购了一家叫 Hiro
       <enclosure url="https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-03-27.mp3" type="audio/mpeg" length="0"/>
       <pubDate>Fri, 27 Mar 2026 05:53:39 +0800</pubDate>
       <guid>https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-03-27.mp3</guid>
-    </item>
-    <item>
-      <title>Air Street Capital完成2.32亿美元募资</title>
-      <description><![CDATA[大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年03月24日。
-
-今天要聊的是一个来自欧洲的大新闻——伦敦的风险投资机构 Air Street Capital，刚刚完成了他们第三期基金的募资，规模高达2.32亿美元，也就是差不多17亿人民币。这一下子让他们跻身欧洲最大的独立风投之列。
-
-说到 Air Street Capital，可能很多朋友还不太熟悉。这是一家总部在伦敦的早期风险...]]></description>
-      <enclosure url="https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-03-24.mp3" type="audio/mpeg" length="0"/>
-      <pubDate>Tue, 24 Mar 2026 05:17:15 +0800</pubDate>
-      <guid>https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-03-24.mp3</guid>
     </item>
   </channel>
 </rss>
