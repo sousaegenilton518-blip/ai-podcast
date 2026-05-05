@@ -9,6 +9,19 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>AI芯片独角兽冲刺IPO</title>
+      <description><![CDATA[大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年05月05日。
+
+今天咱们来聊一个挺有意思的故事——关于一家AI芯片公司，叫 Cerebras（塞瑞布拉斯），它正在冲刺一场可能震动整个科技圈的 IPO，也就是首次公开募股。
+
+先说说这个数字，估值预计高达266亿美元，甚至可能更高。你没听错，266亿美元。这在当前的AI赛道上，绝对算得上是一个重量级的数字。
+
+那 Cerebras ...]]></description>
+      <enclosure url="https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-05-05.mp3" type="audio/mpeg" length="0"/>
+      <pubDate>Tue, 05 May 2026 03:26:01 +0800</pubDate>
+      <guid>https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-05-05.mp3</guid>
+    </item>
+    <item>
       <title>AI生成"This is fine"狗图续集引发版权争议</title>
       <description><![CDATA[大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年05月04日。
 
@@ -348,19 +361,6 @@ OpenAI，就是那家做 ChatGPT 的公司，最近悄悄收购了一家叫 Hiro
       <enclosure url="https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-03-28.mp3" type="audio/mpeg" length="0"/>
       <pubDate>Sat, 28 Mar 2026 05:15:29 +0800</pubDate>
       <guid>https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-03-28.mp3</guid>
-    </item>
-    <item>
-      <title>AI公司胜诉特朗普政府</title>
-      <description><![CDATA[大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年03月27日。
-
-今天咱们来聊一个挺有意思的事儿，AI圈和政治圈撞在一起了。
-
-大家应该都听说过 Anthropic，就是那家做 Claude 的AI公司，跟 OpenAI 齐名的那种。最近他们打了一场官司，而且还赢了——对手是谁？是特朗普政府。
-
-事情是这样的。美国国防部，也就是 Department of Defense，前段时间...]]></description>
-      <enclosure url="https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-03-27.mp3" type="audio/mpeg" length="0"/>
-      <pubDate>Fri, 27 Mar 2026 05:53:39 +0800</pubDate>
-      <guid>https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-03-27.mp3</guid>
     </item>
   </channel>
 </rss>
