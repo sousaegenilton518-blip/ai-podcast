@@ -9,6 +9,17 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>SAP收购18个月AI初创公司</title>
+      <description><![CDATA[大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年05月06日。
+
+今天咱们来聊一个挺有意思的商业故事——全球最大的企业软件公司之一 SAP，最近在 AI 领域下了一盘大棋。
+
+先说第一件事。SAP 宣布计划收购一家德国 AI 初创公司，叫做 Prior Labs。听到这个名字可能很多人会问：这公司是哪来的？说出来你可能有点惊讶——这家公司成立才短短18个月，可以说是个"婴儿公司"。...]]></description>
+      <enclosure url="https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-05-06.mp3" type="audio/mpeg" length="0"/>
+      <pubDate>Wed, 06 May 2026 03:36:18 +0800</pubDate>
+      <guid>https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-05-06.mp3</guid>
+    </item>
+    <item>
       <title>AI芯片独角兽冲刺IPO</title>
       <description><![CDATA[大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年05月05日。
 
@@ -350,17 +361,6 @@ OpenAI，就是那家做 ChatGPT 的公司，最近悄悄收购了一家叫 Hiro
       <enclosure url="https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-03-29.mp3" type="audio/mpeg" length="0"/>
       <pubDate>Sun, 29 Mar 2026 02:52:09 +0800</pubDate>
       <guid>https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-03-29.mp3</guid>
-    </item>
-    <item>
-      <title>软银400亿押注OpenAI上市</title>
-      <description><![CDATA[大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年03月28日。
-
-今天咱们来聊一个挺有意思的资本市场动向——软银（SoftBank），就是那家日本科技投资巨头，最近搞了一笔超级大的贷款，而且这笔钱的走向，很可能预示着OpenAI今年就要上市了。
-
-事情是这样的。华尔街两大巨头，摩根大通（JPMorgan）和高盛（Goldman Sachs），正在联手给软银提供一笔高达400亿美元的...]]></description>
-      <enclosure url="https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-03-28.mp3" type="audio/mpeg" length="0"/>
-      <pubDate>Sat, 28 Mar 2026 05:15:29 +0800</pubDate>
-      <guid>https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-03-28.mp3</guid>
     </item>
   </channel>
 </rss>
