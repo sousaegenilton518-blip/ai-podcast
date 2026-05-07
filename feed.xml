@@ -9,6 +9,19 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>AI时代媒体大亨力挺Altman</title>
+      <description><![CDATA[大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年05月07日。
+
+今天咱们聊一个挺有意思的话题——媒体大亨 Barry Diller 最近公开为 OpenAI 的 CEO Sam Altman 站台了。
+
+Barry Diller 是谁？简单说，他是美国娱乐和媒体圈的老前辈，IAC 这家互联网巨头的掌门人，在商界摸爬滚打了几十年，眼光毒辣，说话也很有分量。
+
+他最近在一个公开场合表...]]></description>
+      <enclosure url="https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-05-07.mp3" type="audio/mpeg" length="0"/>
+      <pubDate>Thu, 07 May 2026 03:36:23 +0800</pubDate>
+      <guid>https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-05-07.mp3</guid>
+    </item>
+    <item>
       <title>SAP收购18个月AI初创公司</title>
       <description><![CDATA[大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年05月06日。
 
@@ -350,17 +363,6 @@ OpenAI，就是那家做 ChatGPT 的公司，最近悄悄收购了一家叫 Hiro
       <enclosure url="https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-03-30.mp3" type="audio/mpeg" length="0"/>
       <pubDate>Mon, 30 Mar 2026 02:54:40 +0800</pubDate>
       <guid>https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-03-30.mp3</guid>
-    </item>
-    <item>
-      <title>Bluesky开放协议重塑去中心化社交</title>
-      <description><![CDATA[大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年03月29日。
-
-今天咱们来聊一个挺有意思的事儿——社交平台 Bluesky 最近搞了个新动作。
-
-你可能知道 Bluesky，就是那个被很多人当作 Twitter 替代品的去中心化社交平台。它背后用的是一个叫 atproto（AT Protocol，开放社交网络协议）的开放协议，简单理解就是，任何人都可以基于这个协议来开发自己的应用...]]></description>
-      <enclosure url="https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-03-29.mp3" type="audio/mpeg" length="0"/>
-      <pubDate>Sun, 29 Mar 2026 02:52:09 +0800</pubDate>
-      <guid>https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-03-29.mp3</guid>
     </item>
   </channel>
 </rss>
