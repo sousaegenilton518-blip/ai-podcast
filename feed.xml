@@ -9,6 +9,19 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>OpenAI语音API悄然升级</title>
+      <description><![CDATA[大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年05月08日。
+
+今天咱们来聊一个挺有意思的消息——OpenAI，就是那家做 ChatGPT 的公司，最近在它的 API（应用程序接口，简单说就是给开发者用的工具包）里，悄悄上线了一批全新的语音智能功能。
+
+你可能会问，这跟我有什么关系？别急，听我慢慢说。
+
+这次更新的核心，是让开发者能更方便地把"听"和"说"的能力集成到自己的产品里...]]></description>
+      <enclosure url="https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-05-08.mp3" type="audio/mpeg" length="0"/>
+      <pubDate>Fri, 08 May 2026 03:31:32 +0800</pubDate>
+      <guid>https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-05-08.mp3</guid>
+    </item>
+    <item>
       <title>AI时代媒体大亨力挺Altman</title>
       <description><![CDATA[大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年05月07日。
 
@@ -350,19 +363,6 @@ OpenAI，就是那家做 ChatGPT 的公司，最近悄悄收购了一家叫 Hiro
       <enclosure url="https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-03-31.mp3" type="audio/mpeg" length="0"/>
       <pubDate>Tue, 31 Mar 2026 02:47:52 +0800</pubDate>
       <guid>https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-03-31.mp3</guid>
-    </item>
-    <item>
-      <title>Sora或将关停，AI视频梦碎？</title>
-      <description><![CDATA[大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年03月30日。
-
-今天咱们来聊一个让不少人都有点意外的消息——Sora，就是OpenAI推出的那个AI视频生成工具，可能要被关停了。
-
-你可能还记得，Sora当初发布的时候有多轰动。那些视频演示，画面流畅、细节惊人，很多人当时就觉得，AI视频这条赛道要起飞了。各大科技媒体争相报道，业内人士纷纷感叹"这次是真的不一样了"。
-
-但现实往往...]]></description>
-      <enclosure url="https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-03-30.mp3" type="audio/mpeg" length="0"/>
-      <pubDate>Mon, 30 Mar 2026 02:54:40 +0800</pubDate>
-      <guid>https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-03-30.mp3</guid>
     </item>
   </channel>
 </rss>
