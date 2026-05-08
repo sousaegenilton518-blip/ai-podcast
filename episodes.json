@@ -1,5 +1,11 @@
 [
   {
+    "title": "OpenAI语音API悄然升级",
+    "desc": "大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年05月08日。\n\n今天咱们来聊一个挺有意思的消息——OpenAI，就是那家做 ChatGPT 的公司，最近在它的 API（应用程序接口，简单说就是给开发者用的工具包）里，悄悄上线了一批全新的语音智能功能。\n\n你可能会问，这跟我有什么关系？别急，听我慢慢说。\n\n这次更新的核心，是让开发者能更方便地把\"听\"和\"说\"的能力集成到自己的产品里...",
+    "audio_url": "https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-05-08.mp3",
+    "pub_date": "Fri, 08 May 2026 03:31:32 +0800"
+  },
+  {
     "title": "AI时代媒体大亨力挺Altman",
     "desc": "大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年05月07日。\n\n今天咱们聊一个挺有意思的话题——媒体大亨 Barry Diller 最近公开为 OpenAI 的 CEO Sam Altman 站台了。\n\nBarry Diller 是谁？简单说，他是美国娱乐和媒体圈的老前辈，IAC 这家互联网巨头的掌门人，在商界摸爬滚打了几十年，眼光毒辣，说话也很有分量。\n\n他最近在一个公开场合表...",
     "audio_url": "https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-05-07.mp3",
@@ -172,11 +178,5 @@
     "desc": "大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年03月31日。\n\n今天咱们聊一个挺有意思的话题——你愿意让AI当你的老板吗？\n\n美国昆尼皮亚克大学（Quinnipiac University）最近做了一项民调，结果出来之后，我觉得挺耐人寻味的。调查显示，有15%的美国人表示，他们愿意接受这样一份工作——直接上司是一个AI程序，负责给你分配任务、安排日程。\n\n听起来是不是有点科幻？但...",
     "audio_url": "https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-03-31.mp3",
     "pub_date": "Tue, 31 Mar 2026 02:47:52 +0800"
-  },
-  {
-    "title": "Sora或将关停，AI视频梦碎？",
-    "desc": "大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年03月30日。\n\n今天咱们来聊一个让不少人都有点意外的消息——Sora，就是OpenAI推出的那个AI视频生成工具，可能要被关停了。\n\n你可能还记得，Sora当初发布的时候有多轰动。那些视频演示，画面流畅、细节惊人，很多人当时就觉得，AI视频这条赛道要起飞了。各大科技媒体争相报道，业内人士纷纷感叹\"这次是真的不一样了\"。\n\n但现实往往...",
-    "audio_url": "https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-03-30.mp3",
-    "pub_date": "Mon, 30 Mar 2026 02:54:40 +0800"
   }
 ]
