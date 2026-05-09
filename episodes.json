@@ -1,5 +1,11 @@
 [
   {
+    "title": "Oracle大裁员：员工维权争遣散费",
+    "desc": "大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年05月09日。\n\n今天咱们来聊一个让很多科技从业者心里不是滋味的消息——Oracle（甲骨文）公司最近大规模裁员，而且裁得相当\"硬核\"。\n\n事情是这样的。Oracle 最近启动了一轮大规模裁员，波及范围相当广。被裁的员工们当然不甘心就这么走人，他们尝试组织起来，跟公司谈判，希望能争取到更好的遣散补偿，也就是我们说的 severance...",
+    "audio_url": "https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-05-09.mp3",
+    "pub_date": "Sat, 09 May 2026 03:30:49 +0800"
+  },
+  {
     "title": "OpenAI语音API悄然升级",
     "desc": "大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年05月08日。\n\n今天咱们来聊一个挺有意思的消息——OpenAI，就是那家做 ChatGPT 的公司，最近在它的 API（应用程序接口，简单说就是给开发者用的工具包）里，悄悄上线了一批全新的语音智能功能。\n\n你可能会问，这跟我有什么关系？别急，听我慢慢说。\n\n这次更新的核心，是让开发者能更方便地把\"听\"和\"说\"的能力集成到自己的产品里...",
     "audio_url": "https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-05-08.mp3",
@@ -172,11 +178,5 @@
     "desc": "大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年04月02日。\n\n今天要聊的这件事，说实话，挺让人哭笑不得的。AI公司 Anthropic——就是做 Claude 那家——最近搞出了一个不小的乌龙。\n\n事情是这样的。前段时间，Anthropic 的源代码不知怎么就泄露出去了，流传到了 GitHub 上。GitHub 你懂的，就是全球最大的代码托管平台，程序员们的\"家\"。泄露的代码被...",
     "audio_url": "https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-04-02.mp3",
     "pub_date": "Thu, 02 Apr 2026 02:43:54 +0800"
-  },
-  {
-    "title": "AI当老板，你愿意吗？",
-    "desc": "大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年03月31日。\n\n今天咱们聊一个挺有意思的话题——你愿意让AI当你的老板吗？\n\n美国昆尼皮亚克大学（Quinnipiac University）最近做了一项民调，结果出来之后，我觉得挺耐人寻味的。调查显示，有15%的美国人表示，他们愿意接受这样一份工作——直接上司是一个AI程序，负责给你分配任务、安排日程。\n\n听起来是不是有点科幻？但...",
-    "audio_url": "https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-03-31.mp3",
-    "pub_date": "Tue, 31 Mar 2026 02:47:52 +0800"
   }
 ]
