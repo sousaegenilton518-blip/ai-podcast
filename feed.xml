@@ -9,6 +9,17 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>Oracle大裁员：员工维权争遣散费</title>
+      <description><![CDATA[大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年05月09日。
+
+今天咱们来聊一个让很多科技从业者心里不是滋味的消息——Oracle（甲骨文）公司最近大规模裁员，而且裁得相当"硬核"。
+
+事情是这样的。Oracle 最近启动了一轮大规模裁员，波及范围相当广。被裁的员工们当然不甘心就这么走人，他们尝试组织起来，跟公司谈判，希望能争取到更好的遣散补偿，也就是我们说的 severance...]]></description>
+      <enclosure url="https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-05-09.mp3" type="audio/mpeg" length="0"/>
+      <pubDate>Sat, 09 May 2026 03:30:49 +0800</pubDate>
+      <guid>https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-05-09.mp3</guid>
+    </item>
+    <item>
       <title>OpenAI语音API悄然升级</title>
       <description><![CDATA[大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年05月08日。
 
@@ -350,19 +361,6 @@ OpenAI，就是那家做 ChatGPT 的公司，最近悄悄收购了一家叫 Hiro
       <enclosure url="https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-04-02.mp3" type="audio/mpeg" length="0"/>
       <pubDate>Thu, 02 Apr 2026 02:43:54 +0800</pubDate>
       <guid>https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-04-02.mp3</guid>
-    </item>
-    <item>
-      <title>AI当老板，你愿意吗？</title>
-      <description><![CDATA[大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年03月31日。
-
-今天咱们聊一个挺有意思的话题——你愿意让AI当你的老板吗？
-
-美国昆尼皮亚克大学（Quinnipiac University）最近做了一项民调，结果出来之后，我觉得挺耐人寻味的。调查显示，有15%的美国人表示，他们愿意接受这样一份工作——直接上司是一个AI程序，负责给你分配任务、安排日程。
-
-听起来是不是有点科幻？但...]]></description>
-      <enclosure url="https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-03-31.mp3" type="audio/mpeg" length="0"/>
-      <pubDate>Tue, 31 Mar 2026 02:47:52 +0800</pubDate>
-      <guid>https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-03-31.mp3</guid>
     </item>
   </channel>
 </rss>
