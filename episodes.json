@@ -1,5 +1,11 @@
 [
   {
+    "title": "印度语音AI：22种语言的挑战",
+    "desc": "大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年05月10日。\n\n今天咱们来聊一个挺有意思的故事——在印度做语音AI，到底有多难？\n\n先说说背景。印度这个市场，光是官方语言就有22种，方言更是数不清。普通话难学，印地语也不简单，更别说还有大量印度人日常说的是一种叫\"Hinglish\"的混合语言——就是Hindi印地语加上English英语，两种语言混着说，随时切换，毫无规律可言。你...",
+    "audio_url": "https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-05-10.mp3",
+    "pub_date": "Sun, 10 May 2026 03:43:40 +0800"
+  },
+  {
     "title": "Oracle大裁员：员工维权争遣散费",
     "desc": "大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年05月09日。\n\n今天咱们来聊一个让很多科技从业者心里不是滋味的消息——Oracle（甲骨文）公司最近大规模裁员，而且裁得相当\"硬核\"。\n\n事情是这样的。Oracle 最近启动了一轮大规模裁员，波及范围相当广。被裁的员工们当然不甘心就这么走人，他们尝试组织起来，跟公司谈判，希望能争取到更好的遣散补偿，也就是我们说的 severance...",
     "audio_url": "https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-05-09.mp3",
@@ -172,11 +178,5 @@
     "desc": "大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年04月03日。\n\n今天要聊一个挺有意思的消息——OpenAI出手了，而且这次收购的不是什么AI公司，而是一档播客节目。\n\n没错，OpenAI宣布收购了 TBPN。这档节目在硅谷可是有点名气的，全名叫 The Breakfast Podcast Network，是一档专门聚焦创业圈和科技商业话题的谈话节目，主打的就是创始人视角，风格直接...",
     "audio_url": "https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-04-03.mp3",
     "pub_date": "Fri, 03 Apr 2026 02:46:30 +0800"
-  },
-  {
-    "title": "Anthropic源码泄露GitHub乌龙事件",
-    "desc": "大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年04月02日。\n\n今天要聊的这件事，说实话，挺让人哭笑不得的。AI公司 Anthropic——就是做 Claude 那家——最近搞出了一个不小的乌龙。\n\n事情是这样的。前段时间，Anthropic 的源代码不知怎么就泄露出去了，流传到了 GitHub 上。GitHub 你懂的，就是全球最大的代码托管平台，程序员们的\"家\"。泄露的代码被...",
-    "audio_url": "https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-04-02.mp3",
-    "pub_date": "Thu, 02 Apr 2026 02:43:54 +0800"
   }
 ]
