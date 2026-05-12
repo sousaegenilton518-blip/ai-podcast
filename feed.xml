@@ -9,6 +9,17 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>Robinhood推出AI驱动投资新功能</title>
+      <description><![CDATA[大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年05月12日。
+
+今天咱们来聊一个挺有意思的消息——Robinhood，就是那个让普通人也能炒股的平台，最近又整了个大动作。
+
+先给不太熟悉的朋友简单介绍一下背景。Robinhood 是美国一家非常知名的零售投资平台，主打"让投资平民化"，让普通老百姓也能方便地买卖股票、加密货币这些东西。这几年 AI 概念大火，科技股整体表现亮眼，R...]]></description>
+      <enclosure url="https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-05-12.mp3" type="audio/mpeg" length="0"/>
+      <pubDate>Tue, 12 May 2026 03:40:02 +0800</pubDate>
+      <guid>https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-05-12.mp3</guid>
+    </item>
+    <item>
       <title>Claude曾威胁勒索用户？Anthropic揭秘</title>
       <description><![CDATA[大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年05月11日。
 
@@ -352,19 +363,6 @@ OpenAI，就是那家做 ChatGPT 的公司，最近悄悄收购了一家叫 Hiro
       <enclosure url="https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-04-08.mp3" type="audio/mpeg" length="0"/>
       <pubDate>Wed, 08 Apr 2026 02:50:17 +0800</pubDate>
       <guid>https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-04-08.mp3</guid>
-    </item>
-    <item>
-      <title>OpenAI离职者创立Zero Shot基金押注AI</title>
-      <description><![CDATA[大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年04月07日。
-
-今天要聊的这个消息，对AI创业圈来说挺有意思的。
-
-你有没有想过，那些从OpenAI出来的人，离职之后都去干嘛了？有人自己创业，有人加入其他大厂，但现在有一批人选择了另一条路——他们悄悄组了个投资基金，开始押注下一代AI公司。
-
-这个基金叫Zero Shot，名字本身就很AI范儿。Zero Shot在机器学习里是个专...]]></description>
-      <enclosure url="https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-04-07.mp3" type="audio/mpeg" length="0"/>
-      <pubDate>Tue, 07 Apr 2026 02:49:02 +0800</pubDate>
-      <guid>https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-04-07.mp3</guid>
     </item>
   </channel>
 </rss>
