@@ -1,5 +1,11 @@
 [
   {
+    "title": "SpaceXAI人才流失超50人",
+    "desc": "大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年05月15日。\n\n今天咱们来聊一个挺有意思的话题——马斯克的 SpaceXAI，最近好像有点\"留不住人\"。\n\n事情是这样的。今年二月份以来，SpaceXAI——也就是 SpaceX 和 xAI 合并之后的新公司——据报道已经有超过50名员工相继离职。50个人，听起来可能不多，但对于一家科技公司来说，这个数字背后藏着不少值得琢磨的东西。...",
+    "audio_url": "https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-05-15.mp3",
+    "pub_date": "Fri, 15 May 2026 03:52:53 +0800"
+  },
+  {
     "title": "Notion推出开发者平台，工作区变AI调度中心",
     "desc": "大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年05月14日。\n\n今天要聊的主角是 Notion——就是那个很多人用来做笔记、管项目的协作工具。它最近搞了一个大动作，正式推出了自己的开发者平台，要把整个工作区变成一个 AI agent（AI智能体）的调度中心。\n\n听起来有点抽象？我来给你拆解一下。\n\n以前我们用 Notion，基本就是写文档、建数据库、跟团队协作，顶多接个第三方工具...",
     "audio_url": "https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-05-14.mp3",
@@ -172,11 +178,5 @@
     "desc": "大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年04月11日。\n\n今天要聊的这个事儿，说实话有点戏剧性——Anthropic（安索罗皮克，就是做Claude这个AI模型的公司）居然把一个叫OpenClaw的工具的开发者，给临时封号了。\n\n先说说OpenClaw是什么。这是一个第三方工具，专门让用户能更方便地访问Claude的API接口。简单说就是，有人做了个\"壳\"，套在Claude...",
     "audio_url": "https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-04-11.mp3",
     "pub_date": "Sat, 11 Apr 2026 02:40:58 +0800"
-  },
-  {
-    "title": "OpenAI推出百元Pro订阅计划",
-    "desc": "大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年04月10日。\n\n今天要聊的这个消息，对很多重度用户来说绝对是个好消息——OpenAI终于推出了每月100美元的Pro订阅计划。\n\n说到这里，可能有朋友要问了，这有什么好激动的？咱们来捋一捋背景。在这个新计划出来之前，OpenAI的ChatGPT订阅方案其实有点尴尬——你要么选每月20美元的Plus计划，功能够用但不够爽；要么就直接跳...",
-    "audio_url": "https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-04-10.mp3",
-    "pub_date": "Fri, 10 Apr 2026 02:56:41 +0800"
   }
 ]
