@@ -9,6 +9,17 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>SpaceXAI人才流失超50人</title>
+      <description><![CDATA[大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年05月15日。
+
+今天咱们来聊一个挺有意思的话题——马斯克的 SpaceXAI，最近好像有点"留不住人"。
+
+事情是这样的。今年二月份以来，SpaceXAI——也就是 SpaceX 和 xAI 合并之后的新公司——据报道已经有超过50名员工相继离职。50个人，听起来可能不多，但对于一家科技公司来说，这个数字背后藏着不少值得琢磨的东西。...]]></description>
+      <enclosure url="https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-05-15.mp3" type="audio/mpeg" length="0"/>
+      <pubDate>Fri, 15 May 2026 03:52:53 +0800</pubDate>
+      <guid>https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-05-15.mp3</guid>
+    </item>
+    <item>
       <title>Notion推出开发者平台，工作区变AI调度中心</title>
       <description><![CDATA[大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年05月14日。
 
@@ -354,17 +365,6 @@ OpenAI，就是那家做 ChatGPT 的公司，最近悄悄收购了一家叫 Hiro
       <enclosure url="https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-04-11.mp3" type="audio/mpeg" length="0"/>
       <pubDate>Sat, 11 Apr 2026 02:40:58 +0800</pubDate>
       <guid>https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-04-11.mp3</guid>
-    </item>
-    <item>
-      <title>OpenAI推出百元Pro订阅计划</title>
-      <description><![CDATA[大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年04月10日。
-
-今天要聊的这个消息，对很多重度用户来说绝对是个好消息——OpenAI终于推出了每月100美元的Pro订阅计划。
-
-说到这里，可能有朋友要问了，这有什么好激动的？咱们来捋一捋背景。在这个新计划出来之前，OpenAI的ChatGPT订阅方案其实有点尴尬——你要么选每月20美元的Plus计划，功能够用但不够爽；要么就直接跳...]]></description>
-      <enclosure url="https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-04-10.mp3" type="audio/mpeg" length="0"/>
-      <pubDate>Fri, 10 Apr 2026 02:56:41 +0800</pubDate>
-      <guid>https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-04-10.mp3</guid>
     </item>
   </channel>
 </rss>
