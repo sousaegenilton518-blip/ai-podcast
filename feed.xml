@@ -9,6 +9,21 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>AI治理信任危机：马斯克诉奥特曼案终结</title>
+      <description><![CDATA[大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年05月16日。
+
+---
+
+这周科技圈最热闹的事，绝对是 Musk v. Altman 这场官司终于画上了句号。
+
+马斯克和奥特曼之间的这场法庭大战，持续了好一阵子。最后的结案陈词一直在绕着同一个核心问题转：**我们到底能不能信任那些掌管 AI 的人？**
+
+你想想，OpenAI 最早是作为一家非营利机构创立的，初心是"为全人类开发安...]]></description>
+      <enclosure url="https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-05-16.mp3" type="audio/mpeg" length="0"/>
+      <pubDate>Sat, 16 May 2026 03:34:56 +0800</pubDate>
+      <guid>https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-05-16.mp3</guid>
+    </item>
+    <item>
       <title>SpaceXAI人才流失超50人</title>
       <description><![CDATA[大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年05月15日。
 
@@ -354,17 +369,6 @@ OpenAI，就是那家做 ChatGPT 的公司，最近悄悄收购了一家叫 Hiro
       <enclosure url="https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-04-14.mp3" type="audio/mpeg" length="0"/>
       <pubDate>Tue, 14 Apr 2026 02:58:07 +0800</pubDate>
       <guid>https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-04-14.mp3</guid>
-    </item>
-    <item>
-      <title>Claude API封号风波：第三方工具遭殃记</title>
-      <description><![CDATA[大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年04月11日。
-
-今天要聊的这个事儿，说实话有点戏剧性——Anthropic（安索罗皮克，就是做Claude这个AI模型的公司）居然把一个叫OpenClaw的工具的开发者，给临时封号了。
-
-先说说OpenClaw是什么。这是一个第三方工具，专门让用户能更方便地访问Claude的API接口。简单说就是，有人做了个"壳"，套在Claude...]]></description>
-      <enclosure url="https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-04-11.mp3" type="audio/mpeg" length="0"/>
-      <pubDate>Sat, 11 Apr 2026 02:40:58 +0800</pubDate>
-      <guid>https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-04-11.mp3</guid>
     </item>
   </channel>
 </rss>
