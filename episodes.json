@@ -1,5 +1,11 @@
 [
   {
+    "title": "AI治理信任危机：马斯克诉奥特曼案终结",
+    "desc": "大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年05月16日。\n\n---\n\n这周科技圈最热闹的事，绝对是 Musk v. Altman 这场官司终于画上了句号。\n\n马斯克和奥特曼之间的这场法庭大战，持续了好一阵子。最后的结案陈词一直在绕着同一个核心问题转：**我们到底能不能信任那些掌管 AI 的人？**\n\n你想想，OpenAI 最早是作为一家非营利机构创立的，初心是\"为全人类开发安...",
+    "audio_url": "https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-05-16.mp3",
+    "pub_date": "Sat, 16 May 2026 03:34:56 +0800"
+  },
+  {
     "title": "SpaceXAI人才流失超50人",
     "desc": "大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年05月15日。\n\n今天咱们来聊一个挺有意思的话题——马斯克的 SpaceXAI，最近好像有点\"留不住人\"。\n\n事情是这样的。今年二月份以来，SpaceXAI——也就是 SpaceX 和 xAI 合并之后的新公司——据报道已经有超过50名员工相继离职。50个人，听起来可能不多，但对于一家科技公司来说，这个数字背后藏着不少值得琢磨的东西。...",
     "audio_url": "https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-05-15.mp3",
@@ -172,11 +178,5 @@
     "desc": "大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年04月14日。\n\n今天要聊的这条消息，跟我们每个人的钱包都有点关系。\n\nOpenAI，就是那家做 ChatGPT 的公司，最近悄悄收购了一家叫 Hiro 的 AI 初创公司。Hiro 是做什么的呢？简单说，就是个人财务规划助手，帮你管钱、规划预算、分析你的财务状况，类似于一个住在你手机里的私人理财顾问。\n\n这笔收购本身没有太多公开细节...",
     "audio_url": "https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-04-14.mp3",
     "pub_date": "Tue, 14 Apr 2026 02:58:07 +0800"
-  },
-  {
-    "title": "Claude API封号风波：第三方工具遭殃记",
-    "desc": "大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年04月11日。\n\n今天要聊的这个事儿，说实话有点戏剧性——Anthropic（安索罗皮克，就是做Claude这个AI模型的公司）居然把一个叫OpenClaw的工具的开发者，给临时封号了。\n\n先说说OpenClaw是什么。这是一个第三方工具，专门让用户能更方便地访问Claude的API接口。简单说就是，有人做了个\"壳\"，套在Claude...",
-    "audio_url": "https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-04-11.mp3",
-    "pub_date": "Sat, 11 Apr 2026 02:40:58 +0800"
   }
 ]
