@@ -9,6 +9,21 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>AI红利：谁在赚钱谁在焦虑</title>
+      <description><![CDATA[大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年05月17日。
+
+今天咱们聊一个有点扎心的话题——AI淘金热里的"有钱人"和"没钱人"。
+
+你有没有发现，最近身边聊AI的人越来越多，但聊着聊着，气氛就有点微妙了？明明是一场轰轰烈烈的技术革命，可很多人的感受却不是兴奋，而是焦虑，甚至是一种被排在门外的失落感。
+
+就连科技圈内部，这种情绪也在蔓延。
+
+我们都知道，这一轮AI浪潮来势汹汹...]]></description>
+      <enclosure url="https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-05-17.mp3" type="audio/mpeg" length="0"/>
+      <pubDate>Sun, 17 May 2026 03:53:28 +0800</pubDate>
+      <guid>https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-05-17.mp3</guid>
+    </item>
+    <item>
       <title>AI治理信任危机：马斯克诉奥特曼案终结</title>
       <description><![CDATA[大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年05月16日。
 
@@ -356,19 +371,6 @@ Barry Diller 是谁？简单说，他是美国娱乐和媒体圈的老前辈，I
       <enclosure url="https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-04-15.mp3" type="audio/mpeg" length="0"/>
       <pubDate>Wed, 15 Apr 2026 02:55:15 +0800</pubDate>
       <guid>https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-04-15.mp3</guid>
-    </item>
-    <item>
-      <title>OpenAI收购AI理财助手Hiro</title>
-      <description><![CDATA[大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年04月14日。
-
-今天要聊的这条消息，跟我们每个人的钱包都有点关系。
-
-OpenAI，就是那家做 ChatGPT 的公司，最近悄悄收购了一家叫 Hiro 的 AI 初创公司。Hiro 是做什么的呢？简单说，就是个人财务规划助手，帮你管钱、规划预算、分析你的财务状况，类似于一个住在你手机里的私人理财顾问。
-
-这笔收购本身没有太多公开细节...]]></description>
-      <enclosure url="https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-04-14.mp3" type="audio/mpeg" length="0"/>
-      <pubDate>Tue, 14 Apr 2026 02:58:07 +0800</pubDate>
-      <guid>https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-04-14.mp3</guid>
     </item>
   </channel>
 </rss>
