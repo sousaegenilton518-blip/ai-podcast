@@ -9,6 +9,17 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>AI安全信任危机：马斯克诉OpenAI终审</title>
+      <description><![CDATA[大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年05月18日。
+
+今天咱们来聊一个最近科技圈里闹得沸沸扬扬的大事——Elon Musk（埃隆·马斯克）和 OpenAI 之间的那场官司，终于进入了最后阶段。而整个庭审收尾阶段，有一个词被反复提起，那就是——信任。
+
+说起来，这场官司的核心矛盾其实挺有意思的。马斯克当年是 OpenAI 的联合创始人之一，后来闹翻了，离开了。他的核心指控...]]></description>
+      <enclosure url="https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-05-18.mp3" type="audio/mpeg" length="0"/>
+      <pubDate>Mon, 18 May 2026 04:05:28 +0800</pubDate>
+      <guid>https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-05-18.mp3</guid>
+    </item>
+    <item>
       <title>AI红利：谁在赚钱谁在焦虑</title>
       <description><![CDATA[大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年05月17日。
 
@@ -358,19 +369,6 @@ Barry Diller 是谁？简单说，他是美国娱乐和媒体圈的老前辈，I
       <enclosure url="https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-04-16.mp3" type="audio/mpeg" length="0"/>
       <pubDate>Thu, 16 Apr 2026 03:22:05 +0800</pubDate>
       <guid>https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-04-16.mp3</guid>
-    </item>
-    <item>
-      <title>AI投资风向变了：Anthropic抢戏OpenAI</title>
-      <description><![CDATA[大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年04月15日。
-
-今天咱们聊一个AI圈里挺有意思的话题——钱的故事。
-
-最近英国《金融时报》爆出一个消息，说有些原本押注OpenAI的投资人，现在开始对自己的选择产生了一点点动摇。原因嘛，说出来你可能觉得有点讽刺——是因为Anthropic（一家AI公司，由前OpenAI团队成员创立）涨得太猛了。
-
-我们先来说说背景。OpenAI，就...]]></description>
-      <enclosure url="https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-04-15.mp3" type="audio/mpeg" length="0"/>
-      <pubDate>Wed, 15 Apr 2026 02:55:15 +0800</pubDate>
-      <guid>https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-04-15.mp3</guid>
     </item>
   </channel>
 </rss>
