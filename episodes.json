@@ -1,5 +1,11 @@
 [
   {
+    "title": "AI安全信任危机：马斯克诉OpenAI终审",
+    "desc": "大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年05月18日。\n\n今天咱们来聊一个最近科技圈里闹得沸沸扬扬的大事——Elon Musk（埃隆·马斯克）和 OpenAI 之间的那场官司，终于进入了最后阶段。而整个庭审收尾阶段，有一个词被反复提起，那就是——信任。\n\n说起来，这场官司的核心矛盾其实挺有意思的。马斯克当年是 OpenAI 的联合创始人之一，后来闹翻了，离开了。他的核心指控...",
+    "audio_url": "https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-05-18.mp3",
+    "pub_date": "Mon, 18 May 2026 04:05:28 +0800"
+  },
+  {
     "title": "AI红利：谁在赚钱谁在焦虑",
     "desc": "大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年05月17日。\n\n今天咱们聊一个有点扎心的话题——AI淘金热里的\"有钱人\"和\"没钱人\"。\n\n你有没有发现，最近身边聊AI的人越来越多，但聊着聊着，气氛就有点微妙了？明明是一场轰轰烈烈的技术革命，可很多人的感受却不是兴奋，而是焦虑，甚至是一种被排在门外的失落感。\n\n就连科技圈内部，这种情绪也在蔓延。\n\n我们都知道，这一轮AI浪潮来势汹汹...",
     "audio_url": "https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-05-17.mp3",
@@ -172,11 +178,5 @@
     "desc": "大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年04月16日。\n\n今天咱们来聊一个挺重磅的消息——OpenAI刚刚对它的 Agents SDK 进行了一次重大升级。\n\n先给不太熟悉的朋友解释一下，Agents SDK 就是 OpenAI 提供给开发者的一套工具包，专门用来构建\"AI智能体\"，也就是那种能自主完成任务、做决策、甚至调用各种工具的AI系统。简单说，就是让AI不只是回答问...",
     "audio_url": "https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-04-16.mp3",
     "pub_date": "Thu, 16 Apr 2026 03:22:05 +0800"
-  },
-  {
-    "title": "AI投资风向变了：Anthropic抢戏OpenAI",
-    "desc": "大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年04月15日。\n\n今天咱们聊一个AI圈里挺有意思的话题——钱的故事。\n\n最近英国《金融时报》爆出一个消息，说有些原本押注OpenAI的投资人，现在开始对自己的选择产生了一点点动摇。原因嘛，说出来你可能觉得有点讽刺——是因为Anthropic（一家AI公司，由前OpenAI团队成员创立）涨得太猛了。\n\n我们先来说说背景。OpenAI，就...",
-    "audio_url": "https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-04-15.mp3",
-    "pub_date": "Wed, 15 Apr 2026 02:55:15 +0800"
   }
 ]
