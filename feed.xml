@@ -9,6 +9,19 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>AI药物研发：落地比模型更关键</title>
+      <description><![CDATA[大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年05月19日。
+
+今天要聊的这个故事，跟药物研发有关，而且挺有意思。
+
+你有没有想过，为什么AI在药物发现这个领域发展了这么多年，真正落地的案例还是不多？很多人会说，是因为模型不够好。但有一家公司不这么认为，他们觉得，真正的障碍不是模型，而是"用得上"这三个字。
+
+这家公司叫 SandboxAQ。AQ 是 Artificial Int...]]></description>
+      <enclosure url="https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-05-19.mp3" type="audio/mpeg" length="0"/>
+      <pubDate>Tue, 19 May 2026 03:59:02 +0800</pubDate>
+      <guid>https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-05-19.mp3</guid>
+    </item>
+    <item>
       <title>AI安全信任危机：马斯克诉OpenAI终审</title>
       <description><![CDATA[大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年05月18日。
 
@@ -358,17 +371,6 @@ Barry Diller 是谁？简单说，他是美国娱乐和媒体圈的老前辈，I
       <enclosure url="https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-04-17.mp3" type="audio/mpeg" length="0"/>
       <pubDate>Fri, 17 Apr 2026 02:57:37 +0800</pubDate>
       <guid>https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-04-17.mp3</guid>
-    </item>
-    <item>
-      <title>OpenAI Agents SDK重大升级解析</title>
-      <description><![CDATA[大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年04月16日。
-
-今天咱们来聊一个挺重磅的消息——OpenAI刚刚对它的 Agents SDK 进行了一次重大升级。
-
-先给不太熟悉的朋友解释一下，Agents SDK 就是 OpenAI 提供给开发者的一套工具包，专门用来构建"AI智能体"，也就是那种能自主完成任务、做决策、甚至调用各种工具的AI系统。简单说，就是让AI不只是回答问...]]></description>
-      <enclosure url="https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-04-16.mp3" type="audio/mpeg" length="0"/>
-      <pubDate>Thu, 16 Apr 2026 03:22:05 +0800</pubDate>
-      <guid>https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-04-16.mp3</guid>
     </item>
   </channel>
 </rss>
