@@ -1,5 +1,11 @@
 [
   {
+    "title": "AI药物研发：落地比模型更关键",
+    "desc": "大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年05月19日。\n\n今天要聊的这个故事，跟药物研发有关，而且挺有意思。\n\n你有没有想过，为什么AI在药物发现这个领域发展了这么多年，真正落地的案例还是不多？很多人会说，是因为模型不够好。但有一家公司不这么认为，他们觉得，真正的障碍不是模型，而是\"用得上\"这三个字。\n\n这家公司叫 SandboxAQ。AQ 是 Artificial Int...",
+    "audio_url": "https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-05-19.mp3",
+    "pub_date": "Tue, 19 May 2026 03:59:02 +0800"
+  },
+  {
     "title": "AI安全信任危机：马斯克诉OpenAI终审",
     "desc": "大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年05月18日。\n\n今天咱们来聊一个最近科技圈里闹得沸沸扬扬的大事——Elon Musk（埃隆·马斯克）和 OpenAI 之间的那场官司，终于进入了最后阶段。而整个庭审收尾阶段，有一个词被反复提起，那就是——信任。\n\n说起来，这场官司的核心矛盾其实挺有意思的。马斯克当年是 OpenAI 的联合创始人之一，后来闹翻了，离开了。他的核心指控...",
     "audio_url": "https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-05-18.mp3",
@@ -172,11 +178,5 @@
     "desc": "大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年04月17日。\n\n今天要聊的这个消息，对于关注AI编程赛道的朋友来说，绝对值得好好说道说道。\n\n一家叫做 Factory 的初创公司，最近完成了一轮1.5亿美元的融资，估值直接打到了15亿美元。换句话说，它已经正式跨入了\"独角兽\"俱乐部。领投方是大名鼎鼎的 Khosla Ventures，就是那家在硅谷以押注前沿技术著称的顶级风投机构...",
     "audio_url": "https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-04-17.mp3",
     "pub_date": "Fri, 17 Apr 2026 02:57:37 +0800"
-  },
-  {
-    "title": "OpenAI Agents SDK重大升级解析",
-    "desc": "大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年04月16日。\n\n今天咱们来聊一个挺重磅的消息——OpenAI刚刚对它的 Agents SDK 进行了一次重大升级。\n\n先给不太熟悉的朋友解释一下，Agents SDK 就是 OpenAI 提供给开发者的一套工具包，专门用来构建\"AI智能体\"，也就是那种能自主完成任务、做决策、甚至调用各种工具的AI系统。简单说，就是让AI不只是回答问...",
-    "audio_url": "https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-04-16.mp3",
-    "pub_date": "Thu, 16 Apr 2026 03:22:05 +0800"
   }
 ]
