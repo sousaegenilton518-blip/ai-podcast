@@ -9,6 +9,19 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>谷歌IO 2026：AI设计领域宣战</title>
+      <description><![CDATA[大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年05月20日。
+
+---
+
+今天咱们来聊一个大新闻——谷歌在今年的 IO 2026 大会上，正式宣布自己要在 AI 设计领域大干一场。
+
+说到 IO 大会，这可是谷歌每年最重要的开发者盛会，相当于苹果的 WWDC。今年的主角，毫无疑问是 AI。谷歌这次不只是展示技术，而是直接喊话：我们要做 AI 设计领域的有力竞争者。这话说得相当有底...]]></description>
+      <enclosure url="https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-05-20.mp3" type="audio/mpeg" length="0"/>
+      <pubDate>Wed, 20 May 2026 03:59:51 +0800</pubDate>
+      <guid>https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-05-20.mp3</guid>
+    </item>
+    <item>
       <title>AI药物研发：落地比模型更关键</title>
       <description><![CDATA[大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年05月19日。
 
@@ -360,17 +373,6 @@ Barry Diller 是谁？简单说，他是美国娱乐和媒体圈的老前辈，I
       <enclosure url="https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-04-18.mp3" type="audio/mpeg" length="0"/>
       <pubDate>Sat, 18 Apr 2026 02:49:25 +0800</pubDate>
       <guid>https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-04-18.mp3</guid>
-    </item>
-    <item>
-      <title>Factory融资1.5亿，AI编程独角兽诞生</title>
-      <description><![CDATA[大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年04月17日。
-
-今天要聊的这个消息，对于关注AI编程赛道的朋友来说，绝对值得好好说道说道。
-
-一家叫做 Factory 的初创公司，最近完成了一轮1.5亿美元的融资，估值直接打到了15亿美元。换句话说，它已经正式跨入了"独角兽"俱乐部。领投方是大名鼎鼎的 Khosla Ventures，就是那家在硅谷以押注前沿技术著称的顶级风投机构...]]></description>
-      <enclosure url="https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-04-17.mp3" type="audio/mpeg" length="0"/>
-      <pubDate>Fri, 17 Apr 2026 02:57:37 +0800</pubDate>
-      <guid>https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-04-17.mp3</guid>
     </item>
   </channel>
 </rss>
