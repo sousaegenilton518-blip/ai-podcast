@@ -9,6 +9,17 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>英伟达锁定2000亿AI智能体新市场</title>
+      <description><![CDATA[大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年05月21日。
+
+今天咱们来聊一个挺让人兴奋的消息——Nvidia（英伟达）的老板黄仁勋，又给大家画了一张超级大的饼。不过这次，这张饼可能是真的。
+
+黄仁勋最近公开表示，他为 Nvidia 找到了一个"全新的"市场，规模高达2000亿美元，也就是大约1.4万亿人民币。这个市场是什么呢？答案是——专门为 AI agents（AI智能体）...]]></description>
+      <enclosure url="https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-05-21.mp3" type="audio/mpeg" length="0"/>
+      <pubDate>Thu, 21 May 2026 04:08:56 +0800</pubDate>
+      <guid>https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-05-21.mp3</guid>
+    </item>
+    <item>
       <title>谷歌IO 2026：AI设计领域宣战</title>
       <description><![CDATA[大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年05月20日。
 
@@ -362,17 +373,6 @@ Barry Diller 是谁？简单说，他是美国娱乐和媒体圈的老前辈，I
       <enclosure url="https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-04-19.mp3" type="audio/mpeg" length="0"/>
       <pubDate>Sun, 19 Apr 2026 03:23:50 +0800</pubDate>
       <guid>https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-04-19.mp3</guid>
-    </item>
-    <item>
-      <title>Sam Altman虹膜扫描项目World大扩张</title>
-      <description><![CDATA[大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年04月18日。
-
-今天咱们来聊一个挺有意思的话题——Sam Altman，就是OpenAI那位大佬，他旗下还有另一个项目，叫做World，最近动作频频，要大规模扩张了。
-
-先给大家简单介绍一下World是什么。这个项目的核心是一个叫做Orb的设备——长得有点像科幻电影里的道具，是个球形扫描仪。它的功能是扫描你的虹膜，然后生成一个唯一的...]]></description>
-      <enclosure url="https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-04-18.mp3" type="audio/mpeg" length="0"/>
-      <pubDate>Sat, 18 Apr 2026 02:49:25 +0800</pubDate>
-      <guid>https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-04-18.mp3</guid>
     </item>
   </channel>
 </rss>
