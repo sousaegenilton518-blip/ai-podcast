@@ -9,6 +9,17 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>AI翻唱来了！Spotify与环球音乐达成合作</title>
+      <description><![CDATA[大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年05月22日。
+
+今天要聊的这个消息，对音乐迷来说绝对是个大新闻。
+
+Spotify，就是那个全球最大的音乐流媒体平台，最近和 Universal Music Group（环球音乐集团）达成了一项合作协议。简单来说，以后 Spotify 的 Premium 付费用户，可以用 AI 来制作自己喜欢的歌手的翻唱版本，甚至还能做混音remi...]]></description>
+      <enclosure url="https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-05-22.mp3" type="audio/mpeg" length="0"/>
+      <pubDate>Fri, 22 May 2026 04:03:53 +0800</pubDate>
+      <guid>https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-05-22.mp3</guid>
+    </item>
+    <item>
       <title>英伟达锁定2000亿AI智能体新市场</title>
       <description><![CDATA[大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年05月21日。
 
@@ -362,17 +373,6 @@ Barry Diller 是谁？简单说，他是美国娱乐和媒体圈的老前辈，I
       <enclosure url="https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-04-20.mp3" type="audio/mpeg" length="0"/>
       <pubDate>Mon, 20 Apr 2026 03:26:20 +0800</pubDate>
       <guid>https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-04-20.mp3</guid>
-    </item>
-    <item>
-      <title>特斯拉Robotaxi落地达拉斯休斯顿</title>
-      <description><![CDATA[大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年04月19日。
-
-今天咱们来聊一个挺让人兴奋的消息——Tesla，也就是大家熟知的特斯拉，正式把它的 Robotaxi 无人驾驶出租车服务扩展到了美国的达拉斯和休斯顿两座城市。
-
-特斯拉在社交媒体上发了一条帖子，内容很简单，就一句话："Robotaxi is now rolling out in Dallas & Houston"，配...]]></description>
-      <enclosure url="https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-04-19.mp3" type="audio/mpeg" length="0"/>
-      <pubDate>Sun, 19 Apr 2026 03:23:50 +0800</pubDate>
-      <guid>https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-04-19.mp3</guid>
     </item>
   </channel>
 </rss>
