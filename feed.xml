@@ -9,6 +9,19 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>AI复活逝者声音，伦理边界在哪里</title>
+      <description><![CDATA[大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年05月23日。
+
+今天要聊的这个话题，说实话，让我有点毛骨悚然，但又觉得非常值得讨论。
+
+最近有人用AI技术，把已经去世的飞行员的声音给"复活"了。听起来像科幻电影的情节，但这是真实发生的事情。
+
+事情是这样的。NTSB，也就是美国国家运输安全委员会，他们在调查飞机事故的时候，会把驾驶舱录音的相关资料放到一个公开的档案系统里。这些资料...]]></description>
+      <enclosure url="https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-05-23.mp3" type="audio/mpeg" length="0"/>
+      <pubDate>Sat, 23 May 2026 03:40:45 +0800</pubDate>
+      <guid>https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-05-23.mp3</guid>
+    </item>
+    <item>
       <title>AI翻唱来了！Spotify与环球音乐达成合作</title>
       <description><![CDATA[大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年05月22日。
 
@@ -362,17 +375,6 @@ Barry Diller 是谁？简单说，他是美国娱乐和媒体圈的老前辈，I
       <enclosure url="https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-04-21.mp3" type="audio/mpeg" length="0"/>
       <pubDate>Tue, 21 Apr 2026 03:17:45 +0800</pubDate>
       <guid>https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-04-21.mp3</guid>
-    </item>
-    <item>
-      <title>OpenAI频繁收购背后的生死抉择</title>
-      <description><![CDATA[大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年04月20日。
-
-今天咱们来聊聊 OpenAI 最近的一些大动作，以及这些动作背后藏着的两个"生死存亡级别"的问题。
-
-你可能已经注意到，OpenAI 这段时间收购动作频频。最新一期的 Equity——就是 TechCrunch 旗下那档专门聊科技投资的播客——里面深度讨论了 OpenAI 的最新收购案，以及这些收购到底能不能帮它解决...]]></description>
-      <enclosure url="https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-04-20.mp3" type="audio/mpeg" length="0"/>
-      <pubDate>Mon, 20 Apr 2026 03:26:20 +0800</pubDate>
-      <guid>https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-04-20.mp3</guid>
     </item>
   </channel>
 </rss>
