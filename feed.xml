@@ -9,6 +9,19 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>法拉利联手IBM：AI让F1观赛更智能</title>
+      <description><![CDATA[大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年05月24日。
+
+今天咱们聊一个听起来很酷的话题——法拉利和IBM联手，用AI把F1赛车迷"升级"成超级粉丝。
+
+你可能会问，赛车迷还需要升级？听我说完你就明白了。
+
+F1，也就是一级方程式赛车，是全球最顶级的赛车运动。每场比赛信息量巨大——车手数据、赛道策略、轮胎状态、天气变化……对于普通观众来说，这些信息密密麻麻，根本来不及消化。...]]></description>
+      <enclosure url="https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-05-24.mp3" type="audio/mpeg" length="0"/>
+      <pubDate>Sun, 24 May 2026 04:02:51 +0800</pubDate>
+      <guid>https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-05-24.mp3</guid>
+    </item>
+    <item>
       <title>AI复活逝者声音，伦理边界在哪里</title>
       <description><![CDATA[大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年05月23日。
 
@@ -362,19 +375,6 @@ Barry Diller 是谁？简单说，他是美国娱乐和媒体圈的老前辈，I
       <enclosure url="https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-04-22.mp3" type="audio/mpeg" length="0"/>
       <pubDate>Wed, 22 Apr 2026 02:57:24 +0800</pubDate>
       <guid>https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-04-22.mp3</guid>
-    </item>
-    <item>
-      <title>亚马逊再投50亿押注Anthropic</title>
-      <description><![CDATA[大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年04月21日。
-
-今天要聊的这条新闻，说实话，第一眼看到我就觉得——这操作，有点意思。
-
-亚马逊，也就是 Amazon，宣布再次向 Anthropic 追加投资50亿美元。Anthropic 是目前最受关注的 AI 公司之一，背后有 Claude 这个大语言模型，跟 OpenAI 的 ChatGPT 是直接竞争对手。
-
-但这笔投资最有...]]></description>
-      <enclosure url="https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-04-21.mp3" type="audio/mpeg" length="0"/>
-      <pubDate>Tue, 21 Apr 2026 03:17:45 +0800</pubDate>
-      <guid>https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-04-21.mp3</guid>
     </item>
   </channel>
 </rss>
