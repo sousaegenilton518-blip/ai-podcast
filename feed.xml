@@ -9,6 +9,21 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>AI安全：巨头也在摸石头过河</title>
+      <description><![CDATA[以下是改写后的中文播客脚本：
+
+---
+
+大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年05月25日。
+
+今天咱们聊一个很多人都有感触的话题——AI安全。不是什么高深的技术课，而是一个很真实的现状：就连Google这样的科技巨头，现在也在摸着石头过河。
+
+你有没有这种感觉？每次用AI工具的时候，心里总有一个小问号：这东西安全吗？我的数据会不会被拿去训练模型？它给我的答案靠谱吗？其...]]></description>
+      <enclosure url="https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-05-25.mp3" type="audio/mpeg" length="0"/>
+      <pubDate>Mon, 25 May 2026 04:14:13 +0800</pubDate>
+      <guid>https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-05-25.mp3</guid>
+    </item>
+    <item>
       <title>法拉利联手IBM：AI让F1观赛更智能</title>
       <description><![CDATA[大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年05月24日。
 
@@ -364,17 +379,6 @@ Barry Diller 是谁？简单说，他是美国娱乐和媒体圈的老前辈，I
       <enclosure url="https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-04-23.mp3" type="audio/mpeg" length="0"/>
       <pubDate>Thu, 23 Apr 2026 03:19:53 +0800</pubDate>
       <guid>https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-04-23.mp3</guid>
-    </item>
-    <item>
-      <title>Meta用员工操作数据训练AI</title>
-      <description><![CDATA[大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年04月22日。
-
-今天要聊的这个消息，说实话，让我有点细思极恐。Meta——就是Facebook、Instagram、WhatsApp那家公司——最近宣布，他们搞了一个新的内部工具，专门用来记录员工的鼠标移动和键盘敲击，然后把这些数据拿去训练他们的AI模型。
-
-没听错，就是你每天在电脑上的那些操作——你点了哪里、你怎么移动鼠标、你敲了...]]></description>
-      <enclosure url="https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-04-22.mp3" type="audio/mpeg" length="0"/>
-      <pubDate>Wed, 22 Apr 2026 02:57:24 +0800</pubDate>
-      <guid>https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-04-22.mp3</guid>
     </item>
   </channel>
 </rss>
