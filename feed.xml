@@ -9,6 +9,19 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>AI替人上岗：ClickUp裁员换AI</title>
+      <description><![CDATA[大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年05月26日。
+
+今天咱们聊一个让很多打工人看了心里一紧的新闻。
+
+你听说过 ClickUp 吗？这是一家做项目管理软件的美国创业公司，成立九年了，在业内算是挺有名气的。就在最近，他们宣布了一轮大规模裁员。不是裁几十个人，是几百个员工直接被送走了。
+
+那这些人的位置谁来顶？答案是——AI Agent，也就是AI智能体。而且不是几个，是...]]></description>
+      <enclosure url="https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-05-26.mp3" type="audio/mpeg" length="0"/>
+      <pubDate>Tue, 26 May 2026 03:59:45 +0800</pubDate>
+      <guid>https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-05-26.mp3</guid>
+    </item>
+    <item>
       <title>AI安全：巨头也在摸石头过河</title>
       <description><![CDATA[以下是改写后的中文播客脚本：
 
@@ -368,17 +381,6 @@ Barry Diller 是谁？简单说，他是美国娱乐和媒体圈的老前辈，I
       <enclosure url="https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-04-26.mp3" type="audio/mpeg" length="0"/>
       <pubDate>Sun, 26 Apr 2026 03:28:58 +0800</pubDate>
       <guid>https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-04-26.mp3</guid>
-    </item>
-    <item>
-      <title>特斯拉2026年资本支出飙升至250亿</title>
-      <description><![CDATA[大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年04月23日。
-
-今天咱们来聊聊特斯拉的一个大动作——这家公司刚刚宣布，把2026年的资本支出计划提高到了250亿美元。听到这个数字，你可能会问：这到底是个什么概念？
-
-简单说一下背景。Capex，也就是资本支出，指的是公司用来购买、维护或升级固定资产的钱，比如建工厂、买设备这类投入。特斯拉历史上每年的资本支出大概在80到90亿美元左...]]></description>
-      <enclosure url="https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-04-23.mp3" type="audio/mpeg" length="0"/>
-      <pubDate>Thu, 23 Apr 2026 03:19:53 +0800</pubDate>
-      <guid>https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-04-23.mp3</guid>
     </item>
   </channel>
 </rss>
