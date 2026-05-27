@@ -9,6 +9,17 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>AI取代蓝链，用户开始用脚投票</title>
+      <description><![CDATA[大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年05月27日。
+
+今天咱们聊一个挺有意思的话题——用户开始"用脚投票"了。
+
+就在前几天，谷歌在它的年度开发者大会 I/O 2026 上，对搜索引擎做了一次大刀阔斧的改版。以前我们用谷歌搜东西，页面上会出现一排蓝色链接，你点哪个就去哪个，主动权在你手里。但这次谷歌直接把这些链接换掉了，取而代之的是 AI Agent——也就是AI智能代...]]></description>
+      <enclosure url="https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-05-27.mp3" type="audio/mpeg" length="0"/>
+      <pubDate>Wed, 27 May 2026 04:13:55 +0800</pubDate>
+      <guid>https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-05-27.mp3</guid>
+    </item>
+    <item>
       <title>AI替人上岗：ClickUp裁员换AI</title>
       <description><![CDATA[大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年05月26日。
 
@@ -370,17 +381,6 @@ Barry Diller 是谁？简单说，他是美国娱乐和媒体圈的老前辈，I
       <enclosure url="https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-04-27.mp3" type="audio/mpeg" length="0"/>
       <pubDate>Mon, 27 Apr 2026 03:33:17 +0800</pubDate>
       <guid>https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-04-27.mp3</guid>
-    </item>
-    <item>
-      <title>AI智能体真实交易实验揭秘</title>
-      <description><![CDATA[大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年04月26日。
-
-今天要聊的这个事儿，说出来可能有点让人脑洞大开——Anthropic，就是那家做 Claude 的 AI 公司，最近搞了一个非常有意思的实验。他们造了一个"AI 跳蚤市场"，让 AI 智能体，也就是 agent，自己去里面买东西、卖东西，而且用的是真实的钱，交易的是真实的商品。
-
-没错，你没听错。不是模拟，不是演练，...]]></description>
-      <enclosure url="https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-04-26.mp3" type="audio/mpeg" length="0"/>
-      <pubDate>Sun, 26 Apr 2026 03:28:58 +0800</pubDate>
-      <guid>https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-04-26.mp3</guid>
     </item>
   </channel>
 </rss>
