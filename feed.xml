@@ -9,6 +9,21 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>I can't discuss that.</title>
+      <description><![CDATA[大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年05月28日。
+
+---
+
+好，今天咱们聊一个挺让人哭笑不得的事儿——Google（谷歌）的AI，居然不会拼写"Google"这个词。
+
+没错，你没听错。全球最大的搜索引擎公司，做出来的AI，连自己公司的名字都拼不对。这事儿要是放在段子里，估计都有人说"编得太假了"，但它就是真实发生了。
+
+事情是这样的。Google旗下的AI产品，在...]]></description>
+      <enclosure url="https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-05-28.mp3" type="audio/mpeg" length="0"/>
+      <pubDate>Thu, 28 May 2026 04:01:48 +0800</pubDate>
+      <guid>https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-05-28.mp3</guid>
+    </item>
+    <item>
       <title>AI取代蓝链，用户开始用脚投票</title>
       <description><![CDATA[大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年05月27日。
 
@@ -368,19 +383,6 @@ Barry Diller 是谁？简单说，他是美国娱乐和媒体圈的老前辈，I
       <enclosure url="https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-04-28.mp3" type="audio/mpeg" length="0"/>
       <pubDate>Tue, 28 Apr 2026 03:38:11 +0800</pubDate>
       <guid>https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-04-28.mp3</guid>
-    </item>
-    <item>
-      <title>AI股权换豪宅，湾区硬核交易</title>
-      <description><![CDATA[大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年04月27日。
-
-今天咱们聊一个挺有意思的新闻，说的是湾区房产和AI公司股权之间一笔非常"硬核"的交易。
-
-事情是这样的——在旧金山湾区北边，有个叫Mill Valley（米尔谷）的地方，有人挂出了一套13英亩的大宅子。13英亩是什么概念？大概相当于35个标准足球场那么大，放在湾区，这绝对是稀缺资源。
-
-但这套房子的买卖方式，真的让人...]]></description>
-      <enclosure url="https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-04-27.mp3" type="audio/mpeg" length="0"/>
-      <pubDate>Mon, 27 Apr 2026 03:33:17 +0800</pubDate>
-      <guid>https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-04-27.mp3</guid>
     </item>
   </channel>
 </rss>
