@@ -1,5 +1,11 @@
 [
   {
+    "title": "软银豪掷750亿欧元建法国数据中心",
+    "desc": "大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年05月31日。\n\n今天咱们来聊一个超级大手笔的投资新闻——软银，也就是SoftBank，宣布要在法国砸下最高750亿欧元，用来建设数据中心。没听错，750亿欧元，这个数字真的让人瞠目结舌。\n\n软银是日本的一家科技投资巨头，旗下管理着规模庞大的愿景基金，Vision Fund，投过的公司从滴滴到WeWork，可以说是科技圈里的\"钱袋子\"...",
+    "audio_url": "https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-05-31.mp3",
+    "pub_date": "Sun, 31 May 2026 04:15:56 +0800"
+  },
+  {
     "title": "AI辅助编程：程序员的依赖与隐忧",
     "desc": "大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年05月30日。\n\n今天咱们来聊一个程序员圈子里越来越热的话题——AI辅助编程。说白了就是，现在越来越多的程序员，离开了AI就不想写代码了。\n\n你可能会说，这有什么问题吗？效率提高了不是好事吗？嗯，表面上看确实是。用上GitHub Copilot（GitHub的AI编程助手）或者ChatGPT这类工具之后，代码写得更快了，很多重复性的活...",
     "audio_url": "https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-05-30.mp3",
@@ -172,11 +178,5 @@
     "desc": "大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年04月30日。\n\n今天咱们来聊聊亚马逊最新的财报消息，说实话，这份成绩单挺亮眼的，但背后也有一些值得关注的地方。\n\n先说好消息。亚马逊旗下的云计算业务 AWS，也就是 Amazon Web Services，最近的表现超出了市场预期。简单来说，AWS 就是亚马逊帮企业和开发者在云端存储数据、跑程序的那个平台，是亚马逊最赚钱的业务之一。...",
     "audio_url": "https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-04-30.mp3",
     "pub_date": "Thu, 30 Apr 2026 03:37:31 +0800"
-  },
-  {
-    "title": "马斯克与OpenAI官司再起波澜",
-    "desc": "大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年04月29日。\n\n今天咱们来聊一个挺有意思的事儿——马斯克和 OpenAI 的那场官司，最近又有新进展了。\n\n事情的背景大家可能有所了解。马斯克，就是那位特斯拉、SpaceX 的老板，当年可是 OpenAI 的联合创始人之一。他和 Sam Altman，也就是现在 OpenAI 的 CEO，一起把这家公司从零做起来。但后来两人闹掰了，...",
-    "audio_url": "https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-04-29.mp3",
-    "pub_date": "Wed, 29 Apr 2026 03:36:17 +0800"
   }
 ]
