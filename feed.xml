@@ -9,6 +9,17 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>软银豪掷750亿欧元建法国数据中心</title>
+      <description><![CDATA[大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年05月31日。
+
+今天咱们来聊一个超级大手笔的投资新闻——软银，也就是SoftBank，宣布要在法国砸下最高750亿欧元，用来建设数据中心。没听错，750亿欧元，这个数字真的让人瞠目结舌。
+
+软银是日本的一家科技投资巨头，旗下管理着规模庞大的愿景基金，Vision Fund，投过的公司从滴滴到WeWork，可以说是科技圈里的"钱袋子"...]]></description>
+      <enclosure url="https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-05-31.mp3" type="audio/mpeg" length="0"/>
+      <pubDate>Sun, 31 May 2026 04:15:56 +0800</pubDate>
+      <guid>https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-05-31.mp3</guid>
+    </item>
+    <item>
       <title>AI辅助编程：程序员的依赖与隐忧</title>
       <description><![CDATA[大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年05月30日。
 
@@ -372,17 +383,6 @@ Barry Diller 是谁？简单说，他是美国娱乐和媒体圈的老前辈，I
       <enclosure url="https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-04-30.mp3" type="audio/mpeg" length="0"/>
       <pubDate>Thu, 30 Apr 2026 03:37:31 +0800</pubDate>
       <guid>https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-04-30.mp3</guid>
-    </item>
-    <item>
-      <title>马斯克与OpenAI官司再起波澜</title>
-      <description><![CDATA[大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年04月29日。
-
-今天咱们来聊一个挺有意思的事儿——马斯克和 OpenAI 的那场官司，最近又有新进展了。
-
-事情的背景大家可能有所了解。马斯克，就是那位特斯拉、SpaceX 的老板，当年可是 OpenAI 的联合创始人之一。他和 Sam Altman，也就是现在 OpenAI 的 CEO，一起把这家公司从零做起来。但后来两人闹掰了，...]]></description>
-      <enclosure url="https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-04-29.mp3" type="audio/mpeg" length="0"/>
-      <pubDate>Wed, 29 Apr 2026 03:36:17 +0800</pubDate>
-      <guid>https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-04-29.mp3</guid>
     </item>
   </channel>
 </rss>
