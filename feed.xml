@@ -9,6 +9,17 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>AI数据中心污染，维权斗士再出击</title>
+      <description><![CDATA[大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年06月01日。
+
+今天要聊的这个人，很多人可能在电影里见过她——Erin Brockovich，艾琳·布罗克维奇。她是美国著名的环保维权人士，当年靠着一己之力，把一家大型能源公司告上法庭，帮助数百户居民拿到了巨额赔偿。她的故事后来被拍成了电影，由茱莉亚·罗伯茨主演，轰动一时。
+
+但今天，她盯上了一个新目标——数据中心，也就是 data...]]></description>
+      <enclosure url="https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-06-01.mp3" type="audio/mpeg" length="0"/>
+      <pubDate>Mon, 01 Jun 2026 04:43:55 +0800</pubDate>
+      <guid>https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-06-01.mp3</guid>
+    </item>
+    <item>
       <title>软银豪掷750亿欧元建法国数据中心</title>
       <description><![CDATA[大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年05月31日。
 
@@ -372,17 +383,6 @@ Barry Diller 是谁？简单说，他是美国娱乐和媒体圈的老前辈，I
       <enclosure url="https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-05-01.mp3" type="audio/mpeg" length="0"/>
       <pubDate>Fri, 01 May 2026 03:49:52 +0800</pubDate>
       <guid>https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-05-01.mp3</guid>
-    </item>
-    <item>
-      <title>AWS超预期，亚马逊财报亮眼</title>
-      <description><![CDATA[大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年04月30日。
-
-今天咱们来聊聊亚马逊最新的财报消息，说实话，这份成绩单挺亮眼的，但背后也有一些值得关注的地方。
-
-先说好消息。亚马逊旗下的云计算业务 AWS，也就是 Amazon Web Services，最近的表现超出了市场预期。简单来说，AWS 就是亚马逊帮企业和开发者在云端存储数据、跑程序的那个平台，是亚马逊最赚钱的业务之一。...]]></description>
-      <enclosure url="https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-04-30.mp3" type="audio/mpeg" length="0"/>
-      <pubDate>Thu, 30 Apr 2026 03:37:31 +0800</pubDate>
-      <guid>https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-04-30.mp3</guid>
     </item>
   </channel>
 </rss>
