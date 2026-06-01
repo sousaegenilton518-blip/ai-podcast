@@ -1,5 +1,11 @@
 [
   {
+    "title": "AI数据中心污染，维权斗士再出击",
+    "desc": "大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年06月01日。\n\n今天要聊的这个人，很多人可能在电影里见过她——Erin Brockovich，艾琳·布罗克维奇。她是美国著名的环保维权人士，当年靠着一己之力，把一家大型能源公司告上法庭，帮助数百户居民拿到了巨额赔偿。她的故事后来被拍成了电影，由茱莉亚·罗伯茨主演，轰动一时。\n\n但今天，她盯上了一个新目标——数据中心，也就是 data...",
+    "audio_url": "https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-06-01.mp3",
+    "pub_date": "Mon, 01 Jun 2026 04:43:55 +0800"
+  },
+  {
     "title": "软银豪掷750亿欧元建法国数据中心",
     "desc": "大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年05月31日。\n\n今天咱们来聊一个超级大手笔的投资新闻——软银，也就是SoftBank，宣布要在法国砸下最高750亿欧元，用来建设数据中心。没听错，750亿欧元，这个数字真的让人瞠目结舌。\n\n软银是日本的一家科技投资巨头，旗下管理着规模庞大的愿景基金，Vision Fund，投过的公司从滴滴到WeWork，可以说是科技圈里的\"钱袋子\"...",
     "audio_url": "https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-05-31.mp3",
@@ -172,11 +178,5 @@
     "desc": "大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年05月01日。\n\n今天咱们来聊一个挺有意思的现象——ChatGPT Images 2.0，也就是ChatGPT最新的图像生成功能，在印度火得一塌糊涂，但在其他地方嘛，反响就没那么热烈了。这到底是怎么回事？咱们来好好唠一唠。\n\n先说说ChatGPT Images 2.0是个啥。简单来讲，就是OpenAI把ChatGPT的图像生成能力升级...",
     "audio_url": "https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-05-01.mp3",
     "pub_date": "Fri, 01 May 2026 03:49:52 +0800"
-  },
-  {
-    "title": "AWS超预期，亚马逊财报亮眼",
-    "desc": "大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年04月30日。\n\n今天咱们来聊聊亚马逊最新的财报消息，说实话，这份成绩单挺亮眼的，但背后也有一些值得关注的地方。\n\n先说好消息。亚马逊旗下的云计算业务 AWS，也就是 Amazon Web Services，最近的表现超出了市场预期。简单来说，AWS 就是亚马逊帮企业和开发者在云端存储数据、跑程序的那个平台，是亚马逊最赚钱的业务之一。...",
-    "audio_url": "https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-04-30.mp3",
-    "pub_date": "Thu, 30 Apr 2026 03:37:31 +0800"
   }
 ]
