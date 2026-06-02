@@ -9,6 +9,17 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>AI基础设施：谷歌豪掷800亿</title>
+      <description><![CDATA[大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年06月02日。
+
+今天来聊一个非常震撼的消息——谷歌的母公司 Alphabet，宣布计划筹资 800 亿美元，专门用来支撑 AI 基础设施的大规模建设。没听错，800 亿，美元。
+
+我们先来感受一下这个数字的分量。800 亿美元，大概是什么概念？这差不多相当于好几个中等规模国家一年的 GDP。而 Alphabet 要把这笔钱全部砸进 ...]]></description>
+      <enclosure url="https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-06-02.mp3" type="audio/mpeg" length="0"/>
+      <pubDate>Tue, 02 Jun 2026 04:23:36 +0800</pubDate>
+      <guid>https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-06-02.mp3</guid>
+    </item>
+    <item>
       <title>AI数据中心污染，维权斗士再出击</title>
       <description><![CDATA[大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年06月01日。
 
@@ -372,17 +383,6 @@ Barry Diller 是谁？简单说，他是美国娱乐和媒体圈的老前辈，I
       <enclosure url="https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-05-03.mp3" type="audio/mpeg" length="0"/>
       <pubDate>Sun, 03 May 2026 03:40:49 +0800</pubDate>
       <guid>https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-05-03.mp3</guid>
-    </item>
-    <item>
-      <title>ChatGPT图像功能为何在印度爆火</title>
-      <description><![CDATA[大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年05月01日。
-
-今天咱们来聊一个挺有意思的现象——ChatGPT Images 2.0，也就是ChatGPT最新的图像生成功能，在印度火得一塌糊涂，但在其他地方嘛，反响就没那么热烈了。这到底是怎么回事？咱们来好好唠一唠。
-
-先说说ChatGPT Images 2.0是个啥。简单来讲，就是OpenAI把ChatGPT的图像生成能力升级...]]></description>
-      <enclosure url="https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-05-01.mp3" type="audio/mpeg" length="0"/>
-      <pubDate>Fri, 01 May 2026 03:49:52 +0800</pubDate>
-      <guid>https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-05-01.mp3</guid>
     </item>
   </channel>
 </rss>
