@@ -9,6 +9,17 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>Uber AI烧钱：四月耗尽全年预算</title>
+      <description><![CDATA[大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年06月03日。
+
+今天给大家聊一个挺有意思的故事——关于Uber，就是那个大家熟悉的打车软件，和他们在AI上"烧钱"的经历。
+
+事情是这样的。Uber最近宣布，要对员工使用AI工具的费用设置上限。听起来好像没什么大不了，但背后的原因才是重点——这家公司原本鼓励员工"敞开了用"AI，结果没想到，预算在短短四个月内就烧光了。四个月啊，朋友...]]></description>
+      <enclosure url="https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-06-03.mp3" type="audio/mpeg" length="0"/>
+      <pubDate>Wed, 03 Jun 2026 04:42:45 +0800</pubDate>
+      <guid>https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-06-03.mp3</guid>
+    </item>
+    <item>
       <title>AI基础设施：谷歌豪掷800亿</title>
       <description><![CDATA[大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年06月02日。
 
@@ -368,21 +379,6 @@ Barry Diller 是谁？简单说，他是美国娱乐和媒体圈的老前辈，I
       <enclosure url="https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-05-04.mp3" type="audio/mpeg" length="0"/>
       <pubDate>Mon, 04 May 2026 03:39:02 +0800</pubDate>
       <guid>https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-05-04.mp3</guid>
-    </item>
-    <item>
-      <title>AI演员被拒奥斯卡门外</title>
-      <description><![CDATA[这里是今天的播客脚本：
-
----
-
-大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年05月03日。
-
-今天咱们聊一个跟电影圈有关的大消息——奥斯卡，也就是Academy Awards，正式宣布：用AI生成的演员表演和AI写的剧本，不再具备参赛资格。
-
-这个规定一出来，业内反应可以说是相当热烈。先说说背景。最近这两年，AI在影视行业的渗透速度真的很快。有些制作公司已经开始用AI生成虚...]]></description>
-      <enclosure url="https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-05-03.mp3" type="audio/mpeg" length="0"/>
-      <pubDate>Sun, 03 May 2026 03:40:49 +0800</pubDate>
-      <guid>https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-05-03.mp3</guid>
     </item>
   </channel>
 </rss>
