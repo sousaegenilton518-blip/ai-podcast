@@ -9,6 +9,17 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>Lovable携手谷歌云的AI编程革命</title>
+      <description><![CDATA[大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年06月04日。
+
+今天要跟大家聊一个挺有意思的商业动态——AI编程工具 Lovable，跟 Google Cloud 签了一份重磅的多年期合作协议。
+
+先说说 Lovable 是什么。简单来讲，它是一款"无代码"或者说"低代码"的 AI 应用开发平台，你只需要用自然语言描述你想要的功能，它就能帮你把网页应用给做出来。这类工具现在特别火...]]></description>
+      <enclosure url="https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-06-04.mp3" type="audio/mpeg" length="0"/>
+      <pubDate>Thu, 04 Jun 2026 04:27:52 +0800</pubDate>
+      <guid>https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-06-04.mp3</guid>
+    </item>
+    <item>
       <title>Uber AI烧钱：四月耗尽全年预算</title>
       <description><![CDATA[大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年06月03日。
 
@@ -366,19 +377,6 @@ Barry Diller 是谁？简单说，他是美国娱乐和媒体圈的老前辈，I
       <enclosure url="https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-05-05.mp3" type="audio/mpeg" length="0"/>
       <pubDate>Tue, 05 May 2026 03:26:01 +0800</pubDate>
       <guid>https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-05-05.mp3</guid>
-    </item>
-    <item>
-      <title>AI生成"This is fine"狗图续集引发版权争议</title>
-      <description><![CDATA[大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年05月04日。
-
-今天要聊的这个故事，说起来真的有点讽刺。
-
-你们应该都见过那张经典的表情包吧——一只小狗坐在着火的房间里，端着一杯咖啡，淡定地说"This is fine"（这没什么大不了的）。这张图已经成了互联网文化的标志，每次遇到糟糕的情况，大家都会拿它来自嘲。
-
-这张图的原作者叫 KC Green，是一位漫画家。最近他突然发现...]]></description>
-      <enclosure url="https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-05-04.mp3" type="audio/mpeg" length="0"/>
-      <pubDate>Mon, 04 May 2026 03:39:02 +0800</pubDate>
-      <guid>https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-05-04.mp3</guid>
     </item>
   </channel>
 </rss>
