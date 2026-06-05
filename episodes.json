@@ -1,5 +1,11 @@
 [
   {
+    "title": "AI公司能赚钱吗？",
+    "desc": "大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年06月05日。\n\n今天咱们来聊一个挺有意思的话题——AI公司到底能不能赚到钱？这个问题最近被问得越来越多，而Anthropic（一家顶级AI初创公司）的联合创始人Daniela Amodei，直接给出了她的回答。\n\n先说说背景。Anthropic最近的增长速度，用\"火箭速度\"来形容一点不夸张。他们刚刚公布了一个数字：截至今年5月，他们...",
+    "audio_url": "https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-06-05.mp3",
+    "pub_date": "Fri, 05 Jun 2026 04:10:34 +0800"
+  },
+  {
     "title": "Lovable携手谷歌云的AI编程革命",
     "desc": "大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年06月04日。\n\n今天要跟大家聊一个挺有意思的商业动态——AI编程工具 Lovable，跟 Google Cloud 签了一份重磅的多年期合作协议。\n\n先说说 Lovable 是什么。简单来讲，它是一款\"无代码\"或者说\"低代码\"的 AI 应用开发平台，你只需要用自然语言描述你想要的功能，它就能帮你把网页应用给做出来。这类工具现在特别火...",
     "audio_url": "https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-06-04.mp3",
@@ -172,11 +178,5 @@
     "desc": "大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年05月06日。\n\n今天咱们来聊一个挺有意思的商业故事——全球最大的企业软件公司之一 SAP，最近在 AI 领域下了一盘大棋。\n\n先说第一件事。SAP 宣布计划收购一家德国 AI 初创公司，叫做 Prior Labs。听到这个名字可能很多人会问：这公司是哪来的？说出来你可能有点惊讶——这家公司成立才短短18个月，可以说是个\"婴儿公司\"。...",
     "audio_url": "https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-05-06.mp3",
     "pub_date": "Wed, 06 May 2026 03:36:18 +0800"
-  },
-  {
-    "title": "AI芯片独角兽冲刺IPO",
-    "desc": "大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年05月05日。\n\n今天咱们来聊一个挺有意思的故事——关于一家AI芯片公司，叫 Cerebras（塞瑞布拉斯），它正在冲刺一场可能震动整个科技圈的 IPO，也就是首次公开募股。\n\n先说说这个数字，估值预计高达266亿美元，甚至可能更高。你没听错，266亿美元。这在当前的AI赛道上，绝对算得上是一个重量级的数字。\n\n那 Cerebras ...",
-    "audio_url": "https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-05-05.mp3",
-    "pub_date": "Tue, 05 May 2026 03:26:01 +0800"
   }
 ]
