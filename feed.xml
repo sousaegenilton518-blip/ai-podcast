@@ -9,6 +9,17 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>AI公司能赚钱吗？</title>
+      <description><![CDATA[大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年06月05日。
+
+今天咱们来聊一个挺有意思的话题——AI公司到底能不能赚到钱？这个问题最近被问得越来越多，而Anthropic（一家顶级AI初创公司）的联合创始人Daniela Amodei，直接给出了她的回答。
+
+先说说背景。Anthropic最近的增长速度，用"火箭速度"来形容一点不夸张。他们刚刚公布了一个数字：截至今年5月，他们...]]></description>
+      <enclosure url="https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-06-05.mp3" type="audio/mpeg" length="0"/>
+      <pubDate>Fri, 05 Jun 2026 04:10:34 +0800</pubDate>
+      <guid>https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-06-05.mp3</guid>
+    </item>
+    <item>
       <title>Lovable携手谷歌云的AI编程革命</title>
       <description><![CDATA[大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年06月04日。
 
@@ -364,19 +375,6 @@ Barry Diller 是谁？简单说，他是美国娱乐和媒体圈的老前辈，I
       <enclosure url="https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-05-06.mp3" type="audio/mpeg" length="0"/>
       <pubDate>Wed, 06 May 2026 03:36:18 +0800</pubDate>
       <guid>https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-05-06.mp3</guid>
-    </item>
-    <item>
-      <title>AI芯片独角兽冲刺IPO</title>
-      <description><![CDATA[大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年05月05日。
-
-今天咱们来聊一个挺有意思的故事——关于一家AI芯片公司，叫 Cerebras（塞瑞布拉斯），它正在冲刺一场可能震动整个科技圈的 IPO，也就是首次公开募股。
-
-先说说这个数字，估值预计高达266亿美元，甚至可能更高。你没听错，266亿美元。这在当前的AI赛道上，绝对算得上是一个重量级的数字。
-
-那 Cerebras ...]]></description>
-      <enclosure url="https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-05-05.mp3" type="audio/mpeg" length="0"/>
-      <pubDate>Tue, 05 May 2026 03:26:01 +0800</pubDate>
-      <guid>https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-05-05.mp3</guid>
     </item>
   </channel>
 </rss>
