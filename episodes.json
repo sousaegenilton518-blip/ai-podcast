@@ -1,5 +1,11 @@
 [
   {
+    "title": "AI创业大赛报名即将截止",
+    "desc": "大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年06月06日。\n\n今天来聊一个对创业者来说相当重磅的消息——TechCrunch（科技克朗奇，全球知名科技媒体）旗下的年度创业大赛 Startup Battlefield 200，报名通道将在三天后正式关闭！\n\n具体来说，截止时间是美国太平洋时间6月8日晚上11点59分。听到这里，如果你是一个正在筹备中的创业者，或者你身边有朋友正在打...",
+    "audio_url": "https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-06-06.mp3",
+    "pub_date": "Sat, 06 Jun 2026 03:54:26 +0800"
+  },
+  {
     "title": "AI公司能赚钱吗？",
     "desc": "大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年06月05日。\n\n今天咱们来聊一个挺有意思的话题——AI公司到底能不能赚到钱？这个问题最近被问得越来越多，而Anthropic（一家顶级AI初创公司）的联合创始人Daniela Amodei，直接给出了她的回答。\n\n先说说背景。Anthropic最近的增长速度，用\"火箭速度\"来形容一点不夸张。他们刚刚公布了一个数字：截至今年5月，他们...",
     "audio_url": "https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-06-05.mp3",
@@ -172,11 +178,5 @@
     "desc": "大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年05月07日。\n\n今天咱们聊一个挺有意思的话题——媒体大亨 Barry Diller 最近公开为 OpenAI 的 CEO Sam Altman 站台了。\n\nBarry Diller 是谁？简单说，他是美国娱乐和媒体圈的老前辈，IAC 这家互联网巨头的掌门人，在商界摸爬滚打了几十年，眼光毒辣，说话也很有分量。\n\n他最近在一个公开场合表...",
     "audio_url": "https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-05-07.mp3",
     "pub_date": "Thu, 07 May 2026 03:36:23 +0800"
-  },
-  {
-    "title": "SAP收购18个月AI初创公司",
-    "desc": "大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年05月06日。\n\n今天咱们来聊一个挺有意思的商业故事——全球最大的企业软件公司之一 SAP，最近在 AI 领域下了一盘大棋。\n\n先说第一件事。SAP 宣布计划收购一家德国 AI 初创公司，叫做 Prior Labs。听到这个名字可能很多人会问：这公司是哪来的？说出来你可能有点惊讶——这家公司成立才短短18个月，可以说是个\"婴儿公司\"。...",
-    "audio_url": "https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-05-06.mp3",
-    "pub_date": "Wed, 06 May 2026 03:36:18 +0800"
   }
 ]
