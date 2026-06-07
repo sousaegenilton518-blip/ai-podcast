@@ -1,5 +1,11 @@
 [
   {
+    "title": "AI锁定模式护你数据安全",
+    "desc": "大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年06月07日。\n\n今天要聊的这个话题，跟我们每天都在用的 ChatGPT 有关，而且说实话，挺重要的。\n\nOpenAI 最近推出了一个新功能，叫做 Lockdown Mode，翻译过来就是\"锁定模式\"。听这个名字，你大概就能猜到——它是用来保护你的数据安全的。\n\n那它到底在防什么呢？这里有个关键词：prompt injection，提...",
+    "audio_url": "https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-06-07.mp3",
+    "pub_date": "Sun, 07 Jun 2026 04:20:39 +0800"
+  },
+  {
     "title": "AI创业大赛报名即将截止",
     "desc": "大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年06月06日。\n\n今天来聊一个对创业者来说相当重磅的消息——TechCrunch（科技克朗奇，全球知名科技媒体）旗下的年度创业大赛 Startup Battlefield 200，报名通道将在三天后正式关闭！\n\n具体来说，截止时间是美国太平洋时间6月8日晚上11点59分。听到这里，如果你是一个正在筹备中的创业者，或者你身边有朋友正在打...",
     "audio_url": "https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-06-06.mp3",
@@ -172,11 +178,5 @@
     "desc": "大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年05月08日。\n\n今天咱们来聊一个挺有意思的消息——OpenAI，就是那家做 ChatGPT 的公司，最近在它的 API（应用程序接口，简单说就是给开发者用的工具包）里，悄悄上线了一批全新的语音智能功能。\n\n你可能会问，这跟我有什么关系？别急，听我慢慢说。\n\n这次更新的核心，是让开发者能更方便地把\"听\"和\"说\"的能力集成到自己的产品里...",
     "audio_url": "https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-05-08.mp3",
     "pub_date": "Fri, 08 May 2026 03:31:32 +0800"
-  },
-  {
-    "title": "AI时代媒体大亨力挺Altman",
-    "desc": "大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年05月07日。\n\n今天咱们聊一个挺有意思的话题——媒体大亨 Barry Diller 最近公开为 OpenAI 的 CEO Sam Altman 站台了。\n\nBarry Diller 是谁？简单说，他是美国娱乐和媒体圈的老前辈，IAC 这家互联网巨头的掌门人，在商界摸爬滚打了几十年，眼光毒辣，说话也很有分量。\n\n他最近在一个公开场合表...",
-    "audio_url": "https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-05-07.mp3",
-    "pub_date": "Thu, 07 May 2026 03:36:23 +0800"
   }
 ]
