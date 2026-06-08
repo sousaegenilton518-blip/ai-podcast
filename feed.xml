@@ -9,6 +9,17 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>AI使用成本暗涨，"Token末日"来袭</title>
+      <description><![CDATA[大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年06月08日。
+
+今天我们来聊一个让很多开发者和企业用户都有点头疼的话题——AI的使用成本，正在悄悄涨起来了。
+
+最近圈子里流传着一个有点吓人的新词，叫做"Tokenpocalypse"，咱们可以把它理解成"Token末日"。Token嘛，就是AI处理文字时计量的基本单位，你问它一个问题，它回答你，都要消耗Token，而这些Token...]]></description>
+      <enclosure url="https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-06-08.mp3" type="audio/mpeg" length="0"/>
+      <pubDate>Mon, 08 Jun 2026 04:25:01 +0800</pubDate>
+      <guid>https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-06-08.mp3</guid>
+    </item>
+    <item>
       <title>AI锁定模式护你数据安全</title>
       <description><![CDATA[大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年06月07日。
 
@@ -362,19 +373,6 @@ A...]]></description>
       <enclosure url="https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-05-09.mp3" type="audio/mpeg" length="0"/>
       <pubDate>Sat, 09 May 2026 03:30:49 +0800</pubDate>
       <guid>https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-05-09.mp3</guid>
-    </item>
-    <item>
-      <title>OpenAI语音API悄然升级</title>
-      <description><![CDATA[大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年05月08日。
-
-今天咱们来聊一个挺有意思的消息——OpenAI，就是那家做 ChatGPT 的公司，最近在它的 API（应用程序接口，简单说就是给开发者用的工具包）里，悄悄上线了一批全新的语音智能功能。
-
-你可能会问，这跟我有什么关系？别急，听我慢慢说。
-
-这次更新的核心，是让开发者能更方便地把"听"和"说"的能力集成到自己的产品里...]]></description>
-      <enclosure url="https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-05-08.mp3" type="audio/mpeg" length="0"/>
-      <pubDate>Fri, 08 May 2026 03:31:32 +0800</pubDate>
-      <guid>https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-05-08.mp3</guid>
     </item>
   </channel>
 </rss>
