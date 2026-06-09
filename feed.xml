@@ -9,6 +9,19 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>苹果AI战略：妙棋还是慢半拍？</title>
+      <description><![CDATA[大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年06月09日。
+
+今天咱们来聊一个很多人都在讨论的话题——苹果公司的AI战略，到底是走了一步妙棋，还是真的慢半拍？
+
+你有没有这种感觉？这两年每次看科技新闻，OpenAI发布新模型，Google推出新功能，Meta又搞了什么大动作，但苹果……好像总是安安静静的，不太吭声。于是外界开始传——苹果在AI这场赛跑里，是不是已经掉队了？
+
+但...]]></description>
+      <enclosure url="https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-06-09.mp3" type="audio/mpeg" length="0"/>
+      <pubDate>Tue, 09 Jun 2026 03:56:46 +0800</pubDate>
+      <guid>https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-06-09.mp3</guid>
+    </item>
+    <item>
       <title>AI使用成本暗涨，"Token末日"来袭</title>
       <description><![CDATA[大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年06月08日。
 
@@ -362,17 +375,6 @@ A...]]></description>
       <enclosure url="https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-05-10.mp3" type="audio/mpeg" length="0"/>
       <pubDate>Sun, 10 May 2026 03:43:40 +0800</pubDate>
       <guid>https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-05-10.mp3</guid>
-    </item>
-    <item>
-      <title>Oracle大裁员：员工维权争遣散费</title>
-      <description><![CDATA[大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年05月09日。
-
-今天咱们来聊一个让很多科技从业者心里不是滋味的消息——Oracle（甲骨文）公司最近大规模裁员，而且裁得相当"硬核"。
-
-事情是这样的。Oracle 最近启动了一轮大规模裁员，波及范围相当广。被裁的员工们当然不甘心就这么走人，他们尝试组织起来，跟公司谈判，希望能争取到更好的遣散补偿，也就是我们说的 severance...]]></description>
-      <enclosure url="https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-05-09.mp3" type="audio/mpeg" length="0"/>
-      <pubDate>Sat, 09 May 2026 03:30:49 +0800</pubDate>
-      <guid>https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-05-09.mp3</guid>
     </item>
   </channel>
 </rss>
