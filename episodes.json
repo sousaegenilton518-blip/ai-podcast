@@ -1,5 +1,11 @@
 [
   {
+    "title": "苹果AI战略：妙棋还是慢半拍？",
+    "desc": "大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年06月09日。\n\n今天咱们来聊一个很多人都在讨论的话题——苹果公司的AI战略，到底是走了一步妙棋，还是真的慢半拍？\n\n你有没有这种感觉？这两年每次看科技新闻，OpenAI发布新模型，Google推出新功能，Meta又搞了什么大动作，但苹果……好像总是安安静静的，不太吭声。于是外界开始传——苹果在AI这场赛跑里，是不是已经掉队了？\n\n但...",
+    "audio_url": "https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-06-09.mp3",
+    "pub_date": "Tue, 09 Jun 2026 03:56:46 +0800"
+  },
+  {
     "title": "AI使用成本暗涨，\"Token末日\"来袭",
     "desc": "大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年06月08日。\n\n今天我们来聊一个让很多开发者和企业用户都有点头疼的话题——AI的使用成本，正在悄悄涨起来了。\n\n最近圈子里流传着一个有点吓人的新词，叫做\"Tokenpocalypse\"，咱们可以把它理解成\"Token末日\"。Token嘛，就是AI处理文字时计量的基本单位，你问它一个问题，它回答你，都要消耗Token，而这些Token...",
     "audio_url": "https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-06-08.mp3",
@@ -172,11 +178,5 @@
     "desc": "大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年05月10日。\n\n今天咱们来聊一个挺有意思的故事——在印度做语音AI，到底有多难？\n\n先说说背景。印度这个市场，光是官方语言就有22种，方言更是数不清。普通话难学，印地语也不简单，更别说还有大量印度人日常说的是一种叫\"Hinglish\"的混合语言——就是Hindi印地语加上English英语，两种语言混着说，随时切换，毫无规律可言。你...",
     "audio_url": "https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-05-10.mp3",
     "pub_date": "Sun, 10 May 2026 03:43:40 +0800"
-  },
-  {
-    "title": "Oracle大裁员：员工维权争遣散费",
-    "desc": "大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年05月09日。\n\n今天咱们来聊一个让很多科技从业者心里不是滋味的消息——Oracle（甲骨文）公司最近大规模裁员，而且裁得相当\"硬核\"。\n\n事情是这样的。Oracle 最近启动了一轮大规模裁员，波及范围相当广。被裁的员工们当然不甘心就这么走人，他们尝试组织起来，跟公司谈判，希望能争取到更好的遣散补偿，也就是我们说的 severance...",
-    "audio_url": "https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-05-09.mp3",
-    "pub_date": "Sat, 09 May 2026 03:30:49 +0800"
   }
 ]
