@@ -9,6 +9,19 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>Google大幅削减AI订阅费</title>
+      <description><![CDATA[大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年06月10日。
+
+---
+
+今天咱们聊一个跟钱直接相关的消息——Google（谷歌）在AI订阅价格战上，放了一个大招。
+
+最近这段时间，AI工具的订阅费一直是大家心里的一根刺。OpenAI、Anthropic、Google，各家都在推高端套餐，动不动就是每月二十美元起步，用起来肉疼。但就在这几天，Google突然宣布，大幅下调了旗下入...]]></description>
+      <enclosure url="https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-06-10.mp3" type="audio/mpeg" length="0"/>
+      <pubDate>Wed, 10 Jun 2026 04:08:23 +0800</pubDate>
+      <guid>https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-06-10.mp3</guid>
+    </item>
+    <item>
       <title>苹果AI战略：妙棋还是慢半拍？</title>
       <description><![CDATA[大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年06月09日。
 
@@ -364,17 +377,6 @@ A...]]></description>
       <enclosure url="https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-05-11.mp3" type="audio/mpeg" length="0"/>
       <pubDate>Mon, 11 May 2026 03:56:54 +0800</pubDate>
       <guid>https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-05-11.mp3</guid>
-    </item>
-    <item>
-      <title>印度语音AI：22种语言的挑战</title>
-      <description><![CDATA[大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年05月10日。
-
-今天咱们来聊一个挺有意思的故事——在印度做语音AI，到底有多难？
-
-先说说背景。印度这个市场，光是官方语言就有22种，方言更是数不清。普通话难学，印地语也不简单，更别说还有大量印度人日常说的是一种叫"Hinglish"的混合语言——就是Hindi印地语加上English英语，两种语言混着说，随时切换，毫无规律可言。你...]]></description>
-      <enclosure url="https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-05-10.mp3" type="audio/mpeg" length="0"/>
-      <pubDate>Sun, 10 May 2026 03:43:40 +0800</pubDate>
-      <guid>https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-05-10.mp3</guid>
     </item>
   </channel>
 </rss>
