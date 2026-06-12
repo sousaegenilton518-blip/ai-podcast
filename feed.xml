@@ -9,6 +9,19 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>Theker融资8500万，通用机器人来了</title>
+      <description><![CDATA[大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年06月12日。
+
+今天来聊一个挺有意思的机器人公司——Theker。他们刚刚完成了一轮8500万美元的融资，消息一出，科技圈不少人都在讨论。
+
+你可能会问，机器人公司这么多，Theker有什么特别的？好，重点来了。
+
+我们现在见到的大多数工厂机器人，都是为某一项任务专门设计的。比如这台机器只负责焊接，那台只负责搬运箱子，换个活儿干？对...]]></description>
+      <enclosure url="https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-06-12.mp3" type="audio/mpeg" length="0"/>
+      <pubDate>Fri, 12 Jun 2026 04:23:51 +0800</pubDate>
+      <guid>https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-06-12.mp3</guid>
+    </item>
+    <item>
       <title>AI替代外包？Opendoor撤印引发热议</title>
       <description><![CDATA[大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年06月11日。
 
@@ -362,17 +375,6 @@ Spotify，就是那个全球最大的音乐流媒体平台，最近和 Universal
       <enclosure url="https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-05-13.mp3" type="audio/mpeg" length="0"/>
       <pubDate>Wed, 13 May 2026 03:50:06 +0800</pubDate>
       <guid>https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-05-13.mp3</guid>
-    </item>
-    <item>
-      <title>Robinhood推出AI驱动投资新功能</title>
-      <description><![CDATA[大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年05月12日。
-
-今天咱们来聊一个挺有意思的消息——Robinhood，就是那个让普通人也能炒股的平台，最近又整了个大动作。
-
-先给不太熟悉的朋友简单介绍一下背景。Robinhood 是美国一家非常知名的零售投资平台，主打"让投资平民化"，让普通老百姓也能方便地买卖股票、加密货币这些东西。这几年 AI 概念大火，科技股整体表现亮眼，R...]]></description>
-      <enclosure url="https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-05-12.mp3" type="audio/mpeg" length="0"/>
-      <pubDate>Tue, 12 May 2026 03:40:02 +0800</pubDate>
-      <guid>https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-05-12.mp3</guid>
     </item>
   </channel>
 </rss>
