@@ -9,6 +9,19 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>Claude安全披露反被竞争对手利用</title>
+      <description><![CDATA[大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年06月13日。
+
+今天要聊一个挺有意思的故事，主角是 Anthropic——就是那家做 Claude 的AI公司。
+
+事情是这样的，Anthropic 一直以来都把"安全第一"挂在嘴边，是AI圈里出了名的"安全派"。他们经常主动向外界披露自己产品存在的潜在风险，初衷是好的，想让大家觉得他们负责任、透明。
+
+但这次，他们的"坦诚"可能真...]]></description>
+      <enclosure url="https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-06-13.mp3" type="audio/mpeg" length="0"/>
+      <pubDate>Sat, 13 Jun 2026 04:12:44 +0800</pubDate>
+      <guid>https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-06-13.mp3</guid>
+    </item>
+    <item>
       <title>Theker融资8500万，通用机器人来了</title>
       <description><![CDATA[大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年06月12日。
 
@@ -362,19 +375,6 @@ Spotify，就是那个全球最大的音乐流媒体平台，最近和 Universal
       <enclosure url="https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-05-14.mp3" type="audio/mpeg" length="0"/>
       <pubDate>Thu, 14 May 2026 03:49:30 +0800</pubDate>
       <guid>https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-05-14.mp3</guid>
-    </item>
-    <item>
-      <title>AI医疗助手，谁来买单？</title>
-      <description><![CDATA[大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年05月13日。
-
-今天咱们聊一个很多科技圈的朋友可能完全没注意到的消息，但它其实挺重要的——美国医疗保险体系 Medicare，正在悄悄为 AI 时代重新铺路。
-
-你有没有想过这样一个问题：如果有一个 AI 助手，能在你两次看诊之间，主动打电话问你身体怎么样，帮你协调住房问题，甚至提醒你记得去取药——这件事，谁来买单？
-
-在过去，答案...]]></description>
-      <enclosure url="https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-05-13.mp3" type="audio/mpeg" length="0"/>
-      <pubDate>Wed, 13 May 2026 03:50:06 +0800</pubDate>
-      <guid>https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-05-13.mp3</guid>
     </item>
   </channel>
 </rss>
