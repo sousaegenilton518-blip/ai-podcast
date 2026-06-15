@@ -1,5 +1,11 @@
 [
   {
+    "title": "AI独角兽IPO潮，谁在背后赚大钱",
+    "desc": "大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年06月15日。\n\n今天咱们来聊一个挺有意思的话题——AI公司扎堆上市这件事，背后到底有哪些人在跟着沾光？\n\n最近你可能注意到了，AI领域的IPO（首次公开募股，就是公司去股市敲钟那件事）热潮越来越猛。各大AI明星公司都在摩拳擦掌，准备登陆资本市场。但你有没有想过，除了这些公司本身，还有谁能从这波浪潮里捞到好处？\n\n有个很形象的说法在创...",
+    "audio_url": "https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-06-15.mp3",
+    "pub_date": "Mon, 15 Jun 2026 04:53:06 +0800"
+  },
+  {
     "title": "Anthropic限流引爆印度科技圈",
     "desc": "大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年06月14日。\n\n今天咱们来聊一个最近在印度科技圈里闹得沸沸扬扬的事儿——Anthropic，就是那家做 Claude 大模型的美国AI公司，突然暂停了对部分新模型的访问权限。这一下子，印度的科技界炸锅了。\n\n事情是这样的。Anthropic 最近对旗下几款最新模型的API访问做了限制，部分地区的用户和开发者发现自己突然用不了了。对于...",
     "audio_url": "https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-06-14.mp3",
@@ -172,11 +178,5 @@
     "desc": "大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年05月16日。\n\n---\n\n这周科技圈最热闹的事，绝对是 Musk v. Altman 这场官司终于画上了句号。\n\n马斯克和奥特曼之间的这场法庭大战，持续了好一阵子。最后的结案陈词一直在绕着同一个核心问题转：**我们到底能不能信任那些掌管 AI 的人？**\n\n你想想，OpenAI 最早是作为一家非营利机构创立的，初心是\"为全人类开发安...",
     "audio_url": "https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-05-16.mp3",
     "pub_date": "Sat, 16 May 2026 03:34:56 +0800"
-  },
-  {
-    "title": "SpaceXAI人才流失超50人",
-    "desc": "大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年05月15日。\n\n今天咱们来聊一个挺有意思的话题——马斯克的 SpaceXAI，最近好像有点\"留不住人\"。\n\n事情是这样的。今年二月份以来，SpaceXAI——也就是 SpaceX 和 xAI 合并之后的新公司——据报道已经有超过50名员工相继离职。50个人，听起来可能不多，但对于一家科技公司来说，这个数字背后藏着不少值得琢磨的东西。...",
-    "audio_url": "https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-05-15.mp3",
-    "pub_date": "Fri, 15 May 2026 03:52:53 +0800"
   }
 ]
