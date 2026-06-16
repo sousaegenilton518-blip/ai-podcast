@@ -9,6 +9,17 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>AI领袖斯坦福遭学生抗议</title>
+      <description><![CDATA[大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年06月16日。
+
+今天咱们聊一件在美国引发广泛关注的事儿。谷歌的CEO，桑达尔·皮查伊，在斯坦福大学的毕业典礼上，遭到了现场学生的嘘声和集体退场抗议。没错，就是那种当着几千人的面，起身离开的那种。
+
+事情是这样的——皮查伊被邀请作为今年斯坦福毕业典礼的演讲嘉宾。但就在他走上台的时候，一部分学生站起来，转身就走，还有人对着台上喊出嘘声。...]]></description>
+      <enclosure url="https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-06-16.mp3" type="audio/mpeg" length="0"/>
+      <pubDate>Tue, 16 Jun 2026 04:50:23 +0800</pubDate>
+      <guid>https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-06-16.mp3</guid>
+    </item>
+    <item>
       <title>AI独角兽IPO潮，谁在背后赚大钱</title>
       <description><![CDATA[大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年06月15日。
 
@@ -360,21 +371,6 @@ Spotify，就是那个全球最大的音乐流媒体平台，最近和 Universal
       <enclosure url="https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-05-17.mp3" type="audio/mpeg" length="0"/>
       <pubDate>Sun, 17 May 2026 03:53:28 +0800</pubDate>
       <guid>https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-05-17.mp3</guid>
-    </item>
-    <item>
-      <title>AI治理信任危机：马斯克诉奥特曼案终结</title>
-      <description><![CDATA[大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年05月16日。
-
----
-
-这周科技圈最热闹的事，绝对是 Musk v. Altman 这场官司终于画上了句号。
-
-马斯克和奥特曼之间的这场法庭大战，持续了好一阵子。最后的结案陈词一直在绕着同一个核心问题转：**我们到底能不能信任那些掌管 AI 的人？**
-
-你想想，OpenAI 最早是作为一家非营利机构创立的，初心是"为全人类开发安...]]></description>
-      <enclosure url="https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-05-16.mp3" type="audio/mpeg" length="0"/>
-      <pubDate>Sat, 16 May 2026 03:34:56 +0800</pubDate>
-      <guid>https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-05-16.mp3</guid>
     </item>
   </channel>
 </rss>
