@@ -1,5 +1,11 @@
 [
   {
+    "title": "AI提示框关不掉？谷歌Gemini惹众怒",
+    "desc": "大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年06月18日。\n\n---\n\n今天咱们聊一个很多人都遇到过的小烦恼——就是你打开 Google Docs（谷歌文档）的时候，屏幕上老是弹出那个\"Write with Gemini\"（用 Gemini 写作）的提示框。\n\nGemini 是谷歌旗下的 AI 助手，功能挺强大的，但问题是——不是每个人都想用它。你只是想安安静静地打个文档，它偏...",
+    "audio_url": "https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-06-18.mp3",
+    "pub_date": "Thu, 18 Jun 2026 04:23:49 +0800"
+  },
+  {
     "title": "Anthropic与政府博弈反获益",
     "desc": "大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年06月17日。\n\n今天咱们来聊一个挺有意思的故事——一家AI公司跟政府闹矛盾，结果反而可能因此赚到了？\n\n说的就是Anthropic（人类理性公司），就是那家做Claude大模型的AI独角兽。最近他们跟特朗普政府之间关系有点紧张，双方产生了一些摩擦和分歧。按常理来说，跟政府对着干，对一家科技公司来说不是什么好事，毕竟政策风险摆在那儿。...",
     "audio_url": "https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-06-17.mp3",
@@ -172,11 +178,5 @@
     "desc": "大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年05月19日。\n\n今天要聊的这个故事，跟药物研发有关，而且挺有意思。\n\n你有没有想过，为什么AI在药物发现这个领域发展了这么多年，真正落地的案例还是不多？很多人会说，是因为模型不够好。但有一家公司不这么认为，他们觉得，真正的障碍不是模型，而是\"用得上\"这三个字。\n\n这家公司叫 SandboxAQ。AQ 是 Artificial Int...",
     "audio_url": "https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-05-19.mp3",
     "pub_date": "Tue, 19 May 2026 03:59:02 +0800"
-  },
-  {
-    "title": "AI安全信任危机：马斯克诉OpenAI终审",
-    "desc": "大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年05月18日。\n\n今天咱们来聊一个最近科技圈里闹得沸沸扬扬的大事——Elon Musk（埃隆·马斯克）和 OpenAI 之间的那场官司，终于进入了最后阶段。而整个庭审收尾阶段，有一个词被反复提起，那就是——信任。\n\n说起来，这场官司的核心矛盾其实挺有意思的。马斯克当年是 OpenAI 的联合创始人之一，后来闹翻了，离开了。他的核心指控...",
-    "audio_url": "https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-05-18.mp3",
-    "pub_date": "Mon, 18 May 2026 04:05:28 +0800"
   }
 ]
