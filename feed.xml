@@ -9,6 +9,19 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>AI搜索巨头Elastic并购DeductiveAI</title>
+      <description><![CDATA[大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年06月19日。
+
+今天给大家带来一条科技并购的消息，主角是两家公司——Elastic 和 DeductiveAI。
+
+先说说 Elastic，很多做技术的朋友可能都听过这个名字。它是一家专注于搜索和数据分析的上市公司，旗下最出名的产品就是 Elasticsearch，被全球无数开发团队用来做日志分析、全文搜索这些事儿。
+
+而 Dedu...]]></description>
+      <enclosure url="https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-06-19.mp3" type="audio/mpeg" length="0"/>
+      <pubDate>Fri, 19 Jun 2026 04:51:30 +0800</pubDate>
+      <guid>https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-06-19.mp3</guid>
+    </item>
+    <item>
       <title>AI提示框关不掉？谷歌Gemini惹众怒</title>
       <description><![CDATA[大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年06月18日。
 
@@ -356,19 +369,6 @@ Spotify，就是那个全球最大的音乐流媒体平台，最近和 Universal
       <enclosure url="https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-05-20.mp3" type="audio/mpeg" length="0"/>
       <pubDate>Wed, 20 May 2026 03:59:51 +0800</pubDate>
       <guid>https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-05-20.mp3</guid>
-    </item>
-    <item>
-      <title>AI药物研发：落地比模型更关键</title>
-      <description><![CDATA[大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年05月19日。
-
-今天要聊的这个故事，跟药物研发有关，而且挺有意思。
-
-你有没有想过，为什么AI在药物发现这个领域发展了这么多年，真正落地的案例还是不多？很多人会说，是因为模型不够好。但有一家公司不这么认为，他们觉得，真正的障碍不是模型，而是"用得上"这三个字。
-
-这家公司叫 SandboxAQ。AQ 是 Artificial Int...]]></description>
-      <enclosure url="https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-05-19.mp3" type="audio/mpeg" length="0"/>
-      <pubDate>Tue, 19 May 2026 03:59:02 +0800</pubDate>
-      <guid>https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-05-19.mp3</guid>
     </item>
   </channel>
 </rss>
