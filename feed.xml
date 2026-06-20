@@ -9,6 +9,17 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>AI网络安全模型的出口管制之争</title>
+      <description><![CDATA[大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年06月20日。
+
+今天咱们聊一个很有意思的话题——出口管制。听起来有点严肃，但其实跟咱们每天用的AI技术息息相关。
+
+事情的起因是这样的：AI公司Anthropic最近开发了一个专门用于网络安全领域的AI模型，名字叫Mythos。这个模型能力很强，据说可以帮助识别和分析各种网络威胁。但问题来了——有人担心，这样的工具一旦流传出去，会不...]]></description>
+      <enclosure url="https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-06-20.mp3" type="audio/mpeg" length="0"/>
+      <pubDate>Sat, 20 Jun 2026 04:06:06 +0800</pubDate>
+      <guid>https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-06-20.mp3</guid>
+    </item>
+    <item>
       <title>AI搜索巨头Elastic并购DeductiveAI</title>
       <description><![CDATA[大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年06月19日。
 
@@ -356,19 +367,6 @@ Spotify，就是那个全球最大的音乐流媒体平台，最近和 Universal
       <enclosure url="https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-05-21.mp3" type="audio/mpeg" length="0"/>
       <pubDate>Thu, 21 May 2026 04:08:56 +0800</pubDate>
       <guid>https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-05-21.mp3</guid>
-    </item>
-    <item>
-      <title>谷歌IO 2026：AI设计领域宣战</title>
-      <description><![CDATA[大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年05月20日。
-
----
-
-今天咱们来聊一个大新闻——谷歌在今年的 IO 2026 大会上，正式宣布自己要在 AI 设计领域大干一场。
-
-说到 IO 大会，这可是谷歌每年最重要的开发者盛会，相当于苹果的 WWDC。今年的主角，毫无疑问是 AI。谷歌这次不只是展示技术，而是直接喊话：我们要做 AI 设计领域的有力竞争者。这话说得相当有底...]]></description>
-      <enclosure url="https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-05-20.mp3" type="audio/mpeg" length="0"/>
-      <pubDate>Wed, 20 May 2026 03:59:51 +0800</pubDate>
-      <guid>https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-05-20.mp3</guid>
     </item>
   </channel>
 </rss>
