@@ -1,5 +1,11 @@
 [
   {
+    "title": "AI不是你的朋友",
+    "desc": "大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年06月21日。\n\n今天要聊的这个话题，可能会让一些人有点不舒服——但我觉得恰恰是因为这样，才更值得说。\n\n最近，Signal（就是那款以隐私著称的加密通讯应用）的总裁 Meredith Whittaker，公开说了一句挺扎心的话。她说：\"这些东西不是你的朋友。它们不是有意识的存在，也不是真正能跟你对话的生命体。\"\n\n她说的\"这些东西\"...",
+    "audio_url": "https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-06-21.mp3",
+    "pub_date": "Sun, 21 Jun 2026 04:47:28 +0800"
+  },
+  {
     "title": "AI网络安全模型的出口管制之争",
     "desc": "大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年06月20日。\n\n今天咱们聊一个很有意思的话题——出口管制。听起来有点严肃，但其实跟咱们每天用的AI技术息息相关。\n\n事情的起因是这样的：AI公司Anthropic最近开发了一个专门用于网络安全领域的AI模型，名字叫Mythos。这个模型能力很强，据说可以帮助识别和分析各种网络威胁。但问题来了——有人担心，这样的工具一旦流传出去，会不...",
     "audio_url": "https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-06-20.mp3",
@@ -172,11 +178,5 @@
     "desc": "大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年05月22日。\n\n今天要聊的这个消息，对音乐迷来说绝对是个大新闻。\n\nSpotify，就是那个全球最大的音乐流媒体平台，最近和 Universal Music Group（环球音乐集团）达成了一项合作协议。简单来说，以后 Spotify 的 Premium 付费用户，可以用 AI 来制作自己喜欢的歌手的翻唱版本，甚至还能做混音remi...",
     "audio_url": "https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-05-22.mp3",
     "pub_date": "Fri, 22 May 2026 04:03:53 +0800"
-  },
-  {
-    "title": "英伟达锁定2000亿AI智能体新市场",
-    "desc": "大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年05月21日。\n\n今天咱们来聊一个挺让人兴奋的消息——Nvidia（英伟达）的老板黄仁勋，又给大家画了一张超级大的饼。不过这次，这张饼可能是真的。\n\n黄仁勋最近公开表示，他为 Nvidia 找到了一个\"全新的\"市场，规模高达2000亿美元，也就是大约1.4万亿人民币。这个市场是什么呢？答案是——专门为 AI agents（AI智能体）...",
-    "audio_url": "https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-05-21.mp3",
-    "pub_date": "Thu, 21 May 2026 04:08:56 +0800"
   }
 ]
