@@ -1,5 +1,11 @@
 [
   {
+    "title": "特朗普政府盯上Anthropic",
+    "desc": "大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年06月22日。\n\n今天咱们来聊一个挺有意思的话题——美国特朗普政府最近开始对 Anthropic 下手了。Anthropic 呢，就是那家做 Claude 大模型的 AI 公司，算是目前 OpenAI 最强劲的竞争对手之一。\n\n那政府为什么要盯上 Anthropic 呢？根据 Equity 播客最新一期的讨论，这次政府出手并不是突然心...",
+    "audio_url": "https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-06-22.mp3",
+    "pub_date": "Mon, 22 Jun 2026 04:53:58 +0800"
+  },
+  {
     "title": "AI不是你的朋友",
     "desc": "大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年06月21日。\n\n今天要聊的这个话题，可能会让一些人有点不舒服——但我觉得恰恰是因为这样，才更值得说。\n\n最近，Signal（就是那款以隐私著称的加密通讯应用）的总裁 Meredith Whittaker，公开说了一句挺扎心的话。她说：\"这些东西不是你的朋友。它们不是有意识的存在，也不是真正能跟你对话的生命体。\"\n\n她说的\"这些东西\"...",
     "audio_url": "https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-06-21.mp3",
@@ -172,11 +178,5 @@
     "desc": "大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年05月23日。\n\n今天要聊的这个话题，说实话，让我有点毛骨悚然，但又觉得非常值得讨论。\n\n最近有人用AI技术，把已经去世的飞行员的声音给\"复活\"了。听起来像科幻电影的情节，但这是真实发生的事情。\n\n事情是这样的。NTSB，也就是美国国家运输安全委员会，他们在调查飞机事故的时候，会把驾驶舱录音的相关资料放到一个公开的档案系统里。这些资料...",
     "audio_url": "https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-05-23.mp3",
     "pub_date": "Sat, 23 May 2026 03:40:45 +0800"
-  },
-  {
-    "title": "AI翻唱来了！Spotify与环球音乐达成合作",
-    "desc": "大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年05月22日。\n\n今天要聊的这个消息，对音乐迷来说绝对是个大新闻。\n\nSpotify，就是那个全球最大的音乐流媒体平台，最近和 Universal Music Group（环球音乐集团）达成了一项合作协议。简单来说，以后 Spotify 的 Premium 付费用户，可以用 AI 来制作自己喜欢的歌手的翻唱版本，甚至还能做混音remi...",
-    "audio_url": "https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-05-22.mp3",
-    "pub_date": "Fri, 22 May 2026 04:03:53 +0800"
   }
 ]
