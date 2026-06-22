@@ -9,6 +9,17 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>特朗普政府盯上Anthropic</title>
+      <description><![CDATA[大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年06月22日。
+
+今天咱们来聊一个挺有意思的话题——美国特朗普政府最近开始对 Anthropic 下手了。Anthropic 呢，就是那家做 Claude 大模型的 AI 公司，算是目前 OpenAI 最强劲的竞争对手之一。
+
+那政府为什么要盯上 Anthropic 呢？根据 Equity 播客最新一期的讨论，这次政府出手并不是突然心...]]></description>
+      <enclosure url="https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-06-22.mp3" type="audio/mpeg" length="0"/>
+      <pubDate>Mon, 22 Jun 2026 04:53:58 +0800</pubDate>
+      <guid>https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-06-22.mp3</guid>
+    </item>
+    <item>
       <title>AI不是你的朋友</title>
       <description><![CDATA[大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年06月21日。
 
@@ -358,17 +369,6 @@ F1，也就是一级方程式赛车，是全球最顶级的赛车运动。每场
       <enclosure url="https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-05-23.mp3" type="audio/mpeg" length="0"/>
       <pubDate>Sat, 23 May 2026 03:40:45 +0800</pubDate>
       <guid>https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-05-23.mp3</guid>
-    </item>
-    <item>
-      <title>AI翻唱来了！Spotify与环球音乐达成合作</title>
-      <description><![CDATA[大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年05月22日。
-
-今天要聊的这个消息，对音乐迷来说绝对是个大新闻。
-
-Spotify，就是那个全球最大的音乐流媒体平台，最近和 Universal Music Group（环球音乐集团）达成了一项合作协议。简单来说，以后 Spotify 的 Premium 付费用户，可以用 AI 来制作自己喜欢的歌手的翻唱版本，甚至还能做混音remi...]]></description>
-      <enclosure url="https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-05-22.mp3" type="audio/mpeg" length="0"/>
-      <pubDate>Fri, 22 May 2026 04:03:53 +0800</pubDate>
-      <guid>https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-05-22.mp3</guid>
     </item>
   </channel>
 </rss>
