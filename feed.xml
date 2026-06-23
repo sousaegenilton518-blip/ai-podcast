@@ -9,6 +9,19 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>AI裁员潮：谁的饭碗不保了</title>
+      <description><![CDATA[大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年06月23日。
+
+今天咱们来聊一个有点沉重但绕不开的话题——AI浪潮下的科技裁员。
+
+2026年，"因为AI所以裁员"这句话，已经从科幻电影台词变成了真实的HR通知邮件。越来越多的大厂开始公开承认：我们裁人，是因为AI能做这些工作了。
+
+先说最近发生的。微软Microsoft在今年宣布了大规模裁员，涉及数千个岗位，官方表示这是为了"把...]]></description>
+      <enclosure url="https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-06-23.mp3" type="audio/mpeg" length="0"/>
+      <pubDate>Tue, 23 Jun 2026 03:56:55 +0800</pubDate>
+      <guid>https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-06-23.mp3</guid>
+    </item>
+    <item>
       <title>特朗普政府盯上Anthropic</title>
       <description><![CDATA[大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年06月22日。
 
@@ -356,19 +369,6 @@ F1，也就是一级方程式赛车，是全球最顶级的赛车运动。每场
       <enclosure url="https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-05-24.mp3" type="audio/mpeg" length="0"/>
       <pubDate>Sun, 24 May 2026 04:02:51 +0800</pubDate>
       <guid>https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-05-24.mp3</guid>
-    </item>
-    <item>
-      <title>AI复活逝者声音，伦理边界在哪里</title>
-      <description><![CDATA[大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年05月23日。
-
-今天要聊的这个话题，说实话，让我有点毛骨悚然，但又觉得非常值得讨论。
-
-最近有人用AI技术，把已经去世的飞行员的声音给"复活"了。听起来像科幻电影的情节，但这是真实发生的事情。
-
-事情是这样的。NTSB，也就是美国国家运输安全委员会，他们在调查飞机事故的时候，会把驾驶舱录音的相关资料放到一个公开的档案系统里。这些资料...]]></description>
-      <enclosure url="https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-05-23.mp3" type="audio/mpeg" length="0"/>
-      <pubDate>Sat, 23 May 2026 03:40:45 +0800</pubDate>
-      <guid>https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-05-23.mp3</guid>
     </item>
   </channel>
 </rss>
