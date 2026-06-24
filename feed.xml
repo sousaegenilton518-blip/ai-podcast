@@ -9,6 +9,21 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>MoEngage押注AI：百万智能体一对一服务客户</title>
+      <description><![CDATA[大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年06月24日。
+
+---
+
+今天要聊的主角，是一家来自印度的营销科技公司，叫做 MoEngage。这家公司最近做了一个挺大胆的押注——他们用全现金收购了一家AI公司，目标就一个：让数百万个AI智能体（AI agents），一对一地去服务每一位客户。
+
+听起来是不是有点科幻？我们来拆解一下。
+
+所谓 AI agents，你可以把它理解成...]]></description>
+      <enclosure url="https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-06-24.mp3" type="audio/mpeg" length="0"/>
+      <pubDate>Wed, 24 Jun 2026 03:58:41 +0800</pubDate>
+      <guid>https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-06-24.mp3</guid>
+    </item>
+    <item>
       <title>AI裁员潮：谁的饭碗不保了</title>
       <description><![CDATA[大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年06月23日。
 
@@ -356,19 +371,6 @@ OpenAI 最近推出了一个新功能，叫做 Lockdown Mode，翻译过来就�
       <enclosure url="https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-05-25.mp3" type="audio/mpeg" length="0"/>
       <pubDate>Mon, 25 May 2026 04:14:13 +0800</pubDate>
       <guid>https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-05-25.mp3</guid>
-    </item>
-    <item>
-      <title>法拉利联手IBM：AI让F1观赛更智能</title>
-      <description><![CDATA[大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年05月24日。
-
-今天咱们聊一个听起来很酷的话题——法拉利和IBM联手，用AI把F1赛车迷"升级"成超级粉丝。
-
-你可能会问，赛车迷还需要升级？听我说完你就明白了。
-
-F1，也就是一级方程式赛车，是全球最顶级的赛车运动。每场比赛信息量巨大——车手数据、赛道策略、轮胎状态、天气变化……对于普通观众来说，这些信息密密麻麻，根本来不及消化。...]]></description>
-      <enclosure url="https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-05-24.mp3" type="audio/mpeg" length="0"/>
-      <pubDate>Sun, 24 May 2026 04:02:51 +0800</pubDate>
-      <guid>https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-05-24.mp3</guid>
     </item>
   </channel>
 </rss>
