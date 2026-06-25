@@ -1,5 +1,11 @@
 [
   {
+    "title": "AI老将颠覆企业软件赛道",
+    "desc": "大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年06月25日。\n\n今天要聊一个挺有意思的故事——一位IT界的老将，要用AI来颠覆他曾经深耕过的行业。\n\n主角叫 Vishal Sikka（维沙尔·西卡）。这个名字在科技圈可不陌生。他曾经是 SAP（全球最大的企业软件公司之一）的技术总监，后来又出任 Infosys（印度顶级IT服务巨头）的CEO。可以说，他对企业级软件和IT服务这个赛...",
+    "audio_url": "https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-06-25.mp3",
+    "pub_date": "Thu, 25 Jun 2026 03:59:17 +0800"
+  },
+  {
     "title": "MoEngage押注AI：百万智能体一对一服务客户",
     "desc": "大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年06月24日。\n\n---\n\n今天要聊的主角，是一家来自印度的营销科技公司，叫做 MoEngage。这家公司最近做了一个挺大胆的押注——他们用全现金收购了一家AI公司，目标就一个：让数百万个AI智能体（AI agents），一对一地去服务每一位客户。\n\n听起来是不是有点科幻？我们来拆解一下。\n\n所谓 AI agents，你可以把它理解成...",
     "audio_url": "https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-06-24.mp3",
@@ -172,11 +178,5 @@
     "desc": "大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年05月26日。\n\n今天咱们聊一个让很多打工人看了心里一紧的新闻。\n\n你听说过 ClickUp 吗？这是一家做项目管理软件的美国创业公司，成立九年了，在业内算是挺有名气的。就在最近，他们宣布了一轮大规模裁员。不是裁几十个人，是几百个员工直接被送走了。\n\n那这些人的位置谁来顶？答案是——AI Agent，也就是AI智能体。而且不是几个，是...",
     "audio_url": "https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-05-26.mp3",
     "pub_date": "Tue, 26 May 2026 03:59:45 +0800"
-  },
-  {
-    "title": "AI安全：巨头也在摸石头过河",
-    "desc": "以下是改写后的中文播客脚本：\n\n---\n\n大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年05月25日。\n\n今天咱们聊一个很多人都有感触的话题——AI安全。不是什么高深的技术课，而是一个很真实的现状：就连Google这样的科技巨头，现在也在摸着石头过河。\n\n你有没有这种感觉？每次用AI工具的时候，心里总有一个小问号：这东西安全吗？我的数据会不会被拿去训练模型？它给我的答案靠谱吗？其...",
-    "audio_url": "https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-05-25.mp3",
-    "pub_date": "Mon, 25 May 2026 04:14:13 +0800"
   }
 ]
