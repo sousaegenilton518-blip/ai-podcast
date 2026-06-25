@@ -9,6 +9,17 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>AI老将颠覆企业软件赛道</title>
+      <description><![CDATA[大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年06月25日。
+
+今天要聊一个挺有意思的故事——一位IT界的老将，要用AI来颠覆他曾经深耕过的行业。
+
+主角叫 Vishal Sikka（维沙尔·西卡）。这个名字在科技圈可不陌生。他曾经是 SAP（全球最大的企业软件公司之一）的技术总监，后来又出任 Infosys（印度顶级IT服务巨头）的CEO。可以说，他对企业级软件和IT服务这个赛...]]></description>
+      <enclosure url="https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-06-25.mp3" type="audio/mpeg" length="0"/>
+      <pubDate>Thu, 25 Jun 2026 03:59:17 +0800</pubDate>
+      <guid>https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-06-25.mp3</guid>
+    </item>
+    <item>
       <title>MoEngage押注AI：百万智能体一对一服务客户</title>
       <description><![CDATA[大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年06月24日。
 
@@ -356,21 +367,6 @@ OpenAI 最近推出了一个新功能，叫做 Lockdown Mode，翻译过来就�
       <enclosure url="https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-05-26.mp3" type="audio/mpeg" length="0"/>
       <pubDate>Tue, 26 May 2026 03:59:45 +0800</pubDate>
       <guid>https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-05-26.mp3</guid>
-    </item>
-    <item>
-      <title>AI安全：巨头也在摸石头过河</title>
-      <description><![CDATA[以下是改写后的中文播客脚本：
-
----
-
-大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年05月25日。
-
-今天咱们聊一个很多人都有感触的话题——AI安全。不是什么高深的技术课，而是一个很真实的现状：就连Google这样的科技巨头，现在也在摸着石头过河。
-
-你有没有这种感觉？每次用AI工具的时候，心里总有一个小问号：这东西安全吗？我的数据会不会被拿去训练模型？它给我的答案靠谱吗？其...]]></description>
-      <enclosure url="https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-05-25.mp3" type="audio/mpeg" length="0"/>
-      <pubDate>Mon, 25 May 2026 04:14:13 +0800</pubDate>
-      <guid>https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-05-25.mp3</guid>
     </item>
   </channel>
 </rss>
