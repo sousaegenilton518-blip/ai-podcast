@@ -1,5 +1,11 @@
 [
   {
+    "title": "白宫干预OpenAI新模型发布",
+    "desc": "大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年06月26日。\n\n今天咱们聊一个挺有意思的新闻——白宫插手了OpenAI的新模型发布计划。\n\n事情是这样的。OpenAI，就是那家做ChatGPT的公司，本来准备推出他们最新的模型，叫GPT-5.6。按理说，这种级别的模型一发布，肯定是面向所有人开放的，全球用户都能用上。但这一次，情况有点不一样。\n\n据报道，OpenAI打算先把GPT...",
+    "audio_url": "https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-06-26.mp3",
+    "pub_date": "Fri, 26 Jun 2026 04:06:19 +0800"
+  },
+  {
     "title": "AI老将颠覆企业软件赛道",
     "desc": "大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年06月25日。\n\n今天要聊一个挺有意思的故事——一位IT界的老将，要用AI来颠覆他曾经深耕过的行业。\n\n主角叫 Vishal Sikka（维沙尔·西卡）。这个名字在科技圈可不陌生。他曾经是 SAP（全球最大的企业软件公司之一）的技术总监，后来又出任 Infosys（印度顶级IT服务巨头）的CEO。可以说，他对企业级软件和IT服务这个赛...",
     "audio_url": "https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-06-25.mp3",
@@ -172,11 +178,5 @@
     "desc": "大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年05月27日。\n\n今天咱们聊一个挺有意思的话题——用户开始\"用脚投票\"了。\n\n就在前几天，谷歌在它的年度开发者大会 I/O 2026 上，对搜索引擎做了一次大刀阔斧的改版。以前我们用谷歌搜东西，页面上会出现一排蓝色链接，你点哪个就去哪个，主动权在你手里。但这次谷歌直接把这些链接换掉了，取而代之的是 AI Agent——也就是AI智能代...",
     "audio_url": "https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-05-27.mp3",
     "pub_date": "Wed, 27 May 2026 04:13:55 +0800"
-  },
-  {
-    "title": "AI替人上岗：ClickUp裁员换AI",
-    "desc": "大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年05月26日。\n\n今天咱们聊一个让很多打工人看了心里一紧的新闻。\n\n你听说过 ClickUp 吗？这是一家做项目管理软件的美国创业公司，成立九年了，在业内算是挺有名气的。就在最近，他们宣布了一轮大规模裁员。不是裁几十个人，是几百个员工直接被送走了。\n\n那这些人的位置谁来顶？答案是——AI Agent，也就是AI智能体。而且不是几个，是...",
-    "audio_url": "https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-05-26.mp3",
-    "pub_date": "Tue, 26 May 2026 03:59:45 +0800"
   }
 ]
