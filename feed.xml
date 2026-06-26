@@ -9,6 +9,19 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>白宫干预OpenAI新模型发布</title>
+      <description><![CDATA[大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年06月26日。
+
+今天咱们聊一个挺有意思的新闻——白宫插手了OpenAI的新模型发布计划。
+
+事情是这样的。OpenAI，就是那家做ChatGPT的公司，本来准备推出他们最新的模型，叫GPT-5.6。按理说，这种级别的模型一发布，肯定是面向所有人开放的，全球用户都能用上。但这一次，情况有点不一样。
+
+据报道，OpenAI打算先把GPT...]]></description>
+      <enclosure url="https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-06-26.mp3" type="audio/mpeg" length="0"/>
+      <pubDate>Fri, 26 Jun 2026 04:06:19 +0800</pubDate>
+      <guid>https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-06-26.mp3</guid>
+    </item>
+    <item>
       <title>AI老将颠覆企业软件赛道</title>
       <description><![CDATA[大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年06月25日。
 
@@ -354,19 +367,6 @@ OpenAI 最近推出了一个新功能，叫做 Lockdown Mode，翻译过来就�
       <enclosure url="https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-05-27.mp3" type="audio/mpeg" length="0"/>
       <pubDate>Wed, 27 May 2026 04:13:55 +0800</pubDate>
       <guid>https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-05-27.mp3</guid>
-    </item>
-    <item>
-      <title>AI替人上岗：ClickUp裁员换AI</title>
-      <description><![CDATA[大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年05月26日。
-
-今天咱们聊一个让很多打工人看了心里一紧的新闻。
-
-你听说过 ClickUp 吗？这是一家做项目管理软件的美国创业公司，成立九年了，在业内算是挺有名气的。就在最近，他们宣布了一轮大规模裁员。不是裁几十个人，是几百个员工直接被送走了。
-
-那这些人的位置谁来顶？答案是——AI Agent，也就是AI智能体。而且不是几个，是...]]></description>
-      <enclosure url="https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-05-26.mp3" type="audio/mpeg" length="0"/>
-      <pubDate>Tue, 26 May 2026 03:59:45 +0800</pubDate>
-      <guid>https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-05-26.mp3</guid>
     </item>
   </channel>
 </rss>
