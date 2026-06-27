@@ -1,5 +1,11 @@
 [
   {
+    "title": "特朗普政府开放Anthropic新AI系统",
+    "desc": "大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年06月27日。\n\n今天咱们来聊一个挺重磅的消息——特朗普政府刚刚宣布，将向超过100家美国企业和政府机构开放使用Anthropic旗下的全新AI系统，代号叫做Mythos 5。\n\n先简单介绍一下背景。Anthropic是目前硅谷最受关注的AI公司之一，背后有亚马逊和谷歌的巨额投资，专门做大语言模型研究。他们之前推出的Claude系列模...",
+    "audio_url": "https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-06-27.mp3",
+    "pub_date": "Sat, 27 Jun 2026 03:52:18 +0800"
+  },
+  {
     "title": "白宫干预OpenAI新模型发布",
     "desc": "大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年06月26日。\n\n今天咱们聊一个挺有意思的新闻——白宫插手了OpenAI的新模型发布计划。\n\n事情是这样的。OpenAI，就是那家做ChatGPT的公司，本来准备推出他们最新的模型，叫GPT-5.6。按理说，这种级别的模型一发布，肯定是面向所有人开放的，全球用户都能用上。但这一次，情况有点不一样。\n\n据报道，OpenAI打算先把GPT...",
     "audio_url": "https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-06-26.mp3",
@@ -172,11 +178,5 @@
     "desc": "大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年05月28日。\n\n---\n\n好，今天咱们聊一个挺让人哭笑不得的事儿——Google（谷歌）的AI，居然不会拼写\"Google\"这个词。\n\n没错，你没听错。全球最大的搜索引擎公司，做出来的AI，连自己公司的名字都拼不对。这事儿要是放在段子里，估计都有人说\"编得太假了\"，但它就是真实发生了。\n\n事情是这样的。Google旗下的AI产品，在...",
     "audio_url": "https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-05-28.mp3",
     "pub_date": "Thu, 28 May 2026 04:01:48 +0800"
-  },
-  {
-    "title": "AI取代蓝链，用户开始用脚投票",
-    "desc": "大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年05月27日。\n\n今天咱们聊一个挺有意思的话题——用户开始\"用脚投票\"了。\n\n就在前几天，谷歌在它的年度开发者大会 I/O 2026 上，对搜索引擎做了一次大刀阔斧的改版。以前我们用谷歌搜东西，页面上会出现一排蓝色链接，你点哪个就去哪个，主动权在你手里。但这次谷歌直接把这些链接换掉了，取而代之的是 AI Agent——也就是AI智能代...",
-    "audio_url": "https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-05-27.mp3",
-    "pub_date": "Wed, 27 May 2026 04:13:55 +0800"
   }
 ]
