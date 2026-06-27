@@ -9,6 +9,17 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>特朗普政府开放Anthropic新AI系统</title>
+      <description><![CDATA[大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年06月27日。
+
+今天咱们来聊一个挺重磅的消息——特朗普政府刚刚宣布，将向超过100家美国企业和政府机构开放使用Anthropic旗下的全新AI系统，代号叫做Mythos 5。
+
+先简单介绍一下背景。Anthropic是目前硅谷最受关注的AI公司之一，背后有亚马逊和谷歌的巨额投资，专门做大语言模型研究。他们之前推出的Claude系列模...]]></description>
+      <enclosure url="https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-06-27.mp3" type="audio/mpeg" length="0"/>
+      <pubDate>Sat, 27 Jun 2026 03:52:18 +0800</pubDate>
+      <guid>https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-06-27.mp3</guid>
+    </item>
+    <item>
       <title>白宫干预OpenAI新模型发布</title>
       <description><![CDATA[大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年06月26日。
 
@@ -356,17 +367,6 @@ OpenAI 最近推出了一个新功能，叫做 Lockdown Mode，翻译过来就�
       <enclosure url="https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-05-28.mp3" type="audio/mpeg" length="0"/>
       <pubDate>Thu, 28 May 2026 04:01:48 +0800</pubDate>
       <guid>https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-05-28.mp3</guid>
-    </item>
-    <item>
-      <title>AI取代蓝链，用户开始用脚投票</title>
-      <description><![CDATA[大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年05月27日。
-
-今天咱们聊一个挺有意思的话题——用户开始"用脚投票"了。
-
-就在前几天，谷歌在它的年度开发者大会 I/O 2026 上，对搜索引擎做了一次大刀阔斧的改版。以前我们用谷歌搜东西，页面上会出现一排蓝色链接，你点哪个就去哪个，主动权在你手里。但这次谷歌直接把这些链接换掉了，取而代之的是 AI Agent——也就是AI智能代...]]></description>
-      <enclosure url="https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-05-27.mp3" type="audio/mpeg" length="0"/>
-      <pubDate>Wed, 27 May 2026 04:13:55 +0800</pubDate>
-      <guid>https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-05-27.mp3</guid>
     </item>
   </channel>
 </rss>
