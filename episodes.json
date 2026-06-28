@@ -1,5 +1,11 @@
 [
   {
+    "title": "OpenAI挖走苹果Vision Pro核心高管",
+    "desc": "大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年06月28日。\n\n今天要聊的这条消息，可以说是科技圈的一颗小炸弹。\n\n苹果公司负责 Vision Pro 头显的副总裁 Paul Meade，据报道正在离职，跳槽去 OpenAI 的硬件团队。Vision Pro 就是苹果那款售价近两万五千元人民币的空间计算头显，当初发布的时候轰动一时，被很多人称为苹果近年来最有野心的硬件产品。\n\nP...",
+    "audio_url": "https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-06-28.mp3",
+    "pub_date": "Sun, 28 Jun 2026 04:14:22 +0800"
+  },
+  {
     "title": "特朗普政府开放Anthropic新AI系统",
     "desc": "大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年06月27日。\n\n今天咱们来聊一个挺重磅的消息——特朗普政府刚刚宣布，将向超过100家美国企业和政府机构开放使用Anthropic旗下的全新AI系统，代号叫做Mythos 5。\n\n先简单介绍一下背景。Anthropic是目前硅谷最受关注的AI公司之一，背后有亚马逊和谷歌的巨额投资，专门做大语言模型研究。他们之前推出的Claude系列模...",
     "audio_url": "https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-06-27.mp3",
@@ -172,11 +178,5 @@
     "desc": "大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年05月30日。\n\n今天咱们来聊一个程序员圈子里越来越热的话题——AI辅助编程。说白了就是，现在越来越多的程序员，离开了AI就不想写代码了。\n\n你可能会说，这有什么问题吗？效率提高了不是好事吗？嗯，表面上看确实是。用上GitHub Copilot（GitHub的AI编程助手）或者ChatGPT这类工具之后，代码写得更快了，很多重复性的活...",
     "audio_url": "https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-05-30.mp3",
     "pub_date": "Sat, 30 May 2026 03:51:18 +0800"
-  },
-  {
-    "title": "I can't discuss that.",
-    "desc": "大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年05月28日。\n\n---\n\n好，今天咱们聊一个挺让人哭笑不得的事儿——Google（谷歌）的AI，居然不会拼写\"Google\"这个词。\n\n没错，你没听错。全球最大的搜索引擎公司，做出来的AI，连自己公司的名字都拼不对。这事儿要是放在段子里，估计都有人说\"编得太假了\"，但它就是真实发生了。\n\n事情是这样的。Google旗下的AI产品，在...",
-    "audio_url": "https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-05-28.mp3",
-    "pub_date": "Thu, 28 May 2026 04:01:48 +0800"
   }
 ]
