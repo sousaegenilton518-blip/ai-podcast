@@ -9,6 +9,19 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>OpenAI挖走苹果Vision Pro核心高管</title>
+      <description><![CDATA[大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年06月28日。
+
+今天要聊的这条消息，可以说是科技圈的一颗小炸弹。
+
+苹果公司负责 Vision Pro 头显的副总裁 Paul Meade，据报道正在离职，跳槽去 OpenAI 的硬件团队。Vision Pro 就是苹果那款售价近两万五千元人民币的空间计算头显，当初发布的时候轰动一时，被很多人称为苹果近年来最有野心的硬件产品。
+
+P...]]></description>
+      <enclosure url="https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-06-28.mp3" type="audio/mpeg" length="0"/>
+      <pubDate>Sun, 28 Jun 2026 04:14:22 +0800</pubDate>
+      <guid>https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-06-28.mp3</guid>
+    </item>
+    <item>
       <title>特朗普政府开放Anthropic新AI系统</title>
       <description><![CDATA[大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年06月27日。
 
@@ -352,21 +365,6 @@ OpenAI 最近推出了一个新功能，叫做 Lockdown Mode，翻译过来就�
       <enclosure url="https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-05-30.mp3" type="audio/mpeg" length="0"/>
       <pubDate>Sat, 30 May 2026 03:51:18 +0800</pubDate>
       <guid>https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-05-30.mp3</guid>
-    </item>
-    <item>
-      <title>I can't discuss that.</title>
-      <description><![CDATA[大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年05月28日。
-
----
-
-好，今天咱们聊一个挺让人哭笑不得的事儿——Google（谷歌）的AI，居然不会拼写"Google"这个词。
-
-没错，你没听错。全球最大的搜索引擎公司，做出来的AI，连自己公司的名字都拼不对。这事儿要是放在段子里，估计都有人说"编得太假了"，但它就是真实发生了。
-
-事情是这样的。Google旗下的AI产品，在...]]></description>
-      <enclosure url="https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-05-28.mp3" type="audio/mpeg" length="0"/>
-      <pubDate>Thu, 28 May 2026 04:01:48 +0800</pubDate>
-      <guid>https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-05-28.mp3</guid>
     </item>
   </channel>
 </rss>
