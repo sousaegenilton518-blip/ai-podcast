@@ -9,6 +9,19 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>AI替代老工程师，福特踩坑记</title>
+      <description><![CDATA[大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年06月29日。
+
+今天聊一个挺有意思的故事——关于福特汽车，关于AI，还有一群被叫做"gray beard"（老师傅）的工程师。
+
+事情是这样的。福特前段时间跟很多大公司一样，觉得AI能搞定一切，就开始大规模裁员，把一批有着几十年经验的老工程师给放走了。结果呢？产品质量出了问题，生产线上麻烦不断。
+
+福特自己后来也承认了，他们原话是这...]]></description>
+      <enclosure url="https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-06-29.mp3" type="audio/mpeg" length="0"/>
+      <pubDate>Mon, 29 Jun 2026 04:20:50 +0800</pubDate>
+      <guid>https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-06-29.mp3</guid>
+    </item>
+    <item>
       <title>OpenAI挖走苹果Vision Pro核心高管</title>
       <description><![CDATA[大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年06月28日。
 
@@ -354,17 +367,6 @@ OpenAI 最近推出了一个新功能，叫做 Lockdown Mode，翻译过来就�
       <enclosure url="https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-05-31.mp3" type="audio/mpeg" length="0"/>
       <pubDate>Sun, 31 May 2026 04:15:56 +0800</pubDate>
       <guid>https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-05-31.mp3</guid>
-    </item>
-    <item>
-      <title>AI辅助编程：程序员的依赖与隐忧</title>
-      <description><![CDATA[大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年05月30日。
-
-今天咱们来聊一个程序员圈子里越来越热的话题——AI辅助编程。说白了就是，现在越来越多的程序员，离开了AI就不想写代码了。
-
-你可能会说，这有什么问题吗？效率提高了不是好事吗？嗯，表面上看确实是。用上GitHub Copilot（GitHub的AI编程助手）或者ChatGPT这类工具之后，代码写得更快了，很多重复性的活...]]></description>
-      <enclosure url="https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-05-30.mp3" type="audio/mpeg" length="0"/>
-      <pubDate>Sat, 30 May 2026 03:51:18 +0800</pubDate>
-      <guid>https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-05-30.mp3</guid>
     </item>
   </channel>
 </rss>
