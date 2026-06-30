@@ -9,6 +9,17 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>AI氛围编程平台发布自研模型</title>
+      <description><![CDATA[大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年06月30日。
+
+今天咱们来聊一个挺有意思的消息——一家叫 Base44 的平台，最近悄悄推出了自己的 AI 模型。
+
+Base44 是什么来头呢？它是一个"vibe coding"平台，这个词大家可能有点陌生，简单来说就是"氛围编程"——你不需要是专业程序员，只要用自然语言描述你想要什么，AI 就帮你把软件写出来。这种方式最近在科技...]]></description>
+      <enclosure url="https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-06-30.mp3" type="audio/mpeg" length="0"/>
+      <pubDate>Tue, 30 Jun 2026 04:01:37 +0800</pubDate>
+      <guid>https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-06-30.mp3</guid>
+    </item>
+    <item>
       <title>AI替代老工程师，福特踩坑记</title>
       <description><![CDATA[大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年06月29日。
 
@@ -356,17 +367,6 @@ OpenAI 最近推出了一个新功能，叫做 Lockdown Mode，翻译过来就�
       <enclosure url="https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-06-01.mp3" type="audio/mpeg" length="0"/>
       <pubDate>Mon, 01 Jun 2026 04:43:55 +0800</pubDate>
       <guid>https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-06-01.mp3</guid>
-    </item>
-    <item>
-      <title>软银豪掷750亿欧元建法国数据中心</title>
-      <description><![CDATA[大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年05月31日。
-
-今天咱们来聊一个超级大手笔的投资新闻——软银，也就是SoftBank，宣布要在法国砸下最高750亿欧元，用来建设数据中心。没听错，750亿欧元，这个数字真的让人瞠目结舌。
-
-软银是日本的一家科技投资巨头，旗下管理着规模庞大的愿景基金，Vision Fund，投过的公司从滴滴到WeWork，可以说是科技圈里的"钱袋子"...]]></description>
-      <enclosure url="https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-05-31.mp3" type="audio/mpeg" length="0"/>
-      <pubDate>Sun, 31 May 2026 04:15:56 +0800</pubDate>
-      <guid>https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-05-31.mp3</guid>
     </item>
   </channel>
 </rss>
