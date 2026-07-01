@@ -9,6 +9,17 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>互联网之父瑟夫退休谷歌</title>
+      <description><![CDATA[大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年07月01日。
+
+今天要聊的这个人，可能很多朋友没听过他的名字，但你每天刷手机、看视频、发消息，背后都有他的功劳。他叫 Vinton Cerf，中文一般叫他"瑟夫"，被很多人称为"互联网之父"之一。就在下周，他将正式从 Google（谷歌）首席互联网布道师的职位上退休。
+
+说起瑟夫这个人，真的是传奇级别的存在。上世纪70年代，他和搭档...]]></description>
+      <enclosure url="https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-07-01.mp3" type="audio/mpeg" length="0"/>
+      <pubDate>Wed, 01 Jul 2026 04:17:10 +0800</pubDate>
+      <guid>https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-07-01.mp3</guid>
+    </item>
+    <item>
       <title>AI氛围编程平台发布自研模型</title>
       <description><![CDATA[大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年06月30日。
 
@@ -356,17 +367,6 @@ OpenAI 最近推出了一个新功能，叫做 Lockdown Mode，翻译过来就�
       <enclosure url="https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-06-02.mp3" type="audio/mpeg" length="0"/>
       <pubDate>Tue, 02 Jun 2026 04:23:36 +0800</pubDate>
       <guid>https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-06-02.mp3</guid>
-    </item>
-    <item>
-      <title>AI数据中心污染，维权斗士再出击</title>
-      <description><![CDATA[大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年06月01日。
-
-今天要聊的这个人，很多人可能在电影里见过她——Erin Brockovich，艾琳·布罗克维奇。她是美国著名的环保维权人士，当年靠着一己之力，把一家大型能源公司告上法庭，帮助数百户居民拿到了巨额赔偿。她的故事后来被拍成了电影，由茱莉亚·罗伯茨主演，轰动一时。
-
-但今天，她盯上了一个新目标——数据中心，也就是 data...]]></description>
-      <enclosure url="https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-06-01.mp3" type="audio/mpeg" length="0"/>
-      <pubDate>Mon, 01 Jun 2026 04:43:55 +0800</pubDate>
-      <guid>https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-06-01.mp3</guid>
     </item>
   </channel>
 </rss>
