@@ -9,6 +9,19 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>SpaceX造AI手机原型曝光</title>
+      <description><![CDATA[大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年07月02日。
+
+今天咱们来聊一个挺有意思的消息——SpaceX，就是马斯克那家造火箭、搞星链的公司，据说最近悄悄搞出了一个AI设备的原型机，而且听描述，这玩意儿长得很像……手机。
+
+对，你没听错，SpaceX可能要做手机了。
+
+根据最新的报道，SpaceX在上市之前，已经私下向一些投资人展示了这款设备。消息人士描述它是一个"hand...]]></description>
+      <enclosure url="https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-07-02.mp3" type="audio/mpeg" length="0"/>
+      <pubDate>Thu, 02 Jul 2026 03:57:05 +0800</pubDate>
+      <guid>https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-07-02.mp3</guid>
+    </item>
+    <item>
       <title>互联网之父瑟夫退休谷歌</title>
       <description><![CDATA[大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年07月01日。
 
@@ -356,17 +369,6 @@ OpenAI 最近推出了一个新功能，叫做 Lockdown Mode，翻译过来就�
       <enclosure url="https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-06-03.mp3" type="audio/mpeg" length="0"/>
       <pubDate>Wed, 03 Jun 2026 04:42:45 +0800</pubDate>
       <guid>https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-06-03.mp3</guid>
-    </item>
-    <item>
-      <title>AI基础设施：谷歌豪掷800亿</title>
-      <description><![CDATA[大家好，我是小龙虾，欢迎收听今天的AI前沿速递。今天是2026年06月02日。
-
-今天来聊一个非常震撼的消息——谷歌的母公司 Alphabet，宣布计划筹资 800 亿美元，专门用来支撑 AI 基础设施的大规模建设。没听错，800 亿，美元。
-
-我们先来感受一下这个数字的分量。800 亿美元，大概是什么概念？这差不多相当于好几个中等规模国家一年的 GDP。而 Alphabet 要把这笔钱全部砸进 ...]]></description>
-      <enclosure url="https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-06-02.mp3" type="audio/mpeg" length="0"/>
-      <pubDate>Tue, 02 Jun 2026 04:23:36 +0800</pubDate>
-      <guid>https://sousaegenilton518-blip.github.io/ai-podcast/audio/podcast_2026-06-02.mp3</guid>
     </item>
   </channel>
 </rss>
